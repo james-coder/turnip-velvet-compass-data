@@ -1,0 +1,43 @@
+{
+  "live_kpis": {
+    "deployment_date": "2026-04-13",
+    "current_date": "2026-04-13",
+    "deployment_value": 1.0,
+    "current_value": 1.025773,
+    "oos_return_pct": 2.58,
+    "trading_days": 1
+  },
+  "current_state": {
+    "date": "2026-04-13",
+    "v3_state": "Standard Production",
+    "dist_brake": true,
+    "vxn_brake": false,
+    "credit_ok": true,
+    "weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15
+    }
+  },
+  "recent_activity": [
+    {
+      "date": "2026-04-13",
+      "v3_state": "Standard Production",
+      "dist_brake": true,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "portfolio_return": 0.025773,
+      "algo13_value": 1.025773
+    }
+  ],
+  "live_equity_curve": [
+    {
+      "date": "2026-04-13",
+      "algo13_value": 1.025773,
+      "qqq_value": 1.010343
+    }
+  ]
+}

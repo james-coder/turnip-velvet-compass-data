@@ -15,12 +15,12 @@
       "TQQQ": 0.85,
       "SGOV": 0.15
     },
-    "tqqq_return": 0.0303030303030302,
+    "qqq_value": 1.010343,
+    "tqqq_value": 1.030303,
     "v3_state": "Standard Production",
     "dist_brake": true,
     "vxn_brake": false,
-    "credit_ok": true,
-    "qqq_value": 1.0103425139509383
+    "credit_ok": true
   },
   "recent_activity": [
     {
@@ -31,19 +31,20 @@
       "weight_sgov": 0.15,
       "portfolio_return": 0.025773,
       "algo13_value": 1.025773,
-      "tqqq_return": 0.0303030303030302,
+      "qqq_value": 1.010343,
+      "tqqq_value": 1.030303,
       "v3_state": "Standard Production",
       "dist_brake": true,
       "vxn_brake": false,
-      "credit_ok": true,
-      "qqq_value": 1.0103425139509383
+      "credit_ok": true
     }
   ],
   "live_equity_curve": [
     {
       "date": "2026-04-13",
       "algo13_value": 1.025773,
-      "qqq_value": 1.010343
+      "qqq_value": 1.010343,
+      "tqqq_value": 1.030303
     }
   ]
 }

@@ -1,35 +1,24 @@
 {
   "live_kpis": {
     "deployment_date": "2025-12-24",
-    "current_date": "2026-04-14",
+    "current_date": "2026-04-15",
     "deployment_value": 1.0,
-    "current_value": 0.919024,
-    "oos_return_pct": -8.1,
-    "trading_days": 75
+    "current_value": 0.951814,
+    "oos_return_pct": -4.82,
+    "trading_days": 76
   },
   "current_state": {
-    "date": "2026-04-14",
+    "date": "2026-04-15",
     "rule_name": "algo13_v2_no_hy",
     "weights": {
       "QQQ": 0.0,
       "TQQQ": 0.85,
       "SGOV": 0.15
     },
-    "qqq_value": 1.010432,
-    "tqqq_value": 0.970914
+    "qqq_value": 1.024578,
+    "tqqq_value": 1.011634
   },
   "recent_activity": [
-    {
-      "date": "2026-03-31",
-      "rule_name": "crash_hyst_dd0p15_vol0p35_exitdd0p10_exitvol0p30",
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.0,
-      "weight_sgov": 1.0,
-      "portfolio_return": 0.0,
-      "algo13_value": 0.840735,
-      "qqq_value": 0.927778,
-      "tqqq_value": 0.75768
-    },
     {
       "date": "2026-04-01",
       "rule_name": "crash_hyst_dd0p15_vol0p35_exitdd0p10_exitvol0p30",
@@ -128,6 +117,17 @@
       "algo13_value": 0.919024,
       "qqq_value": 1.010432,
       "tqqq_value": 0.970914
+    },
+    {
+      "date": "2026-04-15",
+      "rule_name": "algo13_v2_no_hy",
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "portfolio_return": 0.035679,
+      "algo13_value": 0.951814,
+      "qqq_value": 1.024578,
+      "tqqq_value": 1.011634
     }
   ],
   "live_equity_curve": [
@@ -580,6 +580,12 @@
       "algo13_value": 0.919024,
       "qqq_value": 1.010432,
       "tqqq_value": 0.970914
+    },
+    {
+      "date": "2026-04-15",
+      "algo13_value": 0.951814,
+      "qqq_value": 1.024578,
+      "tqqq_value": 1.011634
     }
   ]
 }

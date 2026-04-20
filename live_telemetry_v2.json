@@ -1,22 +1,22 @@
 {
   "live_kpis": {
     "deployment_date": "2025-12-24",
-    "current_date": "2026-04-16",
+    "current_date": "2026-04-17",
     "deployment_value": 1.0,
-    "current_value": 0.963153,
-    "oos_return_pct": -3.68,
-    "trading_days": 77
+    "current_value": 0.994533,
+    "oos_return_pct": -0.55,
+    "trading_days": 78
   },
   "current_state": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "rule_name": "algo13_v2_no_hy",
     "weights": {
       "QQQ": 0.0,
       "TQQQ": 0.85,
       "SGOV": 0.15
     },
-    "qqq_value": 1.029512,
-    "tqqq_value": 1.025813,
+    "qqq_value": 1.042983,
+    "tqqq_value": 1.065079,
     "weight_cash": 0.0,
     "v3_state": null,
     "dist_brake": false,
@@ -24,28 +24,9 @@
     "credit_ok": true,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": -0.0012914762567056,
-    "zombie_sgov_rv21": 0.0097530583235939
+    "zombie_sgov_rv21": 0.0097287204510142
   },
   "recent_activity": [
-    {
-      "date": "2026-04-02",
-      "rule_name": "crash_hyst_dd0p15_vol0p35_exitdd0p10_exitvol0p30",
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.0,
-      "weight_sgov": 1.0,
-      "portfolio_return": 0.000398,
-      "algo13_value": 0.838814,
-      "qqq_value": 0.940316,
-      "tqqq_value": 0.787675,
-      "weight_cash": null,
-      "v3_state": null,
-      "dist_brake": null,
-      "vxn_brake": null,
-      "credit_ok": null,
-      "zombie_apocalypse": null,
-      "zombie_sgov_dd": null,
-      "zombie_sgov_rv21": null
-    },
     {
       "date": "2026-04-06",
       "rule_name": "crash_hyst_dd0p15_vol0p35_exitdd0p10_exitvol0p30",
@@ -216,6 +197,25 @@
       "zombie_apocalypse": false,
       "zombie_sgov_dd": -0.0012914762567056,
       "zombie_sgov_rv21": 0.0097530583235939
+    },
+    {
+      "date": "2026-04-17",
+      "rule_name": "algo13_v2_no_hy",
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "portfolio_return": 0.032581,
+      "algo13_value": 0.994533,
+      "qqq_value": 1.042983,
+      "tqqq_value": 1.065079,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": -0.0012914762567056,
+      "zombie_sgov_rv21": 0.0097287204510142
     }
   ],
   "live_equity_curve": [
@@ -680,6 +680,12 @@
       "algo13_value": 0.963153,
       "qqq_value": 1.029512,
       "tqqq_value": 1.025813
+    },
+    {
+      "date": "2026-04-17",
+      "algo13_value": 0.994533,
+      "qqq_value": 1.042983,
+      "tqqq_value": 1.065079
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
   "live_kpis": {
     "deployment_date": "2026-04-13",
-    "current_date": "2026-04-16",
+    "current_date": "2026-04-17",
     "deployment_value": 1.0,
-    "current_value": 1.12463,
-    "oos_return_pct": 12.46,
-    "trading_days": 4
+    "current_value": 1.167678,
+    "oos_return_pct": 16.77,
+    "trading_days": 5
   },
   "current_state": {
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "rule_name": "algo13_v3_master",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.85,
-      "SGOV": 0.15
+      "TQQQ": 1.0,
+      "SGOV": 0.0
     },
-    "qqq_value": 1.048112,
-    "tqqq_value": 1.147651,
-    "v3_state": "Standard Production",
-    "dist_brake": true,
+    "qqq_value": 1.061826,
+    "tqqq_value": 1.19158,
+    "v3_state": "Bull Overdrive",
+    "dist_brake": false,
     "vxn_brake": false,
     "credit_ok": true,
     "weight_cash": 0.0,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": -0.0012914762567056,
-    "zombie_sgov_rv21": 0.0097530583235939
+    "zombie_sgov_rv21": 0.0097287204510142
   },
   "recent_activity": [
     {
@@ -102,6 +102,25 @@
       "zombie_apocalypse": false,
       "zombie_sgov_dd": -0.0012914762567056,
       "zombie_sgov_rv21": 0.0097530583235939
+    },
+    {
+      "date": "2026-04-17",
+      "rule_name": "algo13_v3_master",
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "portfolio_return": 0.038278,
+      "algo13_value": 1.167678,
+      "qqq_value": 1.061826,
+      "tqqq_value": 1.19158,
+      "v3_state": "Bull Overdrive",
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "weight_cash": 0.0,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": -0.0012914762567056,
+      "zombie_sgov_rv21": 0.0097287204510142
     }
   ],
   "live_equity_curve": [
@@ -128,6 +147,12 @@
       "algo13_value": 1.12463,
       "qqq_value": 1.048112,
       "tqqq_value": 1.147651
+    },
+    {
+      "date": "2026-04-17",
+      "algo13_value": 1.167678,
+      "qqq_value": 1.061826,
+      "tqqq_value": 1.19158
     }
   ]
 }

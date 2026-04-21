@@ -1,0 +1,78 @@
+{
+  "live_kpis": {
+    "deployment_date": "2026-04-20",
+    "current_date": "2026-04-20",
+    "deployment_value": 1.0,
+    "current_value": 0.991295,
+    "oos_return_pct": -0.87,
+    "trading_days": 1
+  },
+  "current_state": {
+    "date": "2026-04-20",
+    "rule_name": "algo13_v4_master",
+    "weights": {
+      "QQQ": 0.0,
+      "TQQQ": 1.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0
+    },
+    "qqq_value": 0.996825,
+    "tqqq_value": 0.991295,
+    "weight_cash": 0.0,
+    "v3_state": null,
+    "v4_state": "Bull Overdrive",
+    "dist_brake": false,
+    "vxn_brake": false,
+    "credit_ok": true,
+    "bunker_pick": "NONE",
+    "hy_oas_z": -0.3096555159006455,
+    "vxn_upper_band": 30.44604295499611,
+    "rv10": 0.1330889444789037,
+    "ret10": 0.1091832199391431,
+    "standard_target_vol": 0.25,
+    "overdrive_target_vol": 0.35,
+    "zombie_apocalypse": false,
+    "zombie_sgov_dd": 0.0,
+    "zombie_sgov_rv21": 0.0021588407932121
+  },
+  "recent_activity": [
+    {
+      "date": "2026-04-20",
+      "rule_name": "algo13_v4_master",
+      "portfolio_return": -0.008705,
+      "algo13_value": 0.991295,
+      "qqq_value": 0.996825,
+      "tqqq_value": 0.991295,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "v4_state": "Bull Overdrive",
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "bunker_pick": "NONE",
+      "hy_oas_z": -0.3096555159006455,
+      "vxn_upper_band": 30.44604295499611,
+      "rv10": 0.1330889444789037,
+      "ret10": 0.1091832199391431,
+      "standard_target_vol": 0.25,
+      "overdrive_target_vol": 0.35,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.0021588407932121
+    }
+  ],
+  "live_equity_curve": [
+    {
+      "date": "2026-04-20",
+      "algo13_value": 0.991295,
+      "qqq_value": 0.996825,
+      "tqqq_value": 0.991295
+    }
+  ]
+}

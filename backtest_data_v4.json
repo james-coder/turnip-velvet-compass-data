@@ -1,8 +1,8 @@
 {
   "kpis": {
-    "cagr": 50.18,
+    "cagr": 51.75,
     "max_dd": -35.44,
-    "sortino": 1.44
+    "sortino": 1.47
   },
   "equity_curve": [
     {
@@ -3188,7 +3188,7 @@
     {
       "date": "2026-03-06",
       "algo13_value": 66.007445,
-      "qqq_value": 5.900148,
+      "qqq_value": 5.892769,
       "tqqq_value": 22.266979
     },
     {
@@ -3222,10 +3222,16 @@
       "tqqq_value": 23.030445
     },
     {
-      "date": "2026-04-13",
-      "algo13_value": 64.490962,
-      "qqq_value": 6.073684,
-      "tqqq_value": 23.728337
+      "date": "2026-04-17",
+      "algo13_value": 73.012287,
+      "qqq_value": 6.383177,
+      "tqqq_value": 27.442623
+    },
+    {
+      "date": "2026-04-20",
+      "algo13_value": 72.371274,
+      "qqq_value": 6.362912,
+      "tqqq_value": 27.203748
     }
   ]
 }

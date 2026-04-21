@@ -26,15 +26,15 @@
     "vxn_brake": false,
     "credit_ok": true,
     "bunker_pick": "NONE",
-    "hy_oas_z": -0.3096555159006455,
+    "hy_oas_z": -0.6245923692683821,
     "vxn_upper_band": 30.44604295499611,
-    "rv10": 0.1330889444789037,
+    "rv10": 0.1330889444789008,
     "ret10": 0.1091832199391431,
     "standard_target_vol": 0.25,
     "overdrive_target_vol": 0.35,
     "zombie_apocalypse": false,
-    "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.0021588407932121
+    "zombie_sgov_dd": -0.0009934432743889,
+    "zombie_sgov_rv21": 0.0097773733238702
   },
   "recent_activity": [
     {
@@ -56,15 +56,15 @@
       "vxn_brake": false,
       "credit_ok": true,
       "bunker_pick": "NONE",
-      "hy_oas_z": -0.3096555159006455,
+      "hy_oas_z": -0.6245923692683821,
       "vxn_upper_band": 30.44604295499611,
-      "rv10": 0.1330889444789037,
+      "rv10": 0.1330889444789008,
       "ret10": 0.1091832199391431,
       "standard_target_vol": 0.25,
       "overdrive_target_vol": 0.35,
       "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0021588407932121
+      "zombie_sgov_dd": -0.0009934432743889,
+      "zombie_sgov_rv21": 0.0097773733238702
     }
   ],
   "live_equity_curve": [

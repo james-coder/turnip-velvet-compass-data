@@ -1,8 +1,8 @@
 {
   "kpis": {
-    "cagr": 51.69,
+    "cagr": 52.11,
     "max_dd": -35.44,
-    "sortino": 1.47
+    "sortino": 1.72
   },
   "equity_curve": [
     {
@@ -3188,7 +3188,7 @@
     {
       "date": "2026-03-06",
       "algo13_value": 65.71377,
-      "qqq_value": 5.892769,
+      "qqq_value": 5.900148,
       "tqqq_value": 22.266979
     },
     {
@@ -3199,39 +3199,39 @@
     },
     {
       "date": "2026-03-20",
-      "algo13_value": 58.897984,
+      "algo13_value": 60.620355,
       "qqq_value": 5.726119,
       "tqqq_value": 20.177986
     },
     {
       "date": "2026-03-27",
-      "algo13_value": 59.086057,
+      "algo13_value": 60.813928,
       "qqq_value": 5.534481,
       "tqqq_value": 18.163934
     },
     {
       "date": "2026-04-02",
-      "algo13_value": 61.181923,
+      "algo13_value": 62.971083,
       "qqq_value": 5.754845,
       "tqqq_value": 20.295082
     },
     {
       "date": "2026-04-10",
-      "algo13_value": 62.591821,
+      "algo13_value": 64.422211,
       "qqq_value": 6.01151,
       "tqqq_value": 23.030445
     },
     {
       "date": "2026-04-17",
-      "algo13_value": 72.687447,
-      "qqq_value": 6.383177,
+      "algo13_value": 74.813067,
+      "qqq_value": 6.383178,
       "tqqq_value": 27.442623
     },
     {
       "date": "2026-04-20",
-      "algo13_value": 72.049285,
+      "algo13_value": 74.156241,
       "qqq_value": 6.362912,
-      "tqqq_value": 27.203748
+      "tqqq_value": 27.203747
     }
   ]
 }

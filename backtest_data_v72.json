@@ -23934,16 +23934,16 @@
   ],
   "model_events": [
     {
-      "cagr": 0.6438491904371102,
+      "cagr": 0.6438020274949863,
       "date": "2026-04-20",
       "label": "V7.2 trained",
       "max_dd": -0.4007865105466698,
-      "model_version": "v72-20260428-0653-20260420-016ccfa",
-      "sortino": 1.9121109901370976,
+      "model_version": "v72-20260428-0705-20260420-5f315d0",
+      "sortino": 1.7384030886106248,
       "strategy_version": "algo13_v72_adaptive_risk_budget",
       "train_end": "2026-04-20",
       "train_start": "2016-01-04",
-      "trained_at": "2026-04-28T06:53:47"
+      "trained_at": "2026-04-28T07:05:47"
     }
   ]
 }

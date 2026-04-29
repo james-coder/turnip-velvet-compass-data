@@ -109,5 +109,20 @@
       "qqq_value": 0.9868,
       "tqqq_value": 0.961227
     }
-  ]
+  ],
+  "audit_status": {
+    "generated_at_utc": "2026-04-29T04:43:20.687476+00:00",
+    "generated_at_local": "2026-04-29T00:43:20.687476-04:00",
+    "market_timezone": "America/New_York",
+    "staleness_cutoff_time_et": "17:30:00",
+    "panel_latest_date": "2026-04-28",
+    "expected_completed_daily_date": "2026-04-28",
+    "signal_date": "2026-04-28",
+    "telemetry_current_date": "2026-04-28",
+    "freshness_status": "current",
+    "causality_status": "prior_weight_verified",
+    "weights_sum": 1.0,
+    "source_commit": "26f4583d9044bb753a8d32e83c2a1b7d55bd8337+dirty",
+    "warnings": []
+  }
 }

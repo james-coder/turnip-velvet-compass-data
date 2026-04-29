@@ -111,8 +111,8 @@
     }
   ],
   "audit_status": {
-    "generated_at_utc": "2026-04-29T04:53:11.632811+00:00",
-    "generated_at_local": "2026-04-29T00:53:11.632811-04:00",
+    "generated_at_utc": "2026-04-29T04:59:53.979862+00:00",
+    "generated_at_local": "2026-04-29T00:59:53.979862-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-04-28",
@@ -122,7 +122,7 @@
     "freshness_status": "current",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
-    "source_commit": "3d5468e4b1e4380ada534bed0211e43e1d01547f",
+    "source_commit": "05764619aa4ce710fd9a8ec7441fb7f6f6c9c927",
     "source_tree_dirty": false,
     "warnings": []
   }

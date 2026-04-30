@@ -1,0 +1,18 @@
+{
+  "telemetry_status": {
+    "available": false,
+    "status": "unavailable",
+    "rule_name": "algo13_v7_ml_overlay_trial42_shadow",
+    "reason": "shadow_log_missing",
+    "detail": "V7 shadow live_log.csv is unavailable. The shadow runner did not emit a fresh V7 signal, so dashboard clients should show V7 as backtest-only.",
+    "log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v7_ml_overlay_trial42_shadow/live_log.csv",
+    "generated_at_utc": "2026-04-30T04:32:08.667512+00:00",
+    "generated_at_local": "2026-04-30T00:32:08.667512-04:00",
+    "source_commit": "48a2cf6c01a484e4c04c2f922fe9f3c312a3adcf",
+    "source_tree_dirty": false
+  },
+  "live_kpis": null,
+  "current_state": null,
+  "recent_activity": [],
+  "live_equity_curve": []
+}

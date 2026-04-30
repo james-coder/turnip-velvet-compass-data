@@ -6,9 +6,9 @@
     "reason": "shadow_not_wired",
     "detail": "V7.2 is published as a backtest artifact only. live-trader does not currently run a V7.2 shadow emitter, so dashboard clients should show V7.2 as backtest-only.",
     "log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v72_adaptive_risk_budget_shadow/live_log.csv",
-    "generated_at_utc": "2026-04-30T04:32:14.703561+00:00",
-    "generated_at_local": "2026-04-30T00:32:14.703561-04:00",
-    "source_commit": "48a2cf6c01a484e4c04c2f922fe9f3c312a3adcf",
+    "generated_at_utc": "2026-04-30T19:46:32.187779+00:00",
+    "generated_at_local": "2026-04-30T15:46:32.187779-04:00",
+    "source_commit": "da83df6017402270154bc9f2639bae5b872a37d5",
     "source_tree_dirty": false
   },
   "live_kpis": null,

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-05-01T02:22:26Z",
+  "source_repo": "stock-wizard-live-trader",
+  "production": {
+    "version": "v2",
+    "rule_name": "algo13_v2_no_hy",
+    "label": "Live Production (V2)",
+    "status": "live",
+    "signal_file": "signals/algo13_signal_live.csv",
+    "telemetry_file": "live_telemetry_v2.json",
+    "evidence": {
+      "live_trader_constant": "trading/run_cron_algo13.py:ALGO13_LIVE_RULE",
+      "latest_signal_file": "signals/algo13_signal_live.csv",
+      "latest_signal_as_of_date": "2026-04-29",
+      "latest_signal_rule_name": "algo13_v2_no_hy"
+    }
+  },
+  "promotion_policy": {
+    "production_change_requires_memo": true,
+    "current_policy": "Do not infer live production from tab labels, backtest files, or shadow telemetry. The live broker route is the rule emitted by stock-wizard-live-trader's ALGO13_LIVE_RULE."
+  }
+}

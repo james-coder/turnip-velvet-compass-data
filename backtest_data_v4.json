@@ -36225,5 +36225,22 @@
       "weight_treasury_proxy": 0.0,
       "weight_gold_proxy": 0.0
     }
-  ]
+  ],
+  "export_metadata": {
+    "strategy_version": "algo13_v4_master",
+    "requested_start_date": "2016-01-04",
+    "requested_end_date": "2026-04-20",
+    "data_start_date": "2016-01-05",
+    "data_end_date": "2026-04-20",
+    "equity_point_count": 2587,
+    "holding_point_count": 2587,
+    "cost_bps": 5.0,
+    "holding_weight_columns": [
+      "TQQQ",
+      "QQQ",
+      "SHV",
+      "TREASURY_PROXY",
+      "GOLD_PROXY"
+    ]
+  }
 }

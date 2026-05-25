@@ -768,20 +768,22 @@
     }
   ],
   "audit_status": {
-    "generated_at_utc": "2026-05-22T19:46:50.402125+00:00",
-    "generated_at_local": "2026-05-22T15:46:50.402125-04:00",
+    "generated_at_utc": "2026-05-25T19:45:47.900100+00:00",
+    "generated_at_local": "2026-05-25T15:45:47.900100-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-05-21",
-    "expected_completed_daily_date": "2026-05-21",
+    "expected_completed_daily_date": "2026-05-22",
     "signal_date": "2026-05-21",
     "telemetry_current_date": "2026-05-21",
-    "freshness_status": "current",
+    "freshness_status": "stale",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
     "source_commit": "426265ba88c6228fadbf0d894c345098886519b2",
     "source_tree_dirty": false,
-    "warnings": []
+    "warnings": [
+      "V19 QID simple telemetry is stale for expected completed daily date 2026-05-22: panel_latest_date=2026-05-21, signal_date=2026-05-21, telemetry_current_date=2026-05-21"
+    ]
   },
   "shadow_metadata": {
     "rule_name": "algo13_v19_qid_simple_shadow",

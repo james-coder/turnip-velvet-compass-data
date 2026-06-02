@@ -1,0 +1,43 @@
+{
+  "telemetry_status": {
+    "available": false,
+    "status": "unavailable",
+    "rule_name": "algo13_v20_context_selector_shadow",
+    "reason": "shadow_summary_missing",
+    "detail": "V20 context-selector shadow telemetry is unavailable because the no-submit replay summary is missing.",
+    "log_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_replay_summary.json",
+    "generated_at_utc": "2026-06-02T19:46:50.963759+00:00",
+    "generated_at_local": "2026-06-02T15:46:50.963759-04:00",
+    "source_commit": "8172b3188a2b6c9df8a66f74a38e842ff1f44fb2",
+    "source_tree_dirty": false
+  },
+  "live_kpis": null,
+  "current_state": null,
+  "recent_activity": [],
+  "live_equity_curve": [],
+  "shadow_metadata": {
+    "strategy_id": "algo13_v20_context_selector_shadow",
+    "strategy_version": "algo13_v20_context_selector_shadow_v1",
+    "candidate_strategy_id": "algo13_v20_context_selector_shadow",
+    "candidate_status": "shadow_paper_only_not_promoted",
+    "selector_name": "std_context_selector_rv10_gt_0p22_qqq20_lt_0",
+    "parent_strategy_id": "algo13_v4_master",
+    "fallback_strategy_id": "algo13_v2_no_hy",
+    "selected_behavior_label": "algo13_v2_no_hy_explicit_pretrade_weights",
+    "scope": "V4 Standard Production days only",
+    "rule": "rv10 > 0.22 and QQQ 20-day return < 0",
+    "paper_shadow_only": true,
+    "live_routing_enabled": false,
+    "paper_order_enabled": false,
+    "production_enabled": false,
+    "strategy_promotion": false,
+    "financial_capability_claim": false,
+    "model_capability_claim": false
+  },
+  "paper_shadow_status": {
+    "paper_orders_authorized": false,
+    "live_routing_enabled": false,
+    "strategy_promotion": false,
+    "human_approval_required_before_paper_api_write": true
+  }
+}

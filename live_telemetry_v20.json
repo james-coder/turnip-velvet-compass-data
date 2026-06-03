@@ -6,8 +6,8 @@
     "reason": "shadow_summary_missing",
     "detail": "V20 context-selector shadow telemetry is unavailable because the no-submit replay summary is missing.",
     "log_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_replay_summary.json",
-    "generated_at_utc": "2026-06-02T19:46:50.963759+00:00",
-    "generated_at_local": "2026-06-02T15:46:50.963759-04:00",
+    "generated_at_utc": "2026-06-03T19:46:50.222215+00:00",
+    "generated_at_local": "2026-06-03T15:46:50.222215-04:00",
     "source_commit": "8172b3188a2b6c9df8a66f74a38e842ff1f44fb2",
     "source_tree_dirty": false
   },

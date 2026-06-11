@@ -1,23 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-05-01T02:22:26Z",
+  "generated_at_utc": "2026-06-11T20:16:20Z",
   "source_repo": "stock-wizard-live-trader",
   "production": {
-    "version": "v2",
-    "rule_name": "algo13_v2_no_hy",
-    "label": "Live Production (V2)",
+    "version": "v4",
+    "rule_name": "algo13_v4_master",
+    "label": "Live Production (V4)",
     "status": "live",
-    "signal_file": "signals/algo13_signal_live.csv",
-    "telemetry_file": "live_telemetry_v2.json",
+    "signal_file": "signals/algo13_signal_v4_shadow.csv",
+    "telemetry_file": "live_telemetry_v4.json",
     "evidence": {
-      "live_trader_constant": "trading/run_cron_algo13.py:ALGO13_LIVE_RULE",
-      "latest_signal_file": "signals/algo13_signal_live.csv",
-      "latest_signal_as_of_date": "2026-04-29",
-      "latest_signal_rule_name": "algo13_v2_no_hy"
+      "live_routing_mechanism": "STRATEGY_ACCOUNT_SETTINGS per-account algo13_rule overrides (both real accounts on algo13_v4_master since 2026-05-21)",
+      "latest_signal_file": "signals/algo13_signal_v4_shadow.csv",
+      "latest_signal_rule_name": "algo13_v4_master",
+      "shock_guard": "riskdown_only_after_10pct_for_10d, inside the allocator since 2026-06-11"
     }
+  },
+  "candidate": {
+    "version": "v21",
+    "rule_name": "algo13_v21_shadow",
+    "label": "Shadow Candidate (V21)",
+    "status": "shadow",
+    "definition": "Production V4 allocator + 10-day VXN brake minimum hold + UUP dollar bunker sleeve",
+    "evidence_memo": "Fed-Dualgate docs/strategy/ALGO13_V21_DEFINITION_2026-06-11.md",
+    "telemetry_file": "live_telemetry_v21.json"
   },
   "promotion_policy": {
     "production_change_requires_memo": true,
-    "current_policy": "Do not infer live production from tab labels, backtest files, or shadow telemetry. The live broker route is the rule emitted by stock-wizard-live-trader's ALGO13_LIVE_RULE."
+    "current_policy": "Do not infer live production from tab labels, backtest files, or shadow telemetry. The live broker route is the rule each account resolves via STRATEGY_ACCOUNT_SETTINGS overrides (fallback: ALGO13_LIVE_RULE)."
   }
 }

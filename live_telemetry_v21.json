@@ -1,0 +1,18 @@
+{
+  "telemetry_status": {
+    "available": false,
+    "status": "unavailable",
+    "rule_name": "algo13_v21_shadow",
+    "reason": "shadow_log_missing",
+    "detail": "V21 shadow live telemetry is unavailable because the shadow log does not exist at the expected path (the v21 emitter skip/holds when required price data such as UUP is missing).",
+    "log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v21_shadow/live_log.csv",
+    "generated_at_utc": "2026-06-15T17:36:38.548221+00:00",
+    "generated_at_local": "2026-06-15T13:36:38.548221-04:00",
+    "source_commit": "0e19737a219dd0cedb671c4bf5edc5689a62962a",
+    "source_tree_dirty": false
+  },
+  "live_kpis": null,
+  "current_state": null,
+  "recent_activity": [],
+  "live_equity_curve": []
+}

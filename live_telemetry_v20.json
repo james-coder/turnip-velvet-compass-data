@@ -3,18 +3,18 @@
     "available": true,
     "status": "available",
     "rule_name": "algo13_v20_context_selector_shadow",
-    "generated_at_utc": "2026-06-15T17:11:00.464657Z",
-    "source_commit": "b9493a5cacad4faf167a33f4bf9dc3dea4e253b6",
+    "generated_at_utc": "2026-06-15T20:06:22.938150Z",
+    "source_commit": "f088d2e2d4305aa9fd329ab1e29386e6aa0744b7",
     "source_tree_dirty": false,
     "source_summary_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_replay_summary.json",
-    "source_summary_sha256": "66ada60ff93f87d149346f934e5c409bc87d321caf2d5336192f7d8f95ac341c",
+    "source_summary_sha256": "2b44b1d06b5e81781b656ba870c74aa06825a55d969bcf356002911ee10a19a5",
     "source_decision_log_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_decisions.jsonl",
-    "source_decision_log_sha256": "601f98065067017f0ed504d6462528048a78e098f85f249a56a80ba7b0b698c1",
+    "source_decision_log_sha256": "3d2aa2798abbc9e7cb0ee1bf0c57c6d2a1f89dcd2131e659b73d9ae1cffc06d0",
     "dashboard_scope": "current_shadow_targets_plus_no_submit_replay",
     "source_live_log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v20_context_selector_shadow/live_log.csv",
-    "source_live_log_sha256": "5350d897280b8e6223be40d0b5e43bdbddc9ef9401f224839f061a2637834694",
+    "source_live_log_sha256": "2d20ebc2e8a49799d8c9f4100cdffc13fe2c25a7ba4242b2ce12ccf201ac54f7",
     "source_signal_path": "/home/trader/git/stock-wizard-live-trader/signals/algo13_signal_v20_context_selector_shadow.csv",
-    "source_signal_sha256": "eee3ac1790906acb2940f4866978a521a612a551992e47d10071deab67bb3fbc"
+    "source_signal_sha256": "5cef12fb16743218cef464a496b362acb7b497623c4e5494a42b02fc07fa0e88"
   },
   "shadow_metadata": {
     "strategy_id": "algo13_v20_context_selector_shadow",
@@ -78,12 +78,12 @@
     "strategy_promotion": false
   },
   "current_state": {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "rule_name": "algo13_v20_context_selector_shadow",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.85,
-      "SGOV": 0.15,
+      "TQQQ": 0.743225,
+      "SGOV": 0.256775,
       "TLT": 0.0,
       "GLD": 0.0
     },
@@ -99,13 +99,13 @@
     "v20_raw_selector_condition_met": false,
     "v20_selected_behavior_label": "v4_current_behavior",
     "v20_reason_codes": "selector_condition_false",
-    "rv10": 0.2756554771325414,
-    "qqq_20d_return": 0.003371997033762,
-    "v20_parent_signal_date": "2026-06-11",
-    "v20_fallback_signal_date": "2026-06-12",
-    "v20_current_v4_weights_hash": "616e289cc41b2b0d",
-    "v20_shadow_weights_hash": "616e289cc41b2b0d",
-    "data_provenance_hash": "281b2d91380e747988ebd7a72e82e284",
+    "rv10": 0.3279213832512616,
+    "qqq_20d_return": 0.0021534058544854,
+    "v20_parent_signal_date": "2026-06-12",
+    "v20_fallback_signal_date": "2026-06-15",
+    "v20_current_v4_weights_hash": "591420fbfd29db58",
+    "v20_shadow_weights_hash": "591420fbfd29db58",
+    "data_provenance_hash": "f0f0bdfaa0abc54d75896c13048dad03",
     "strategy_version": "algo13_v20_context_selector_shadow_v1",
     "candidate_status": "shadow_paper_only_not_promoted",
     "no_submit": true,
@@ -405,15 +405,56 @@
       "live_trading": false,
       "paper_orders": false,
       "strategy_promotion": false
+    },
+    {
+      "date": "2026-06-12",
+      "rule_name": "algo13_v20_context_selector_shadow",
+      "portfolio_return": 0.0,
+      "algo13_value": 1.0,
+      "qqq_value": 1.0,
+      "tqqq_value": 1.0,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.743225,
+      "weight_sgov": 0.256775,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "sgov_return": 0.0,
+      "tlt_return": 0.0,
+      "gld_return": 0.0,
+      "returns_available": false,
+      "current_v4_state": "Standard Production",
+      "v20_selector_triggered": false,
+      "v20_raw_selector_condition_met": false,
+      "v20_selected_behavior_label": "v4_current_behavior",
+      "v20_reason_codes": "selector_condition_false",
+      "rv10": 0.3279213832512616,
+      "qqq_20d_return": 0.0021534058544854,
+      "v20_parent_signal_date": "2026-06-12",
+      "v20_fallback_signal_date": "2026-06-15",
+      "v20_current_v4_weights_hash": "591420fbfd29db58",
+      "v20_shadow_weights_hash": "591420fbfd29db58",
+      "data_provenance_hash": "f0f0bdfaa0abc54d75896c13048dad03",
+      "strategy_version": "algo13_v20_context_selector_shadow_v1",
+      "candidate_status": "shadow_paper_only_not_promoted",
+      "no_submit": true,
+      "paper_shadow_only": true,
+      "live_routing_enabled": false,
+      "paper_order_enabled": false,
+      "broker_api_calls": false,
+      "broker_orders_submitted": 0,
+      "live_trading": false,
+      "paper_orders": false,
+      "strategy_promotion": false
     }
   ],
   "live_kpis": {
     "deployment_date": "2026-06-03",
-    "current_date": "2026-06-11",
+    "current_date": "2026-06-12",
     "deployment_value": 1.0,
     "current_value": 1.0,
     "oos_return_pct": 0.0,
-    "trading_days": 7
+    "trading_days": 8
   },
   "live_equity_curve": [
     {
@@ -457,6 +498,12 @@
       "algo13_value": 1.0,
       "qqq_value": 1.0,
       "tqqq_value": 1.0
+    },
+    {
+      "date": "2026-06-12",
+      "algo13_value": 1.0,
+      "qqq_value": 1.0,
+      "tqqq_value": 1.0
     }
   ],
   "paper_shadow_status": {
@@ -468,21 +515,19 @@
     "note": "This dashboard payload reports V20 no-submit shadow targets and replay evidence only."
   },
   "audit_status": {
-    "generated_at_utc": "2026-06-15T17:10:59.682030+00:00",
-    "generated_at_local": "2026-06-15T13:10:59.682030-04:00",
+    "generated_at_utc": "2026-06-15T20:06:22.257534+00:00",
+    "generated_at_local": "2026-06-15T16:06:22.257534-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
-    "panel_latest_date": "2026-06-11",
+    "panel_latest_date": "2026-06-12",
     "expected_completed_daily_date": "2026-06-12",
-    "signal_date": "2026-06-11",
-    "telemetry_current_date": "2026-06-11",
-    "freshness_status": "stale",
+    "signal_date": "2026-06-12",
+    "telemetry_current_date": "2026-06-12",
+    "freshness_status": "current",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
-    "source_commit": "b9493a5cacad4faf167a33f4bf9dc3dea4e253b6",
+    "source_commit": "f088d2e2d4305aa9fd329ab1e29386e6aa0744b7",
     "source_tree_dirty": false,
-    "warnings": [
-      "V20 context selector telemetry is stale for expected completed daily date 2026-06-12: panel_latest_date=2026-06-11, signal_date=2026-06-11, telemetry_current_date=2026-06-11"
-    ]
+    "warnings": []
   }
 }

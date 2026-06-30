@@ -13,8 +13,8 @@
     "weights": {
       "QQQ": 0.0,
       "TQQQ": 0.6951,
-      "SGOV": 0.0,
-      "GLD": 0.3049
+      "SGOV": 0.3049,
+      "GLD": 0.0
     },
     "qqq_value": 0.986236,
     "tqqq_value": 0.958372,
@@ -34,8 +34,8 @@
       "tqqq_value": 0.958372,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.6951,
-      "weight_sgov": 0.0,
-      "weight_gld": 0.3049,
+      "weight_sgov": 0.3049,
+      "weight_gld": 0.0,
       "weight_ief": 0.0,
       "weight_shv": 0.0,
       "v22_mode": "ml",

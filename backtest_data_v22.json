@@ -36003,7 +36003,7 @@
     }
   ],
   "export_metadata": {
-    "generated_at_utc": "2026-06-30T09:36:38+00:00",
+    "generated_at_utc": "2026-06-30T10:07:37+00:00",
     "strategy_version": "algo13_v22_shadow",
     "engine": "algo14 V22: SMA200 trend gate x GBM forward-vol target x Mom60 GLD/IEF/SHV bunker + crash hysteresis",
     "evaluation": "walk-forward (monthly expanding GBM retrain, 10d horizon, no lookahead); cost 2.0bps/turnover",

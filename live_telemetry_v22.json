@@ -1,27 +1,27 @@
 {
   "live_kpis": {
     "deployment_date": "2026-06-26",
-    "current_date": "2026-06-29",
+    "current_date": "2026-06-30",
     "deployment_value": 1.0,
-    "current_value": 1.051929,
-    "oos_return_pct": 5.19,
-    "trading_days": 2
+    "current_value": 1.092912,
+    "oos_return_pct": 9.29,
+    "trading_days": 3
   },
   "current_state": {
-    "date": "2026-06-29",
+    "date": "2026-06-30",
     "rule_name": "algo13_v22_shadow",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.8013,
-      "SGOV": 0.1987,
+      "TQQQ": 0.7339,
+      "SGOV": 0.2661,
       "GLD": 0.0
     },
-    "qqq_value": 1.010748,
-    "tqqq_value": 1.029887,
+    "qqq_value": 1.027946,
+    "tqqq_value": 1.08072,
     "weight_ief": 0.0,
     "weight_shv": 0.0,
     "v22_mode": "ml",
-    "v22_exposure": 0.8013,
+    "v22_exposure": 0.7339,
     "v22_alerts": ""
   },
   "recent_activity": [
@@ -58,6 +58,23 @@
       "v22_mode": "ml",
       "v22_exposure": 0.8013,
       "v22_alerts": ""
+    },
+    {
+      "date": "2026-06-30",
+      "rule_name": "algo13_v22_shadow",
+      "portfolio_return": 0.038959,
+      "algo13_value": 1.092912,
+      "qqq_value": 1.027946,
+      "tqqq_value": 1.08072,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.7339,
+      "weight_sgov": 0.2661,
+      "weight_gld": 0.0,
+      "weight_ief": 0.0,
+      "weight_shv": 0.0,
+      "v22_mode": "ml",
+      "v22_exposure": 0.7339,
+      "v22_alerts": ""
     }
   ],
   "live_equity_curve": [
@@ -72,6 +89,12 @@
       "algo13_value": 1.051929,
       "qqq_value": 1.010748,
       "tqqq_value": 1.029887
+    },
+    {
+      "date": "2026-06-30",
+      "algo13_value": 1.092912,
+      "qqq_value": 1.027946,
+      "tqqq_value": 1.08072
     }
   ]
 }

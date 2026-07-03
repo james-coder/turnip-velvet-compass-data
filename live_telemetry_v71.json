@@ -6,8 +6,8 @@
     "reason": "shadow_log_missing",
     "detail": "V7.1 shadow live_log.csv is unavailable. The shadow runner did not emit a fresh V7.1 signal, so dashboard clients should show V7.1 as backtest-only.",
     "log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v71_tailrisk_guard_trial42_shadow/live_log.csv",
-    "generated_at_utc": "2026-07-02T20:05:48.023062+00:00",
-    "generated_at_local": "2026-07-02T16:05:48.023062-04:00",
+    "generated_at_utc": "2026-07-03T19:45:34.609398+00:00",
+    "generated_at_local": "2026-07-03T15:45:34.609398-04:00",
     "source_commit": "a52f4da6f906cdd51eeebea33ccab7fa12c58dc6",
     "source_tree_dirty": false
   },

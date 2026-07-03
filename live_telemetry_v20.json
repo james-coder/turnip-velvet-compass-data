@@ -3,13 +3,13 @@
     "available": true,
     "status": "available",
     "rule_name": "algo13_v20_context_selector_shadow",
-    "generated_at_utc": "2026-07-02T20:06:13.832372Z",
+    "generated_at_utc": "2026-07-03T19:46:00.411254Z",
     "source_commit": "a52f4da6f906cdd51eeebea33ccab7fa12c58dc6",
     "source_tree_dirty": false,
     "source_summary_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_replay_summary.json",
-    "source_summary_sha256": "7057f1fcd9a560baad1122d6fe6b8382755faf19ad471c12ec089fa6e582d3aa",
+    "source_summary_sha256": "bd524f74c6709eeb2f63c1d962e7de8b60d5c71131025174a5397b4710d5191a",
     "source_decision_log_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_decisions.jsonl",
-    "source_decision_log_sha256": "92bd96da10f6285aae0bcca4ddc90cdd1ec3bcb8dc6cad49c5a673b5ddbede80",
+    "source_decision_log_sha256": "6a470e1534d8b2e4f44a711121a3453db3c6b4625ff56130461810362853e227",
     "dashboard_scope": "current_shadow_targets_plus_no_submit_replay",
     "source_live_log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v20_context_selector_shadow/live_log.csv",
     "source_live_log_sha256": "50c67b3b37d459f098eebbd5affe6d89477b81b03a15f09389b279db648d7c58",
@@ -669,19 +669,21 @@
     "note": "This dashboard payload reports V20 no-submit shadow targets and replay evidence only."
   },
   "audit_status": {
-    "generated_at_utc": "2026-07-02T20:06:13.151097+00:00",
-    "generated_at_local": "2026-07-02T16:06:13.151097-04:00",
+    "generated_at_utc": "2026-07-03T19:45:59.714230+00:00",
+    "generated_at_local": "2026-07-03T15:45:59.714230-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-07-01",
-    "expected_completed_daily_date": "2026-07-01",
+    "expected_completed_daily_date": "2026-07-02",
     "signal_date": "2026-07-01",
     "telemetry_current_date": "2026-07-01",
-    "freshness_status": "current",
+    "freshness_status": "stale",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
     "source_commit": "a52f4da6f906cdd51eeebea33ccab7fa12c58dc6",
     "source_tree_dirty": false,
-    "warnings": []
+    "warnings": [
+      "V20 context selector telemetry is stale for expected completed daily date 2026-07-02: panel_latest_date=2026-07-01, signal_date=2026-07-01, telemetry_current_date=2026-07-01"
+    ]
   }
 }

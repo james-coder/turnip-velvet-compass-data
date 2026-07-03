@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-06-11T20:16:20Z",
+  "generated_at_utc": "2026-07-03T23:49:00Z",
   "source_repo": "stock-wizard-live-trader",
   "production": {
     "version": "v4",
@@ -13,7 +13,8 @@
       "live_routing_mechanism": "STRATEGY_ACCOUNT_SETTINGS per-account algo13_rule overrides (both real accounts on algo13_v4_master since 2026-05-21)",
       "latest_signal_file": "signals/algo13_signal_v4_shadow.csv",
       "latest_signal_rule_name": "algo13_v4_master",
-      "shock_guard": "riskdown_only_after_10pct_for_10d, inside the allocator since 2026-06-11"
+      "shock_guard": "riskdown_only_after_10pct_for_10d, inside the allocator since 2026-06-11",
+      "signal_timing": "t-1 as of 2026-07-03 (double-lag fix, live-trader commits 0b75177+d85fb13 deployed to prod 2026-07-03; first t-1 emission 2026-07-06). Before that, live emission was effectively t-2 (VALIDATION_2026-07.md bug #1); backtests were always t-1."
     }
   },
   "candidate": {
@@ -25,6 +26,36 @@
     "evidence_memo": "Fed-Dualgate docs/strategy/ALGO13_V21_DEFINITION_2026-06-11.md",
     "telemetry_file": "live_telemetry_v21.json"
   },
+  "shadow_lanes": [
+    {
+      "version": "v21",
+      "rule_name": "algo13_v21_shadow",
+      "label": "Shadow Candidate (V21)",
+      "status": "shadow",
+      "definition": "Production V4 allocator + 10-day VXN brake minimum hold + UUP dollar bunker sleeve",
+      "evidence_memo": "Fed-Dualgate docs/strategy/ALGO13_V21_DEFINITION_2026-06-11.md",
+      "telemetry_file": "live_telemetry_v21.json",
+      "promotion_earliest": "2026-12-11"
+    },
+    {
+      "version": "v22",
+      "rule_name": "algo13_v22_shadow",
+      "label": "ML Shadow (V22)",
+      "status": "shadow",
+      "definition": "Algo14 LightGBM ML lane (own engine, not an Algo13 V4 variant), observational shadow since 2026-06-26",
+      "telemetry_file": "live_telemetry_v22.json"
+    },
+    {
+      "version": "v23",
+      "rule_name": "algo13_v23_shadow",
+      "label": "MF-Bunker Shadow (V23)",
+      "status": "shadow",
+      "definition": "V4 research baseline (sticky VXN hold-10) + DBMF in the Mom60 bunker rotation [TLT, GLD, DBMF]; shadow since 2026-07-01",
+      "evidence_memo": "Fed-Dualgate docs/strategy/ALGO13_MF_BUNKER_2026-07-01.md",
+      "promotion_checklist": "live-trader docs/ALGO13_V23_PROMOTION_CHECKLIST.md (pre-registered 2026-07-01; evaluation ~2026-08-15)",
+      "telemetry_file": "live_telemetry_v23.json"
+    }
+  ],
   "promotion_policy": {
     "production_change_requires_memo": true,
     "current_policy": "Do not infer live production from tab labels, backtest files, or shadow telemetry. The live broker route is the rule each account resolves via STRATEGY_ACCOUNT_SETTINGS overrides (fallback: ALGO13_LIVE_RULE)."

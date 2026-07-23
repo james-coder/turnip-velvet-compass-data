@@ -1,47 +1,30 @@
 {
   "live_kpis": {
     "deployment_date": "2026-06-26",
-    "current_date": "2026-07-21",
+    "current_date": "2026-07-22",
     "deployment_value": 1.0,
-    "current_value": 1.001458,
-    "oos_return_pct": 0.15,
-    "trading_days": 17
+    "current_value": 0.990994,
+    "oos_return_pct": -0.9,
+    "trading_days": 18
   },
   "current_state": {
-    "date": "2026-07-21",
+    "date": "2026-07-22",
     "rule_name": "algo13_v22_shadow",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.6841,
-      "SGOV": 0.3159,
+      "TQQQ": 0.66,
+      "SGOV": 0.34,
       "GLD": 0.0
     },
-    "qqq_value": 0.989656,
-    "tqqq_value": 0.952235,
+    "qqq_value": 0.984603,
+    "tqqq_value": 0.937692,
     "weight_ief": 0.0,
     "weight_shv": 0.0,
     "v22_mode": "ml",
-    "v22_exposure": 0.6841,
+    "v22_exposure": 0.66,
     "v22_alerts": ""
   },
   "recent_activity": [
-    {
-      "date": "2026-07-08",
-      "rule_name": "algo13_v22_shadow",
-      "portfolio_return": 0.004946,
-      "algo13_value": 1.014829,
-      "qqq_value": 0.993104,
-      "tqqq_value": 0.970247,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.8,
-      "weight_sgov": 0.2,
-      "weight_gld": 0.0,
-      "weight_ief": 0.0,
-      "weight_shv": 0.0,
-      "v22_mode": "ml",
-      "v22_exposure": 0.8,
-      "v22_alerts": ""
-    },
     {
       "date": "2026-07-09",
       "rule_name": "algo13_v22_shadow",
@@ -194,6 +177,23 @@
       "v22_mode": "ml",
       "v22_exposure": 0.6841,
       "v22_alerts": ""
+    },
+    {
+      "date": "2026-07-22",
+      "rule_name": "algo13_v22_shadow",
+      "portfolio_return": -0.010448,
+      "algo13_value": 0.990994,
+      "qqq_value": 0.984603,
+      "tqqq_value": 0.937692,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.66,
+      "weight_sgov": 0.34,
+      "weight_gld": 0.0,
+      "weight_ief": 0.0,
+      "weight_shv": 0.0,
+      "v22_mode": "ml",
+      "v22_exposure": 0.66,
+      "v22_alerts": ""
     }
   ],
   "live_equity_curve": [
@@ -298,6 +298,12 @@
       "algo13_value": 1.001458,
       "qqq_value": 0.989656,
       "tqqq_value": 0.952235
+    },
+    {
+      "date": "2026-07-22",
+      "algo13_value": 0.990994,
+      "qqq_value": 0.984603,
+      "tqqq_value": 0.937692
     }
   ]
 }

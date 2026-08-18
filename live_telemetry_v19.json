@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-04-30",
-    "current_date": "2026-08-14",
+    "current_date": "2026-08-17",
     "deployment_value": 1.0,
-    "current_value": 1.176927,
-    "oos_return_pct": 17.69,
-    "trading_days": 74
+    "current_value": 1.17095,
+    "oos_return_pct": 17.1,
+    "trading_days": 75
   },
   "current_state": {
-    "date": "2026-08-14",
+    "date": "2026-08-17",
     "rule_name": "algo13_v19_qid_simple_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -18,8 +18,8 @@
       "GLD": 0.0,
       "QID": 0.0
     },
-    "qqq_value": 1.105053,
-    "tqqq_value": 1.241351,
+    "qqq_value": 1.103239,
+    "tqqq_value": 1.235047,
     "weight_cash": 0.0,
     "qid_sleeve_contribution": 0.0,
     "v3_state": null,
@@ -28,15 +28,15 @@
     "vxn_brake": false,
     "credit_ok": true,
     "bunker_pick": "NONE",
-    "hy_oas_z": -0.834356222263839,
-    "vxn_upper_band": 31.21767157505832,
-    "rv10": 0.195973685089264,
-    "ret10": 0.0626171892033315,
+    "hy_oas_z": -0.9570686342321306,
+    "vxn_upper_band": 31.268669981004518,
+    "rv10": 0.1890590574818207,
+    "ret10": 0.042567171854243,
     "standard_target_vol": 0.25,
     "overdrive_target_vol": 0.35,
     "zombie_apocalypse": false,
-    "zombie_sgov_dd": -0.0015890356539874,
-    "zombie_sgov_rv21": 0.0102699821725977,
+    "zombie_sgov_dd": -0.0012910914688647,
+    "zombie_sgov_rv21": 0.010316077666246,
     "v19_state": "Bull Overdrive",
     "v19_shadow_only": true,
     "v19_parent_rule": "algo13_v4_master",
@@ -50,7 +50,7 @@
     "v19_qid_active": false,
     "v19_inverse_cooldown_remaining": 0,
     "v19_waterfall_entry_gate_signal": false,
-    "v19_filter_vxn_rising": true,
+    "v19_filter_vxn_rising": false,
     "v19_near_20d_low_signal": false,
     "v19_waterfall_acceleration_signal": false,
     "v19_stress_signal": false,
@@ -65,69 +65,10 @@
     "v19_parent_weight_gld": 0.0,
     "v19_delta_weight_gld": 0.0,
     "v19_parent_weight_qid": 0.0,
-    "v19_delta_weight_qid": 0.0
+    "v19_delta_weight_qid": 0.0,
+    "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-08-03",
-      "rule_name": "algo13_v19_qid_simple_shadow",
-      "portfolio_return": 0.043964,
-      "algo13_value": 1.059787,
-      "qqq_value": 1.058195,
-      "tqqq_value": 1.09861,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.85,
-      "weight_sgov": 0.15,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_qid": 0.0,
-      "weight_cash": 0.0,
-      "qid_sleeve_contribution": -0.0,
-      "v3_state": null,
-      "v4_state": "Standard Production",
-      "dist_brake": true,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "bunker_pick": "NONE",
-      "hy_oas_z": -0.4260580404681585,
-      "vxn_upper_band": 31.010454382152005,
-      "rv10": 0.2659565377993915,
-      "ret10": 0.0057609976151482,
-      "standard_target_vol": 0.25,
-      "overdrive_target_vol": 0.35,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": -0.0028801271228522,
-      "zombie_sgov_rv21": 0.0103452554714565,
-      "v19_state": "Standard Production",
-      "v19_shadow_only": true,
-      "v19_parent_rule": "algo13_v4_master",
-      "v19_research_variant": "qid_medium_vxn_rising_0p35_pro_rata",
-      "v19_inverse_ticker": "QID",
-      "v19_equivalent_short_notional": 0.35,
-      "v19_inverse_weight": 0.175,
-      "v19_funding_policy": "pro_rata",
-      "v19_gate_name": "waterfall_medium_1d",
-      "v19_qid_target_weight": 0.0,
-      "v19_qid_active": false,
-      "v19_inverse_cooldown_remaining": 0,
-      "v19_waterfall_entry_gate_signal": false,
-      "v19_filter_vxn_rising": false,
-      "v19_near_20d_low_signal": false,
-      "v19_waterfall_acceleration_signal": false,
-      "v19_stress_signal": false,
-      "v19_parent_weight_qqq": 0.0,
-      "v19_delta_weight_qqq": 0.0,
-      "v19_parent_weight_tqqq": 0.85,
-      "v19_delta_weight_tqqq": 0.0,
-      "v19_parent_weight_sgov": 0.15,
-      "v19_delta_weight_sgov": 0.0,
-      "v19_parent_weight_tlt": 0.0,
-      "v19_delta_weight_tlt": 0.0,
-      "v19_parent_weight_gld": 0.0,
-      "v19_delta_weight_gld": 0.0,
-      "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
-    },
     {
       "date": "2026-08-04",
       "rule_name": "algo13_v19_qid_simple_shadow",
@@ -186,7 +127,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-05",
@@ -246,7 +188,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-06",
@@ -306,7 +249,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-07",
@@ -366,7 +310,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-10",
@@ -426,7 +371,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-11",
@@ -486,7 +432,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-12",
@@ -546,7 +493,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-13",
@@ -606,7 +554,8 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
     },
     {
       "date": "2026-08-14",
@@ -666,7 +615,69 @@
       "v19_parent_weight_gld": 0.0,
       "v19_delta_weight_gld": 0.0,
       "v19_parent_weight_qid": 0.0,
-      "v19_delta_weight_qid": 0.0
+      "v19_delta_weight_qid": 0.0,
+      "row_source": null
+    },
+    {
+      "date": "2026-08-17",
+      "rule_name": "algo13_v19_qid_simple_shadow",
+      "portfolio_return": -0.005079,
+      "algo13_value": 1.17095,
+      "qqq_value": 1.103239,
+      "tqqq_value": 1.235047,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_qid": 0.0,
+      "weight_cash": 0.0,
+      "qid_sleeve_contribution": 0.0,
+      "v3_state": null,
+      "v4_state": "Bull Overdrive",
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "bunker_pick": "NONE",
+      "hy_oas_z": -0.9570686342321306,
+      "vxn_upper_band": 31.268669981004518,
+      "rv10": 0.1890590574818207,
+      "ret10": 0.042567171854243,
+      "standard_target_vol": 0.25,
+      "overdrive_target_vol": 0.35,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": -0.0012910914688647,
+      "zombie_sgov_rv21": 0.010316077666246,
+      "v19_state": "Bull Overdrive",
+      "v19_shadow_only": true,
+      "v19_parent_rule": "algo13_v4_master",
+      "v19_research_variant": "qid_medium_vxn_rising_0p35_pro_rata",
+      "v19_inverse_ticker": "QID",
+      "v19_equivalent_short_notional": 0.35,
+      "v19_inverse_weight": 0.175,
+      "v19_funding_policy": "pro_rata",
+      "v19_gate_name": "waterfall_medium_1d",
+      "v19_qid_target_weight": 0.0,
+      "v19_qid_active": false,
+      "v19_inverse_cooldown_remaining": 0,
+      "v19_waterfall_entry_gate_signal": false,
+      "v19_filter_vxn_rising": false,
+      "v19_near_20d_low_signal": false,
+      "v19_waterfall_acceleration_signal": false,
+      "v19_stress_signal": false,
+      "v19_parent_weight_qqq": 0.0,
+      "v19_delta_weight_qqq": 0.0,
+      "v19_parent_weight_tqqq": 1.0,
+      "v19_delta_weight_tqqq": 0.0,
+      "v19_parent_weight_sgov": 0.0,
+      "v19_delta_weight_sgov": 0.0,
+      "v19_parent_weight_tlt": 0.0,
+      "v19_delta_weight_tlt": 0.0,
+      "v19_parent_weight_gld": 0.0,
+      "v19_delta_weight_gld": 0.0,
+      "v19_parent_weight_qid": 0.0,
+      "v19_delta_weight_qid": 0.0,
+      "row_source": "live"
     }
   ],
   "live_equity_curve": [
@@ -1113,21 +1124,27 @@
       "algo13_value": 1.176927,
       "qqq_value": 1.105053,
       "tqqq_value": 1.241351
+    },
+    {
+      "date": "2026-08-17",
+      "algo13_value": 1.17095,
+      "qqq_value": 1.103239,
+      "tqqq_value": 1.235047
     }
   ],
   "audit_status": {
-    "generated_at_utc": "2026-08-17T19:55:59.612052+00:00",
-    "generated_at_local": "2026-08-17T15:55:59.612052-04:00",
+    "generated_at_utc": "2026-08-18T19:47:31.085049+00:00",
+    "generated_at_local": "2026-08-18T15:47:31.085049-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
-    "panel_latest_date": "2026-08-14",
-    "expected_completed_daily_date": "2026-08-14",
-    "signal_date": "2026-08-14",
-    "telemetry_current_date": "2026-08-14",
+    "panel_latest_date": "2026-08-17",
+    "expected_completed_daily_date": "2026-08-17",
+    "signal_date": "2026-08-17",
+    "telemetry_current_date": "2026-08-17",
     "freshness_status": "current",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
-    "source_commit": "2c3cc2196f424581b60f4942948c25f82b5c2469",
+    "source_commit": "6c581ec068c61d720a176de09b2822a8a04c4911",
     "source_tree_dirty": false,
     "warnings": []
   },

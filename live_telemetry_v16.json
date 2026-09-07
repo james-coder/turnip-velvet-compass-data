@@ -1002,27 +1002,28 @@
     }
   ],
   "audit_status": {
-    "generated_at_utc": "2026-09-04T20:06:25.491863+00:00",
-    "generated_at_local": "2026-09-04T16:06:25.491863-04:00",
+    "generated_at_utc": "2026-09-07T19:45:45.183759+00:00",
+    "generated_at_local": "2026-09-07T15:45:45.183759-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-09-03",
-    "expected_completed_daily_date": "2026-09-03",
+    "expected_completed_daily_date": "2026-09-04",
     "signal_date": "2026-09-03",
     "telemetry_current_date": "2026-09-03",
-    "freshness_status": "current",
+    "freshness_status": "stale",
     "causality_status": "unknown",
     "weights_sum": 1.0,
     "source_commit": "6c581ec068c61d720a176de09b2822a8a04c4911",
     "source_tree_dirty": false,
     "warnings": [
+      "V16 fixed-1555 telemetry is stale for expected completed daily date 2026-09-04: panel_latest_date=2026-09-03, signal_date=2026-09-03, telemetry_current_date=2026-09-03",
       "Latest V16 fixed-1555 portfolio-return causality could not be fully verified."
     ]
   },
   "execution_shadow": {
     "available": true,
     "promotion_status": "shadow_needs_comparable_fills",
-    "generated_at_utc": "2026-09-04T20:06:23.250300+00:00",
+    "generated_at_utc": "2026-09-07T19:45:43.105433+00:00",
     "rule_name": "algo13_v16_fixed1555_v4_shadow",
     "shadow_only": true,
     "paths": {

@@ -984,20 +984,21 @@
     }
   ],
   "audit_status": {
-    "generated_at_utc": "2026-09-04T20:05:58.013920+00:00",
-    "generated_at_local": "2026-09-04T16:05:58.013920-04:00",
+    "generated_at_utc": "2026-09-07T19:45:22.553719+00:00",
+    "generated_at_local": "2026-09-07T15:45:22.553719-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-09-03",
-    "expected_completed_daily_date": "2026-09-03",
+    "expected_completed_daily_date": "2026-09-04",
     "signal_date": "2026-09-03",
     "telemetry_current_date": "2026-09-03",
-    "freshness_status": "current",
+    "freshness_status": "stale",
     "causality_status": "unknown",
     "weights_sum": 1.0,
     "source_commit": "6c581ec068c61d720a176de09b2822a8a04c4911",
     "source_tree_dirty": false,
     "warnings": [
+      "V4 telemetry is stale for expected completed daily date 2026-09-04: panel_latest_date=2026-09-03, signal_date=2026-09-03, telemetry_current_date=2026-09-03",
       "Latest V4 portfolio-return causality could not be fully verified."
     ]
   }

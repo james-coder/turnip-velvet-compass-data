@@ -1211,20 +1211,21 @@
     }
   ],
   "audit_status": {
-    "generated_at_utc": "2026-09-04T20:06:30.167302+00:00",
-    "generated_at_local": "2026-09-04T16:06:30.167302-04:00",
+    "generated_at_utc": "2026-09-07T19:45:49.540617+00:00",
+    "generated_at_local": "2026-09-07T15:45:49.540617-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-09-03",
-    "expected_completed_daily_date": "2026-09-03",
+    "expected_completed_daily_date": "2026-09-04",
     "signal_date": "2026-09-03",
     "telemetry_current_date": "2026-09-03",
-    "freshness_status": "current",
+    "freshness_status": "stale",
     "causality_status": "unknown",
     "weights_sum": 1.0,
     "source_commit": "6c581ec068c61d720a176de09b2822a8a04c4911",
     "source_tree_dirty": false,
     "warnings": [
+      "V19 QID simple telemetry is stale for expected completed daily date 2026-09-04: panel_latest_date=2026-09-03, signal_date=2026-09-03, telemetry_current_date=2026-09-03",
       "Latest V19 QID simple portfolio-return causality could not be fully verified."
     ]
   },

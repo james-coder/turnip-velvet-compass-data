@@ -1,30 +1,30 @@
 {
   "live_kpis": {
     "deployment_date": "2025-12-24",
-    "current_date": "2026-09-22",
+    "current_date": "2026-09-23",
     "deployment_value": 1.0,
-    "current_value": 1.334515,
-    "oos_return_pct": 33.45,
-    "trading_days": 184
+    "current_value": 1.304302,
+    "oos_return_pct": 30.43,
+    "trading_days": 185
   },
   "current_state": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "rule_name": "algo13_v2_no_hy",
     "weights": {
       "QQQ": 0.0,
       "TQQQ": 0.85,
       "SGOV": 0.15
     },
-    "qqq_value": 1.194495,
-    "tqqq_value": 1.472768,
+    "qqq_value": 1.183836,
+    "tqqq_value": 1.433516,
     "weight_cash": 0.0,
     "v3_state": null,
     "dist_brake": false,
     "vxn_brake": false,
     "credit_ok": true,
     "zombie_apocalypse": false,
-    "zombie_sgov_dd": -0.000893832555368,
-    "zombie_sgov_rv21": 0.0110906170021786,
+    "zombie_sgov_dd": -0.0007945178269936,
+    "zombie_sgov_rv21": 0.0110094332022245,
     "v4_state": null,
     "bunker_pick": null,
     "hy_oas_z": null,
@@ -36,34 +36,6 @@
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-09-09",
-      "rule_name": "algo13_v2_no_hy",
-      "portfolio_return": -0.007531,
-      "algo13_value": 1.211561,
-      "qqq_value": 1.14777,
-      "tqqq_value": 1.315846,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.85,
-      "weight_sgov": 0.15,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "dist_brake": false,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": -0.0020856092958585,
-      "zombie_sgov_rv21": 0.0110855649453362,
-      "v4_state": null,
-      "bunker_pick": null,
-      "hy_oas_z": null,
-      "vxn_upper_band": null,
-      "rv10": null,
-      "ret10": null,
-      "standard_target_vol": null,
-      "overdrive_target_vol": null,
-      "row_source": "live"
-    },
     {
       "date": "2026-09-10",
       "rule_name": "algo13_v2_no_hy",
@@ -306,6 +278,34 @@
       "zombie_apocalypse": false,
       "zombie_sgov_dd": -0.000893832555368,
       "zombie_sgov_rv21": 0.0110906170021786,
+      "v4_state": null,
+      "bunker_pick": null,
+      "hy_oas_z": null,
+      "vxn_upper_band": null,
+      "rv10": null,
+      "ret10": null,
+      "standard_target_vol": null,
+      "overdrive_target_vol": null,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-09-23",
+      "rule_name": "algo13_v2_no_hy",
+      "portfolio_return": -0.022639,
+      "algo13_value": 1.304302,
+      "qqq_value": 1.183836,
+      "tqqq_value": 1.433516,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": -0.0007945178269936,
+      "zombie_sgov_rv21": 0.0110094332022245,
       "v4_state": null,
       "bunker_pick": null,
       "hy_oas_z": null,
@@ -1421,6 +1421,12 @@
       "algo13_value": 1.334515,
       "qqq_value": 1.194495,
       "tqqq_value": 1.472768
+    },
+    {
+      "date": "2026-09-23",
+      "algo13_value": 1.304302,
+      "qqq_value": 1.183836,
+      "tqqq_value": 1.433516
     }
   ]
 }

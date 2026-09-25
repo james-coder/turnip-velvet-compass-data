@@ -3,17 +3,17 @@
     "available": true,
     "status": "available",
     "rule_name": "algo13_v20_context_selector_shadow",
-    "generated_at_utc": "2026-09-24T19:47:08.635780Z",
-    "source_commit": "8e0414dca6f3d5e9459a60b4fec8091d09ee6aad",
+    "generated_at_utc": "2026-09-25T07:51:39.241759Z",
+    "source_commit": "c209c5d4abab1119017791e75ce0bcc56b288dd3",
     "source_tree_dirty": false,
-    "source_summary_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_replay_summary.json",
+    "source_summary_path": "artifacts/context_selector_shadow_replay_summary.json",
     "source_summary_sha256": "b84adf26aeff0fd69a2511acedfede2c06b6836a24a62eedf9dc2dd70833d316",
-    "source_decision_log_path": "/home/trader/git/stock-wizard-live-trader/artifacts/context_selector_shadow_decisions.jsonl",
+    "source_decision_log_path": "artifacts/context_selector_shadow_decisions.jsonl",
     "source_decision_log_sha256": "f882256d7464304fa3ab85af5eeaff683fbb651fa81c8cefdea7ef5f8a44c2f7",
     "dashboard_scope": "current_shadow_targets_plus_no_submit_replay",
-    "source_live_log_path": "/home/trader/git/stock-wizard-live-trader/models/experiments/algo13_v20_context_selector_shadow/live_log.csv",
+    "source_live_log_path": "models/experiments/algo13_v20_context_selector_shadow/live_log.csv",
     "source_live_log_sha256": "fc6e39755807a39dfcdff637fa130cb590efa58b432b2df16d60ea57e61001eb",
-    "source_signal_path": "/home/trader/git/stock-wizard-live-trader/signals/algo13_signal_v20_context_selector_shadow.csv",
+    "source_signal_path": "signals/algo13_signal_v20_context_selector_shadow.csv",
     "source_signal_sha256": "14b8680cd7c7c8ac54ff3b7d3061fbe991594556edbdb0131cc2ccb55e630d95"
   },
   "shadow_metadata": {
@@ -87,8 +87,8 @@
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 1.0,
-    "tqqq_value": 1.0,
+    "qqq_value": 1.023191,
+    "tqqq_value": 1.017462,
     "weight_cash": 0.0,
     "sgov_return": 0.0,
     "tlt_return": 0.0,
@@ -122,10 +122,10 @@
     {
       "date": "2026-09-10",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": -0.032628,
+      "algo13_value": 0.893536,
+      "qqq_value": 0.977278,
+      "tqqq_value": 0.893545,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.85,
       "weight_sgov": 0.15,
@@ -163,10 +163,10 @@
     {
       "date": "2026-09-11",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": 0.025478,
+      "algo13_value": 0.916301,
+      "qqq_value": 0.985823,
+      "tqqq_value": 0.916311,
       "weight_qqq": 0.0,
       "weight_tqqq": 1.0,
       "weight_sgov": 0.0,
@@ -204,10 +204,10 @@
     {
       "date": "2026-09-14",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": -0.020383,
+      "algo13_value": 0.897624,
+      "qqq_value": 0.977954,
+      "tqqq_value": 0.894322,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.85,
       "weight_sgov": 0.15,
@@ -245,10 +245,10 @@
     {
       "date": "2026-09-15",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": -0.019815,
+      "algo13_value": 0.879838,
+      "qqq_value": 0.971563,
+      "tqqq_value": 0.876601,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.85,
       "weight_sgov": 0.15,
@@ -286,10 +286,10 @@
     {
       "date": "2026-09-16",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": 0.000406,
+      "algo13_value": 0.880195,
+      "qqq_value": 0.971812,
+      "tqqq_value": 0.876989,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.85,
       "weight_sgov": 0.15,
@@ -327,10 +327,10 @@
     {
       "date": "2026-09-17",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": 0.043142,
+      "algo13_value": 0.918168,
+      "qqq_value": 0.988625,
+      "tqqq_value": 0.921485,
       "weight_qqq": 0.0,
       "weight_tqqq": 1.0,
       "weight_sgov": 0.0,
@@ -368,10 +368,10 @@
     {
       "date": "2026-09-18",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": 0.015078,
+      "algo13_value": 0.932013,
+      "qqq_value": 0.994879,
+      "tqqq_value": 0.937783,
       "weight_qqq": 0.0,
       "weight_tqqq": 1.0,
       "weight_sgov": 0.0,
@@ -409,10 +409,10 @@
     {
       "date": "2026-09-21",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": 0.086345,
+      "algo13_value": 1.012488,
+      "qqq_value": 1.02355,
+      "tqqq_value": 1.018756,
       "weight_qqq": 0.0,
       "weight_tqqq": 1.0,
       "weight_sgov": 0.0,
@@ -450,10 +450,10 @@
     {
       "date": "2026-09-22",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": 0.024251,
+      "algo13_value": 1.037041,
+      "qqq_value": 1.031819,
+      "tqqq_value": 1.043461,
       "weight_qqq": 0.0,
       "weight_tqqq": 1.0,
       "weight_sgov": 0.0,
@@ -491,10 +491,10 @@
     {
       "date": "2026-09-23",
       "rule_name": "algo13_v20_context_selector_shadow",
-      "portfolio_return": 0.0,
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0,
+      "portfolio_return": -0.024916,
+      "algo13_value": 1.011202,
+      "qqq_value": 1.023191,
+      "tqqq_value": 1.017462,
       "weight_qqq": 0.0,
       "weight_tqqq": 1.0,
       "weight_sgov": 0.0,
@@ -531,20 +531,14 @@
     }
   ],
   "live_kpis": {
-    "deployment_date": "2026-06-30",
+    "deployment_date": "2026-07-01",
     "current_date": "2026-09-23",
     "deployment_value": 1.0,
-    "current_value": 1.0,
-    "oos_return_pct": 0.0,
-    "trading_days": 60
+    "current_value": 1.011202,
+    "oos_return_pct": 1.12,
+    "trading_days": 59
   },
   "live_equity_curve": [
-    {
-      "date": "2026-06-30",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
-    },
     {
       "date": "2026-07-01",
       "algo13_value": 1.0,
@@ -553,351 +547,351 @@
     },
     {
       "date": "2026-07-02",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.959108,
+      "qqq_value": 0.982676,
+      "tqqq_value": 0.946967
     },
     {
       "date": "2026-07-06",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.989336,
+      "qqq_value": 0.99677,
+      "tqqq_value": 0.986548
     },
     {
       "date": "2026-07-07",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.948973,
+      "qqq_value": 0.9783,
+      "tqqq_value": 0.93248
     },
     {
       "date": "2026-07-08",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.953737,
+      "qqq_value": 0.981074,
+      "tqqq_value": 0.938818
     },
     {
       "date": "2026-07-09",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.987677,
+      "qqq_value": 0.997405,
+      "tqqq_value": 0.985513
     },
     {
       "date": "2026-07-10",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.995244,
+      "qqq_value": 1.000469,
+      "tqqq_value": 0.994438
     },
     {
       "date": "2026-07-13",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.947078,
+      "qqq_value": 0.981488,
+      "tqqq_value": 0.937783
     },
     {
       "date": "2026-07-14",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.973505,
+      "qqq_value": 0.992449,
+      "tqqq_value": 0.968568
     },
     {
       "date": "2026-07-15",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.967124,
+      "qqq_value": 0.989757,
+      "tqqq_value": 0.961066
     },
     {
       "date": "2026-07-16",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.926202,
+      "qqq_value": 0.973482,
+      "tqqq_value": 0.913207
     },
     {
       "date": "2026-07-17",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.89056,
+      "qqq_value": 0.958863,
+      "tqqq_value": 0.871815
     },
     {
       "date": "2026-07-20",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.891921,
+      "qqq_value": 0.959871,
+      "tqqq_value": 0.873367
     },
     {
       "date": "2026-07-21",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.933591,
+      "qqq_value": 0.977665,
+      "tqqq_value": 0.921356
     },
     {
       "date": "2026-07-22",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.921448,
+      "qqq_value": 0.972681,
+      "tqqq_value": 0.907256
     },
     {
       "date": "2026-07-23",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.87713,
+      "qqq_value": 0.954211,
+      "tqqq_value": 0.855905
     },
     {
       "date": "2026-07-24",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.851367,
+      "qqq_value": 0.943554,
+      "tqqq_value": 0.826284
     },
     {
       "date": "2026-07-27",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.844583,
+      "qqq_value": 0.940641,
+      "tqqq_value": 0.818523
     },
     {
       "date": "2026-07-28",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.823721,
+      "qqq_value": 0.931503,
+      "tqqq_value": 0.794723
     },
     {
       "date": "2026-07-29",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.780442,
+      "qqq_value": 0.912522,
+      "tqqq_value": 0.74557
     },
     {
       "date": "2026-07-30",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.844213,
+      "qqq_value": 0.942615,
+      "tqqq_value": 0.817229
     },
     {
       "date": "2026-07-31",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.859231,
+      "qqq_value": 0.948731,
+      "tqqq_value": 0.834303
     },
     {
       "date": "2026-08-03",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.89695,
+      "qqq_value": 0.965393,
+      "tqqq_value": 0.877377
     },
     {
       "date": "2026-08-04",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.973957,
+      "qqq_value": 0.998192,
+      "tqqq_value": 0.965981
     },
     {
       "date": "2026-08-05",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.952037,
+      "qqq_value": 0.98915,
+      "tqqq_value": 0.94037
     },
     {
       "date": "2026-08-06",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.943213,
+      "qqq_value": 0.985505,
+      "tqqq_value": 0.929893
     },
     {
       "date": "2026-08-07",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.96966,
+      "qqq_value": 0.99706,
+      "tqqq_value": 0.961454
     },
     {
       "date": "2026-08-10",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.96226,
+      "qqq_value": 0.994078,
+      "tqqq_value": 0.952787
     },
     {
       "date": "2026-08-11",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.954057,
+      "qqq_value": 0.990737,
+      "tqqq_value": 0.943216
     },
     {
       "date": "2026-08-12",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.971198,
+      "qqq_value": 0.997985,
+      "tqqq_value": 0.963135
     },
     {
       "date": "2026-08-13",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.999373,
+      "qqq_value": 1.009525,
+      "tqqq_value": 0.99599
     },
     {
       "date": "2026-08-14",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.995446,
+      "qqq_value": 1.008145,
+      "tqqq_value": 0.991334
     },
     {
       "date": "2026-08-17",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.990381,
+      "qqq_value": 1.006488,
+      "tqqq_value": 0.986289
     },
     {
       "date": "2026-08-18",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.940245,
+      "qqq_value": 0.98944,
+      "tqqq_value": 0.93636
     },
     {
       "date": "2026-08-19",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.93414,
+      "qqq_value": 0.987466,
+      "tqqq_value": 0.930281
     },
     {
       "date": "2026-08-20",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.913618,
+      "qqq_value": 0.98037,
+      "tqqq_value": 0.909843
     },
     {
       "date": "2026-08-21",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.92258,
+      "qqq_value": 0.983835,
+      "tqqq_value": 0.918769
     },
     {
       "date": "2026-08-24",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.898857,
+      "qqq_value": 0.974006,
+      "tqqq_value": 0.890958
     },
     {
       "date": "2026-08-25",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.915169,
+      "qqq_value": 0.98008,
+      "tqqq_value": 0.907127
     },
     {
       "date": "2026-08-26",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.917402,
+      "qqq_value": 0.980978,
+      "tqqq_value": 0.909714
     },
     {
       "date": "2026-08-27",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.948793,
+      "qqq_value": 0.994409,
+      "tqqq_value": 0.94632
     },
     {
       "date": "2026-08-28",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.932852,
+      "qqq_value": 0.987949,
+      "tqqq_value": 0.927564
     },
     {
       "date": "2026-08-31",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.933762,
+      "qqq_value": 0.988404,
+      "tqqq_value": 0.92847
     },
     {
       "date": "2026-09-01",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.897858,
+      "qqq_value": 0.975829,
+      "tqqq_value": 0.892769
     },
     {
       "date": "2026-09-02",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.903712,
+      "qqq_value": 0.978037,
+      "tqqq_value": 0.89859
     },
     {
       "date": "2026-09-03",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.930485,
+      "qqq_value": 0.989661,
+      "tqqq_value": 0.929893
     },
     {
       "date": "2026-09-04",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.934281,
+      "qqq_value": 0.991441,
+      "tqqq_value": 0.934291
     },
     {
       "date": "2026-09-08",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.931564,
+      "qqq_value": 0.990613,
+      "tqqq_value": 0.931574
     },
     {
       "date": "2026-09-09",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.923674,
+      "qqq_value": 0.987783,
+      "tqqq_value": 0.923684
     },
     {
       "date": "2026-09-10",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.893536,
+      "qqq_value": 0.977278,
+      "tqqq_value": 0.893545
     },
     {
       "date": "2026-09-11",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.916301,
+      "qqq_value": 0.985823,
+      "tqqq_value": 0.916311
     },
     {
       "date": "2026-09-14",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.897624,
+      "qqq_value": 0.977954,
+      "tqqq_value": 0.894322
     },
     {
       "date": "2026-09-15",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.879838,
+      "qqq_value": 0.971563,
+      "tqqq_value": 0.876601
     },
     {
       "date": "2026-09-16",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.880195,
+      "qqq_value": 0.971812,
+      "tqqq_value": 0.876989
     },
     {
       "date": "2026-09-17",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.918168,
+      "qqq_value": 0.988625,
+      "tqqq_value": 0.921485
     },
     {
       "date": "2026-09-18",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 0.932013,
+      "qqq_value": 0.994879,
+      "tqqq_value": 0.937783
     },
     {
       "date": "2026-09-21",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 1.012488,
+      "qqq_value": 1.02355,
+      "tqqq_value": 1.018756
     },
     {
       "date": "2026-09-22",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 1.037041,
+      "qqq_value": 1.031819,
+      "tqqq_value": 1.043461
     },
     {
       "date": "2026-09-23",
-      "algo13_value": 1.0,
-      "qqq_value": 1.0,
-      "tqqq_value": 1.0
+      "algo13_value": 1.011202,
+      "qqq_value": 1.023191,
+      "tqqq_value": 1.017462
     }
   ],
   "paper_shadow_status": {
@@ -909,19 +903,21 @@
     "note": "This dashboard payload reports V20 no-submit shadow targets and replay evidence only."
   },
   "audit_status": {
-    "generated_at_utc": "2026-09-24T19:47:08.104777+00:00",
-    "generated_at_local": "2026-09-24T15:47:08.104777-04:00",
+    "generated_at_utc": "2026-09-25T07:51:38.729934+00:00",
+    "generated_at_local": "2026-09-25T03:51:38.729934-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-09-23",
-    "expected_completed_daily_date": "2026-09-23",
+    "expected_completed_daily_date": "2026-09-24",
     "signal_date": "2026-09-23",
     "telemetry_current_date": "2026-09-23",
-    "freshness_status": "current",
+    "freshness_status": "stale",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
-    "source_commit": "8e0414dca6f3d5e9459a60b4fec8091d09ee6aad",
+    "source_commit": "c209c5d4abab1119017791e75ce0bcc56b288dd3",
     "source_tree_dirty": false,
-    "warnings": []
+    "warnings": [
+      "V20 context selector telemetry is stale for expected completed daily date 2026-09-24: panel_latest_date=2026-09-23, signal_date=2026-09-23, telemetry_current_date=2026-09-23"
+    ]
   }
 }

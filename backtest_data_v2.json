@@ -1,6 +1,6 @@
 {
   "kpis": {
-    "cagr": 46.11,
+    "cagr": 46.13,
     "max_dd": -33.67,
     "sortino": 1.65
   },
@@ -15754,12 +15754,6 @@
       "algo13_value": 51.994727,
       "qqq_value": 7.096311,
       "tqqq_value": 36.309132
-    },
-    {
-      "date": "2026-06-15",
-      "algo13_value": 51.994727,
-      "qqq_value": 7.319233,
-      "tqqq_value": 36.309132
     }
   ],
   "portfolio_holdings": [
@@ -31512,12 +31506,6 @@
       "weight_tqqq": 0.85,
       "weight_qqq": 0.0,
       "weight_shv": 0.15
-    },
-    {
-      "date": "2026-06-15",
-      "weight_tqqq": 0.85,
-      "weight_qqq": 0.0,
-      "weight_shv": 0.15
     }
   ],
   "export_metadata": {
@@ -31525,14 +31513,15 @@
     "requested_start_date": "2016-01-04",
     "requested_end_date": "2026-06-15",
     "data_start_date": "2016-01-05",
-    "data_end_date": "2026-06-15",
-    "equity_point_count": 2626,
-    "holding_point_count": 2626,
+    "data_end_date": "2026-06-12",
+    "equity_point_count": 2625,
+    "holding_point_count": 2625,
     "cost_bps": 5.0,
     "holding_weight_columns": [
       "TQQQ",
       "QQQ",
       "SHV"
-    ]
+    ],
+    "correction_2026_09_25": "dropped 2026-06-15: exported with the TQQQ bar missing (TQQQ and the algo line forward-filled flat while QQQ rose 3.1%); KPIs recomputed on the remaining curve"
   }
 }

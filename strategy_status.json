@@ -64,6 +64,16 @@
       "evidence_memo": "stock-wizard-algo13-v25 docs/RSI_EXIT_COMBOS_F159.md (registered results: +3.0 pp CAGR 1999-2026, +6.5 pp 2022-2026 vs V4; MaxDD unchanged)",
       "stop_rule": "stock-wizard-algo13-v25 specs/v26_shadow_stop_rule.json: closed if behind V4 after its first 12 RSI exits",
       "telemetry_file": "live_telemetry_v26.json"
+    },
+    {
+      "version": "v27",
+      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
+      "label": "V23+RSI-Exit Paper Shadow (V27)",
+      "status": "paper_shadow",
+      "definition": "V23 (V4 + sticky VXN hold-10 + DBMF in the Mom60 bunker rotation [TLT, GLD, DBMF]) + V26's RSI(10) exit (F163 arm C): while V23 holds TQQQ, TQQQ -> SGOV when TQQQ RSI(10) > 79, back when RSI(10) < 70; V23's exits take precedence; paper only since 2026-09-25",
+      "evidence_memo": "stock-wizard-algo13-v25 docs/V23_V26_COMBO_F163.md (registered results, 5 bps: beats V4, V23 and V26 on CAGR in all windows -- vs V4 +12.0 pp 2022-2026, +15.6 pp 2019-2026, +3.9 pp 1999-2026 proxy; MaxDD better than V4 on 2022-2026 (+2.3 pp) and 2019-2026 (+3.8 pp), 1.2 pp deeper on the 1999-2026 proxy window, driven by the pre-2019 managed-futures stand-in for DBMF; verdict: useful tradeoff, not an advance under the registered bar -- paper shadow authorized separately by James)",
+      "stop_rule": "stock-wizard-algo13-v25 specs/v27_shadow_stop_rule.json: closed if behind V4 after its first 12 RSI exits (primary); the same comparison vs V23 is reported alongside",
+      "telemetry_file": "live_telemetry_v27.json"
     }
   ],
   "promotion_policy": {

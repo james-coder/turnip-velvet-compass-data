@@ -1,0 +1,86 @@
+{
+  "live_kpis": {
+    "deployment_date": "2026-09-24",
+    "current_date": "2026-09-24",
+    "deployment_value": 1.0,
+    "current_value": 1.0,
+    "oos_return_pct": 0.0,
+    "trading_days": 1
+  },
+  "current_state": {
+    "date": "2026-09-24",
+    "rule_name": "algo13_v26_rsi_exit_shadow",
+    "weights": {
+      "QQQ": 0.0,
+      "TQQQ": 1.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0
+    },
+    "qqq_value": 1.0,
+    "tqqq_value": 1.0,
+    "weight_cash": 0.0,
+    "v4_state": "Bull Overdrive",
+    "v4_tqqq_target": 1.0,
+    "v26_rsi10": 65.63325269575859,
+    "v26_exit_active": false,
+    "v26_event": "",
+    "v26_days_since_trigger": 80,
+    "v4_paper_value": 1.0,
+    "v26_vs_v4_pct": 0.0,
+    "row_backfilled": false
+  },
+  "recent_activity": [
+    {
+      "date": "2026-09-24",
+      "rule_name": "algo13_v26_rsi_exit_shadow",
+      "portfolio_return": 0.0,
+      "algo13_value": 1.0,
+      "qqq_value": 1.0,
+      "tqqq_value": 1.0,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v4_state": "Bull Overdrive",
+      "v4_tqqq_target": 1.0,
+      "v26_rsi10": 65.63325269575859,
+      "v26_exit_active": false,
+      "v26_event": "",
+      "v26_days_since_trigger": 80,
+      "v4_paper_value": 1.0,
+      "v26_vs_v4_pct": 0.0,
+      "row_backfilled": false
+    }
+  ],
+  "live_equity_curve": [
+    {
+      "date": "2026-09-24",
+      "algo13_value": 1.0,
+      "qqq_value": 1.0,
+      "tqqq_value": 1.0
+    }
+  ],
+  "live_curve_metadata": {
+    "algo_line": "V26 paper ledger v26_ret: target decided at close t, executed at close t+1, marked at daily closes, net of 5 bps switch costs (trading/v26_rsi_exit.py)",
+    "represents_account_nav": false,
+    "execution_clock": "next_session",
+    "benchmark_anchor": {
+      "base_date": "2016-01-04",
+      "date": "2026-09-24",
+      "qqq_value": 7.325294,
+      "tqqq_value": 37.048562
+    }
+  },
+  "v26_stop_rule": {
+    "episodes_so_far": 0,
+    "episodes_needed": 12,
+    "evaluable": false,
+    "evaluated_through": null,
+    "v26_minus_v4_pp_first_episodes": null,
+    "note": "not yet evaluable",
+    "rule": "closed if V26 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25)"
+  }
+}

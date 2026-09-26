@@ -67,6 +67,7 @@
     "algo_line": "V26 paper ledger v26_ret: target decided at close t, executed at close t+1, marked at daily closes, net of 5 bps switch costs (trading/v26_rsi_exit.py)",
     "represents_account_nav": false,
     "execution_clock": "next_session",
+    "held_weights": "per live_equity_curve date: the sleeve weights held over that session (the ones that earn its close-to-close return; zero sleeves omitted, any unallocated remainder shown as weight_cash, which earns 0); absent where they are not in the source (nothing held yet on the first curve date)",
     "benchmark_anchor": {
       "base_date": "2016-01-04",
       "date": "2026-09-24",

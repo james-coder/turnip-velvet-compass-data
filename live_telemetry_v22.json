@@ -819,5 +819,29 @@
       "qqq_value": 7.149649,
       "tqqq_value": 36.322489
     }
+  },
+  "planned": {
+    "status": "planned",
+    "session_date": "2026-09-28",
+    "computed_at": "2026-09-28T09:50:18-04:00",
+    "data_through": "2026-09-25",
+    "clock": "next_session",
+    "target_weights": {
+      "GLD": 0.0851,
+      "IEF": 0.0,
+      "SGOV": 0.0,
+      "SHV": 0.0,
+      "TQQQ": 0.9149
+    },
+    "held_weights": {
+      "GLD": 0.0828,
+      "IEF": 0.0,
+      "SGOV": 0.0,
+      "SHV": 0.0,
+      "TQQQ": 0.9172
+    },
+    "held_as_of": "2026-09-24",
+    "expected_change": true,
+    "state": "ml"
   }
 }

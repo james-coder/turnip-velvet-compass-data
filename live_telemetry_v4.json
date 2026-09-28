@@ -1486,5 +1486,31 @@
     "warnings": [
       "V4 telemetry is stale for expected completed daily date 2026-09-25: panel_latest_date=2026-09-24, signal_date=2026-09-24, telemetry_current_date=2026-09-24"
     ]
+  },
+  "planned": {
+    "status": "planned",
+    "session_date": "2026-09-28",
+    "computed_at": "2026-09-28T09:50:18-04:00",
+    "data_through": "2026-09-25",
+    "clock": "next_session",
+    "target_weights": {
+      "CASH": 0.0,
+      "GLD": 0.0,
+      "QQQ": 0.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "TQQQ": 1.0
+    },
+    "held_weights": {
+      "CASH": 0.0,
+      "GLD": 0.0,
+      "QQQ": 0.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "TQQQ": 1.0
+    },
+    "held_as_of": "2026-09-24",
+    "expected_change": false,
+    "state": "Bull Overdrive"
   }
 }

@@ -146,10 +146,10 @@
     "rule": "closed if V26 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25)"
   },
   "planned": {
-    "status": "executed",
-    "session_date": "2026-09-29",
-    "computed_at": "2026-09-29T09:50:17-04:00",
-    "data_through": "2026-09-28",
+    "status": "planned",
+    "session_date": "2026-09-30",
+    "computed_at": "2026-09-30T09:50:21-04:00",
+    "data_through": "2026-09-29",
     "clock": "next_session",
     "target_weights": {
       "CASH": 0.0,
@@ -167,18 +167,8 @@
       "TLT": 0.0,
       "TQQQ": 1.0
     },
-    "held_as_of": "2026-09-25",
+    "held_as_of": "2026-09-28",
     "expected_change": false,
-    "state": "Bull Overdrive",
-    "executed_weights": {
-      "QQQ": 0.0,
-      "TQQQ": 1.0,
-      "SGOV": 0.0,
-      "TLT": 0.0,
-      "GLD": 0.0,
-      "CASH": 0.0
-    },
-    "matches_planned": true,
-    "max_abs_diff": 0.0
+    "state": "Bull Overdrive"
   }
 }

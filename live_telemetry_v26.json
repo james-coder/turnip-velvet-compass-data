@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-09-24",
-    "current_date": "2026-09-30",
+    "current_date": "2026-10-01",
     "deployment_value": 1.0,
-    "current_value": 0.993001,
-    "oos_return_pct": -0.7,
-    "trading_days": 5
+    "current_value": 1.001909,
+    "oos_return_pct": 0.19,
+    "trading_days": 6
   },
   "current_state": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "rule_name": "algo13_v26_rsi_exit_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -17,16 +17,16 @@
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 0.998205,
-    "tqqq_value": 0.993001,
+    "qqq_value": 1.001255,
+    "tqqq_value": 1.001909,
     "weight_cash": 0.0,
     "v4_state": "Bull Overdrive",
     "v4_tqqq_target": 1.0,
-    "v26_rsi10": 60.59487169998356,
+    "v26_rsi10": 62.48074347002595,
     "v26_exit_active": false,
     "v26_event": "",
-    "v26_days_since_trigger": 84,
-    "v4_paper_value": 0.993000763553067,
+    "v26_days_since_trigger": 85,
+    "v4_paper_value": 1.0019088826673457,
     "v26_vs_v4_pct": 0.0,
     "row_backfilled": false
   },
@@ -145,6 +145,29 @@
       "v4_paper_value": 0.993000763553067,
       "v26_vs_v4_pct": 0.0,
       "row_backfilled": false
+    },
+    {
+      "date": "2026-10-01",
+      "rule_name": "algo13_v26_rsi_exit_shadow",
+      "portfolio_return": 0.008971,
+      "algo13_value": 1.001909,
+      "qqq_value": 1.001255,
+      "tqqq_value": 1.001909,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v4_state": "Bull Overdrive",
+      "v4_tqqq_target": 1.0,
+      "v26_rsi10": 62.48074347002595,
+      "v26_exit_active": false,
+      "v26_event": "",
+      "v26_days_since_trigger": 85,
+      "v4_paper_value": 1.0019088826673457,
+      "v26_vs_v4_pct": 0.0,
+      "row_backfilled": false
     }
   ],
   "live_equity_curve": [
@@ -186,6 +209,15 @@
       "held_weights": {
         "weight_tqqq": 1.0
       }
+    },
+    {
+      "date": "2026-10-01",
+      "algo13_value": 1.001909,
+      "qqq_value": 1.001255,
+      "tqqq_value": 1.001909,
+      "held_weights": {
+        "weight_tqqq": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -210,7 +242,7 @@
     "rule": "closed if V26 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25)"
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-02",
     "computed_at": "2026-10-02T09:50:23-04:00",
     "data_through": "2026-10-01",
@@ -233,6 +265,16 @@
     },
     "held_as_of": "2026-09-30",
     "expected_change": false,
-    "state": "Bull Overdrive"
+    "state": "Bull Overdrive",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 1.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

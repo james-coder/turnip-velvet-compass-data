@@ -861,38 +861,27 @@
     }
   },
   "planned": {
-    "status": "executed",
-    "session_date": "2026-10-01",
-    "computed_at": "2026-10-01T09:50:23-04:00",
-    "data_through": "2026-09-30",
+    "status": "planned",
+    "session_date": "2026-10-02",
+    "computed_at": "2026-10-02T09:50:23-04:00",
+    "data_through": "2026-10-01",
     "clock": "next_session",
     "target_weights": {
+      "GLD": 0.0,
+      "IEF": 0.0,
+      "SGOV": 0.0,
+      "SHV": 0.0,
+      "TQQQ": 1.0
+    },
+    "held_weights": {
       "GLD": 0.1203,
       "IEF": 0.0,
       "SGOV": 0.0,
       "SHV": 0.0,
       "TQQQ": 0.8797
     },
-    "held_weights": {
-      "GLD": 0.0,
-      "IEF": 0.0,
-      "SGOV": 0.1391,
-      "SHV": 0.0,
-      "TQQQ": 0.8609
-    },
-    "held_as_of": "2026-09-29",
+    "held_as_of": "2026-09-30",
     "expected_change": true,
-    "state": "ml",
-    "executed_weights": {
-      "QQQ": 0.0,
-      "TQQQ": 0.8797,
-      "SGOV": 0.0,
-      "GLD": 0.1203,
-      "IEF": 0.0,
-      "SHV": 0.0,
-      "CASH": 0.0
-    },
-    "matches_planned": true,
-    "max_abs_diff": 0.0
+    "state": "ml"
   }
 }

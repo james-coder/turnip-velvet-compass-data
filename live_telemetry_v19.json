@@ -1750,10 +1750,10 @@
     "live_shadow_min_rebalances": 10
   },
   "planned": {
-    "status": "executed",
-    "session_date": "2026-10-05",
-    "computed_at": "2026-10-05T09:50:25-04:00",
-    "data_through": "2026-10-02",
+    "status": "planned",
+    "session_date": "2026-10-06",
+    "computed_at": "2026-10-06T09:50:25-04:00",
+    "data_through": "2026-10-05",
     "clock": "next_session",
     "target_weights": {
       "CASH": 0.0,
@@ -1773,19 +1773,8 @@
       "TLT": 0.0,
       "TQQQ": 1.0
     },
-    "held_as_of": "2026-10-01",
+    "held_as_of": "2026-10-02",
     "expected_change": false,
-    "state": "Bull Overdrive",
-    "executed_weights": {
-      "QQQ": 0.0,
-      "TQQQ": 1.0,
-      "SGOV": 0.0,
-      "TLT": 0.0,
-      "GLD": 0.0,
-      "QID": 0.0,
-      "CASH": 0.0
-    },
-    "matches_planned": true,
-    "max_abs_diff": 0.0
+    "state": "Bull Overdrive"
   }
 }

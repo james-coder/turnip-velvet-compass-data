@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-07-02",
-    "current_date": "2026-10-07",
+    "current_date": "2026-10-08",
     "deployment_value": 1.0,
-    "current_value": 1.119571,
-    "oos_return_pct": 11.96,
-    "trading_days": 68
+    "current_value": 1.074183,
+    "oos_return_pct": 7.42,
+    "trading_days": 69
   },
   "current_state": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "rule_name": "algo13_v23_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -18,8 +18,8 @@
       "GLD": 0.0,
       "DBMF": 0.0
     },
-    "qqq_value": 1.064437,
-    "tqqq_value": 1.142194,
+    "qqq_value": 1.050178,
+    "tqqq_value": 1.095889,
     "weight_cash": 0.0,
     "v3_state": null,
     "v4_state": "Bull Overdrive",
@@ -27,62 +27,25 @@
     "vxn_brake": false,
     "credit_ok": true,
     "bunker_pick": "NONE",
-    "hy_oas_z": 0.2949848644160911,
-    "vxn_upper_band": 25.176340599692487,
-    "rv10": 0.089003984367724,
-    "ret10": 0.0222878806276223,
+    "hy_oas_z": 0.4877081068279891,
+    "vxn_upper_band": 24.358841296134504,
+    "rv10": 0.1161227154673741,
+    "ret10": 0.0087437592767507,
     "standard_target_vol": 0.25,
     "overdrive_target_vol": 0.35,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.0016540997664477,
+    "zombie_sgov_rv21": 0.0016541791758193,
     "shock_guard_enabled": true,
     "shock_trigger": false,
     "shock_cooldown_active": false,
     "shock_action": "target",
-    "shock_strategy_return": -0.0074777448071216,
+    "shock_strategy_return": -0.0405405405405405,
     "shock_target_tqqq": 1.0,
     "weight_dbmf": 0.0,
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-09-24",
-      "rule_name": "algo13_v23_shadow",
-      "portfolio_return": -0.001017,
-      "algo13_value": 1.052092,
-      "qqq_value": 1.041075,
-      "tqqq_value": 1.073351,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 1.0,
-      "weight_sgov": 0.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_dbmf": 0.0,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "v4_state": "Bull Overdrive",
-      "dist_brake": false,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "bunker_pick": "NONE",
-      "hy_oas_z": -0.6736764008213725,
-      "vxn_upper_band": 27.77772143331672,
-      "rv10": 0.1790259553079209,
-      "ret10": 0.0468253407726533,
-      "standard_target_vol": 0.25,
-      "overdrive_target_vol": 0.35,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0016525269821345,
-      "shock_guard_enabled": true,
-      "shock_trigger": false,
-      "shock_cooldown_active": false,
-      "shock_action": "target",
-      "shock_strategy_return": -0.0010170353419781,
-      "shock_target_tqqq": 1.0,
-      "row_source": "live"
-    },
     {
       "date": "2026-09-25",
       "rule_name": "algo13_v23_shadow",
@@ -413,6 +376,43 @@
       "shock_cooldown_active": false,
       "shock_action": "target",
       "shock_strategy_return": -0.0074777448071216,
+      "shock_target_tqqq": 1.0,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-10-08",
+      "rule_name": "algo13_v23_shadow",
+      "portfolio_return": -0.040541,
+      "algo13_value": 1.074183,
+      "qqq_value": 1.050178,
+      "tqqq_value": 1.095889,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_dbmf": 0.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "v4_state": "Bull Overdrive",
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "bunker_pick": "NONE",
+      "hy_oas_z": 0.4877081068279891,
+      "vxn_upper_band": 24.358841296134504,
+      "rv10": 0.1161227154673741,
+      "ret10": 0.0087437592767507,
+      "standard_target_vol": 0.25,
+      "overdrive_target_vol": 0.35,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.0016541791758193,
+      "shock_guard_enabled": true,
+      "shock_trigger": false,
+      "shock_cooldown_active": false,
+      "shock_action": "target",
+      "shock_strategy_return": -0.0405405405405405,
       "shock_target_tqqq": 1.0,
       "row_source": "live"
     }
@@ -1066,6 +1066,15 @@
       "held_weights": {
         "weight_tqqq": 1.0
       }
+    },
+    {
+      "date": "2026-10-08",
+      "algo13_value": 1.074183,
+      "qqq_value": 1.050178,
+      "tqqq_value": 1.095889,
+      "held_weights": {
+        "weight_tqqq": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -1097,26 +1106,26 @@
     "sleeves": {
       "TLT": {
         "available": true,
-        "asof": "2026-10-07",
-        "mom60": -0.071549,
+        "asof": "2026-10-08",
+        "mom60": -0.064625,
         "trend_ok": false
       },
       "GLD": {
         "available": true,
-        "asof": "2026-10-07",
-        "mom60": 0.010023,
+        "asof": "2026-10-08",
+        "mom60": 0.016839,
         "trend_ok": false
       },
       "DBMF": {
         "available": true,
-        "asof": "2026-10-07",
-        "mom60": 0.07092,
+        "asof": "2026-10-08",
+        "mom60": 0.066775,
         "trend_ok": true
       },
       "KMLM": {
         "available": true,
-        "asof": "2026-10-07",
-        "mom60": 0.090594,
+        "asof": "2026-10-08",
+        "mom60": 0.086715,
         "trend_ok": true
       }
     },
@@ -1124,7 +1133,7 @@
     "note": ""
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-09",
     "computed_at": "2026-10-09T09:50:30-04:00",
     "data_through": "2026-10-08",
@@ -1149,6 +1158,17 @@
     },
     "held_as_of": "2026-10-07",
     "expected_change": false,
-    "state": "Bull Overdrive"
+    "state": "Bull Overdrive",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 1.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "DBMF": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

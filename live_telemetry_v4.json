@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-04-21",
-    "current_date": "2026-10-08",
+    "current_date": "2026-10-09",
     "deployment_value": 1.0,
-    "current_value": 1.449641,
-    "oos_return_pct": 44.96,
-    "trading_days": 119
+    "current_value": 1.468613,
+    "oos_return_pct": 46.86,
+    "trading_days": 120
   },
   "current_state": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "rule_name": "algo13_v4_master",
     "weights": {
       "QQQ": 0.0,
@@ -17,8 +17,8 @@
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 1.162734,
-    "tqqq_value": 1.403604,
+    "qqq_value": 1.168473,
+    "tqqq_value": 1.421973,
     "weight_cash": 0.0,
     "v3_state": null,
     "v4_state": "Bull Overdrive",
@@ -26,60 +26,24 @@
     "vxn_brake": false,
     "credit_ok": true,
     "bunker_pick": "NONE",
-    "hy_oas_z": 0.4877081068279891,
-    "vxn_upper_band": 24.358841296134504,
-    "rv10": 0.1161227154673741,
-    "ret10": 0.0087437592767507,
+    "hy_oas_z": 0.6797056322017956,
+    "vxn_upper_band": 23.91615165988066,
+    "rv10": 0.1164129789332904,
+    "ret10": 0.0090933512424444,
     "standard_target_vol": 0.25,
     "overdrive_target_vol": 0.35,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.0016541791758193,
+    "zombie_sgov_rv21": 0.001714888652386,
     "shock_guard_enabled": true,
     "shock_trigger": false,
     "shock_cooldown_active": false,
     "shock_action": "target",
-    "shock_strategy_return": -0.0405405405405405,
+    "shock_strategy_return": 0.013087373800324,
     "shock_target_tqqq": 1.0,
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-09-25",
-      "rule_name": "algo13_v4_master",
-      "portfolio_return": 0.01298,
-      "algo13_value": 1.438258,
-      "qqq_value": 1.157944,
-      "tqqq_value": 1.392582,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 1.0,
-      "weight_sgov": 0.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "v4_state": "Bull Overdrive",
-      "dist_brake": false,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "bunker_pick": "NONE",
-      "hy_oas_z": -0.4469585532483199,
-      "vxn_upper_band": 27.590575928414992,
-      "rv10": 0.1777203297635426,
-      "ret10": 0.0425126725852074,
-      "standard_target_vol": 0.25,
-      "overdrive_target_vol": 0.35,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0016525269821345,
-      "shock_guard_enabled": true,
-      "shock_trigger": false,
-      "shock_cooldown_active": false,
-      "shock_action": "target",
-      "shock_strategy_return": 0.0129804021379484,
-      "shock_target_tqqq": 1.0,
-      "row_source": "live"
-    },
     {
       "date": "2026-09-28",
       "rule_name": "algo13_v4_master",
@@ -401,6 +365,42 @@
       "shock_cooldown_active": false,
       "shock_action": "target",
       "shock_strategy_return": -0.0405405405405405,
+      "shock_target_tqqq": 1.0,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-10-09",
+      "rule_name": "algo13_v4_master",
+      "portfolio_return": 0.013087,
+      "algo13_value": 1.468613,
+      "qqq_value": 1.168473,
+      "tqqq_value": 1.421973,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 1.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "v4_state": "Bull Overdrive",
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "bunker_pick": "NONE",
+      "hy_oas_z": 0.6797056322017956,
+      "vxn_upper_band": 23.91615165988066,
+      "rv10": 0.1164129789332904,
+      "ret10": 0.0090933512424444,
+      "standard_target_vol": 0.25,
+      "overdrive_target_vol": 0.35,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.001714888652386,
+      "shock_guard_enabled": true,
+      "shock_trigger": false,
+      "shock_cooldown_active": false,
+      "shock_action": "target",
+      "shock_strategy_return": 0.013087373800324,
       "shock_target_tqqq": 1.0,
       "row_source": "live"
     }
@@ -1527,6 +1527,15 @@
       "held_weights": {
         "weight_tqqq": 1.0
       }
+    },
+    {
+      "date": "2026-10-09",
+      "algo13_value": 1.468613,
+      "qqq_value": 1.168473,
+      "tqqq_value": 1.421973,
+      "held_weights": {
+        "weight_tqqq": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -1560,14 +1569,14 @@
     }
   },
   "audit_status": {
-    "generated_at_utc": "2026-10-09T19:46:39.412576+00:00",
-    "generated_at_local": "2026-10-09T15:46:39.412576-04:00",
+    "generated_at_utc": "2026-10-12T19:46:57.159936+00:00",
+    "generated_at_local": "2026-10-12T15:46:57.159936-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
-    "panel_latest_date": "2026-10-08",
-    "expected_completed_daily_date": "2026-10-08",
-    "signal_date": "2026-10-08",
-    "telemetry_current_date": "2026-10-08",
+    "panel_latest_date": "2026-10-09",
+    "expected_completed_daily_date": "2026-10-09",
+    "signal_date": "2026-10-09",
+    "telemetry_current_date": "2026-10-09",
     "freshness_status": "current",
     "causality_status": "prior_weight_verified",
     "weights_sum": 1.0,
@@ -1576,7 +1585,7 @@
     "warnings": []
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-12",
     "computed_at": "2026-10-12T09:50:17-04:00",
     "data_through": "2026-10-09",
@@ -1599,6 +1608,16 @@
     },
     "held_as_of": "2026-10-08",
     "expected_change": false,
-    "state": "Bull Overdrive"
+    "state": "Bull Overdrive",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 1.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

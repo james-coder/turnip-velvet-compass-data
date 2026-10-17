@@ -1621,18 +1621,18 @@
     "warnings": []
   },
   "planned": {
-    "status": "executed",
-    "session_date": "2026-10-16",
-    "computed_at": "2026-10-16T09:50:25-04:00",
-    "data_through": "2026-10-15",
+    "status": "planned",
+    "session_date": "2026-10-19",
+    "computed_at": "2026-10-17T18:06:05-04:00",
+    "data_through": "2026-10-16",
     "clock": "next_session",
     "target_weights": {
       "CASH": 0.0,
       "GLD": 0.0,
       "QQQ": 0.0,
-      "SGOV": 0.0,
+      "SGOV": 0.15,
       "TLT": 0.0,
-      "TQQQ": 1.0
+      "TQQQ": 0.85
     },
     "held_weights": {
       "CASH": 0.0,
@@ -1642,18 +1642,8 @@
       "TLT": 0.0,
       "TQQQ": 1.0
     },
-    "held_as_of": "2026-10-14",
-    "expected_change": false,
-    "state": "Bull Overdrive",
-    "executed_weights": {
-      "QQQ": 0.0,
-      "TQQQ": 1.0,
-      "SGOV": 0.0,
-      "TLT": 0.0,
-      "GLD": 0.0,
-      "CASH": 0.0
-    },
-    "matches_planned": true,
-    "max_abs_diff": 0.0
+    "held_as_of": "2026-10-15",
+    "expected_change": true,
+    "state": "Standard Production"
   }
 }

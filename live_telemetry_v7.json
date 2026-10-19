@@ -6,9 +6,9 @@
     "reason": "shadow_log_missing",
     "detail": "V7 shadow live_log.csv is unavailable. The shadow runner did not emit a fresh V7 signal, so dashboard clients should show V7 as backtest-only.",
     "log_path": "models/experiments/algo13_v7_ml_overlay_trial42_shadow/live_log.csv",
-    "generated_at_utc": "2026-10-16T19:46:55.171725+00:00",
-    "generated_at_local": "2026-10-16T15:46:55.171725-04:00",
-    "source_commit": "ba34b8f0ce1dcbf78c7609197f909343e6ff1f2e",
+    "generated_at_utc": "2026-10-19T20:06:02.999038+00:00",
+    "generated_at_local": "2026-10-19T16:06:02.999038-04:00",
+    "source_commit": "e8ab0e163b8abfff802eff4a11f54368b250812c",
     "source_tree_dirty": false
   },
   "live_kpis": null,

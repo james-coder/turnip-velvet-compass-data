@@ -1,59 +1,36 @@
 {
   "live_kpis": {
     "deployment_date": "2026-09-24",
-    "current_date": "2026-10-15",
+    "current_date": "2026-10-16",
     "deployment_value": 1.0,
-    "current_value": 0.939425,
-    "oos_return_pct": -6.06,
-    "trading_days": 16
+    "current_value": 0.868033,
+    "oos_return_pct": -13.2,
+    "trading_days": 17
   },
   "current_state": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "rule_name": "algo13_v26_rsi_exit_shadow",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 1.0,
-      "SGOV": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 0.982324,
-    "tqqq_value": 0.939425,
+    "qqq_value": 0.957765,
+    "tqqq_value": 0.868033,
     "weight_cash": 0.0,
-    "v4_state": "Bull Overdrive",
-    "v4_tqqq_target": 1.0,
-    "v26_rsi10": 36.85282253374782,
+    "v4_state": "Standard Production",
+    "v4_tqqq_target": 0.85,
+    "v26_rsi10": 26.89860303571602,
     "v26_exit_active": false,
     "v26_event": "",
-    "v26_days_since_trigger": 95,
-    "v4_paper_value": 0.9394247900229064,
+    "v26_days_since_trigger": 96,
+    "v4_paper_value": 0.8680325782641892,
     "v26_vs_v4_pct": 0.0,
     "row_backfilled": false
   },
   "recent_activity": [
-    {
-      "date": "2026-10-02",
-      "rule_name": "algo13_v26_rsi_exit_shadow",
-      "portfolio_return": 0.02896,
-      "algo13_value": 1.030924,
-      "qqq_value": 1.011442,
-      "tqqq_value": 1.030924,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 1.0,
-      "weight_sgov": 0.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_cash": 0.0,
-      "v4_state": "Bull Overdrive",
-      "v4_tqqq_target": 1.0,
-      "v26_rsi10": 68.0197900983947,
-      "v26_exit_active": false,
-      "v26_event": "",
-      "v26_days_since_trigger": 86,
-      "v4_paper_value": 1.0309238992109953,
-      "v26_vs_v4_pct": 0.0,
-      "row_backfilled": false
-    },
     {
       "date": "2026-10-05",
       "rule_name": "algo13_v26_rsi_exit_shadow",
@@ -260,6 +237,29 @@
       "v4_paper_value": 0.9394247900229064,
       "v26_vs_v4_pct": 0.0,
       "row_backfilled": false
+    },
+    {
+      "date": "2026-10-16",
+      "rule_name": "algo13_v26_rsi_exit_shadow",
+      "portfolio_return": -0.075996,
+      "algo13_value": 0.868033,
+      "qqq_value": 0.957765,
+      "tqqq_value": 0.868033,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v4_state": "Standard Production",
+      "v4_tqqq_target": 0.85,
+      "v26_rsi10": 26.89860303571602,
+      "v26_exit_active": false,
+      "v26_event": "",
+      "v26_days_since_trigger": 96,
+      "v4_paper_value": 0.8680325782641892,
+      "v26_vs_v4_pct": 0.0,
+      "row_backfilled": false
     }
   ],
   "live_equity_curve": [
@@ -400,6 +400,15 @@
       "held_weights": {
         "weight_tqqq": 1.0
       }
+    },
+    {
+      "date": "2026-10-16",
+      "algo13_value": 0.868033,
+      "qqq_value": 0.957765,
+      "tqqq_value": 0.868033,
+      "held_weights": {
+        "weight_tqqq": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -424,7 +433,7 @@
     "rule": "closed if V26 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25)"
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-19",
     "computed_at": "2026-10-19T09:50:20-04:00",
     "data_through": "2026-10-16",
@@ -447,6 +456,16 @@
     },
     "held_as_of": "2026-10-15",
     "expected_change": true,
-    "state": "Standard Production"
+    "state": "Standard Production",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

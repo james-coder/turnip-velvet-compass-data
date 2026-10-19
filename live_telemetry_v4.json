@@ -1623,7 +1623,7 @@
   "planned": {
     "status": "planned",
     "session_date": "2026-10-19",
-    "computed_at": "2026-10-17T18:06:05-04:00",
+    "computed_at": "2026-10-19T09:50:20-04:00",
     "data_through": "2026-10-16",
     "clock": "next_session",
     "target_weights": {

@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-04-21",
-    "current_date": "2026-10-16",
+    "current_date": "2026-10-19",
     "deployment_value": 1.0,
-    "current_value": 1.232457,
-    "oos_return_pct": 23.25,
-    "trading_days": 125
+    "current_value": 1.276364,
+    "oos_return_pct": 27.64,
+    "trading_days": 126
   },
   "current_state": {
-    "date": "2026-10-16",
+    "date": "2026-10-19",
     "rule_name": "algo13_v4_master",
     "weights": {
       "QQQ": 0.0,
@@ -17,8 +17,8 @@
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 1.103974,
-    "tqqq_value": 1.193317,
+    "qqq_value": 1.117288,
+    "tqqq_value": 1.235829,
     "weight_cash": 0.0,
     "v3_state": null,
     "v4_state": "Standard Production",
@@ -26,60 +26,24 @@
     "vxn_brake": true,
     "credit_ok": true,
     "bunker_pick": "NONE",
-    "hy_oas_z": 0.9271979713856578,
-    "vxn_upper_band": 23.49882722758621,
-    "rv10": 0.165896348700726,
-    "ret10": -0.053069719042664,
-    "standard_target_vol": 0.236732570239334,
-    "overdrive_target_vol": 0.3314255983350676,
+    "hy_oas_z": 1.179909473266464,
+    "vxn_upper_band": 23.71395472391206,
+    "rv10": 0.1734088450948299,
+    "ret10": -0.0500396720444327,
+    "standard_target_vol": 0.2374900819888918,
+    "overdrive_target_vol": 0.3324861147844485,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.001925852598902,
+    "zombie_sgov_rv21": 0.0021023352905333,
     "shock_guard_enabled": true,
     "shock_trigger": false,
     "shock_cooldown_active": false,
     "shock_action": "target",
-    "shock_strategy_return": -0.0759956651314006,
+    "shock_strategy_return": 0.0302814836534232,
     "shock_target_tqqq": 0.85,
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-10-05",
-      "rule_name": "algo13_v4_master",
-      "portfolio_return": 0.026046,
-      "algo13_value": 1.501859,
-      "qqq_value": 1.176141,
-      "tqqq_value": 1.454164,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 1.0,
-      "weight_sgov": 0.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "v4_state": "Bull Overdrive",
-      "dist_brake": false,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "bunker_pick": "NONE",
-      "hy_oas_z": 0.5205026271023733,
-      "vxn_upper_band": 26.00595822093712,
-      "rv10": 0.1043270185376558,
-      "ret10": 0.0198659419801205,
-      "standard_target_vol": 0.25,
-      "overdrive_target_vol": 0.35,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0018679661583103,
-      "shock_guard_enabled": true,
-      "shock_trigger": false,
-      "shock_cooldown_active": false,
-      "shock_action": "target",
-      "shock_strategy_return": 0.0260461671398593,
-      "shock_target_tqqq": 1.0,
-      "row_source": "live"
-    },
     {
       "date": "2026-10-06",
       "rule_name": "algo13_v4_master",
@@ -401,6 +365,42 @@
       "shock_cooldown_active": false,
       "shock_action": "target",
       "shock_strategy_return": -0.0759956651314006,
+      "shock_target_tqqq": 0.85,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-10-19",
+      "rule_name": "algo13_v4_master",
+      "portfolio_return": 0.035625,
+      "algo13_value": 1.276364,
+      "qqq_value": 1.117288,
+      "tqqq_value": 1.235829,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "v4_state": "Standard Production",
+      "dist_brake": true,
+      "vxn_brake": true,
+      "credit_ok": true,
+      "bunker_pick": "NONE",
+      "hy_oas_z": 1.179909473266464,
+      "vxn_upper_band": 23.71395472391206,
+      "rv10": 0.1734088450948299,
+      "ret10": -0.0500396720444327,
+      "standard_target_vol": 0.2374900819888918,
+      "overdrive_target_vol": 0.3324861147844485,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.0021023352905333,
+      "shock_guard_enabled": true,
+      "shock_trigger": false,
+      "shock_cooldown_active": false,
+      "shock_action": "target",
+      "shock_strategy_return": 0.0302814836534232,
       "shock_target_tqqq": 0.85,
       "row_source": "live"
     }
@@ -1581,6 +1581,15 @@
       "held_weights": {
         "weight_tqqq": 1.0
       }
+    },
+    {
+      "date": "2026-10-19",
+      "algo13_value": 1.276364,
+      "qqq_value": 1.117288,
+      "tqqq_value": 1.235829,
+      "held_weights": {
+        "weight_tqqq": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -1614,23 +1623,25 @@
     }
   },
   "audit_status": {
-    "generated_at_utc": "2026-10-19T20:05:50.716312+00:00",
-    "generated_at_local": "2026-10-19T16:05:50.716312-04:00",
+    "generated_at_utc": "2026-10-20T19:55:23.895430+00:00",
+    "generated_at_local": "2026-10-20T15:55:23.895430-04:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
-    "panel_latest_date": "2026-10-16",
-    "expected_completed_daily_date": "2026-10-16",
-    "signal_date": "2026-10-16",
-    "telemetry_current_date": "2026-10-16",
+    "panel_latest_date": "2026-10-19",
+    "expected_completed_daily_date": "2026-10-19",
+    "signal_date": "2026-10-19",
+    "telemetry_current_date": "2026-10-19",
     "freshness_status": "current",
-    "causality_status": "prior_weight_verified",
+    "causality_status": "unknown",
     "weights_sum": 1.0,
     "source_commit": "e8ab0e163b8abfff802eff4a11f54368b250812c",
     "source_tree_dirty": false,
-    "warnings": []
+    "warnings": [
+      "Latest V4 portfolio-return causality could not be fully verified."
+    ]
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-20",
     "computed_at": "2026-10-20T09:50:18-04:00",
     "data_through": "2026-10-19",
@@ -1653,6 +1664,16 @@
     },
     "held_as_of": "2026-10-16",
     "expected_change": false,
-    "state": "Standard Production"
+    "state": "Standard Production",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

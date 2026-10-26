@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-09-24",
-    "current_date": "2026-10-22",
+    "current_date": "2026-10-23",
     "deployment_value": 1.0,
-    "current_value": 0.853502,
-    "oos_return_pct": -14.65,
-    "trading_days": 21
+    "current_value": 0.852133,
+    "oos_return_pct": -14.79,
+    "trading_days": 22
   },
   "current_state": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "rule_name": "algo13_v27_v23_rsi_exit_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -18,51 +18,24 @@
       "GLD": 0.0,
       "DBMF": 0.0
     },
-    "qqq_value": 0.950573,
-    "tqqq_value": 0.845253,
+    "qqq_value": 0.950479,
+    "tqqq_value": 0.843599,
     "weight_dbmf": 0.0,
     "weight_cash": 0.0,
     "v4_state": "Standard Production",
     "bunker_pick": "NONE",
     "v23_tqqq_target": 0.85,
-    "v27_rsi10": 31.222983051245365,
+    "v27_rsi10": 31.034273542177857,
     "v27_exit_active": false,
     "v27_event": "",
     "v27_days_since_trigger": null,
-    "v4_paper_value": 0.853501570052015,
-    "v23_paper_value": 0.853501570052015,
+    "v4_paper_value": 0.8521325319970283,
+    "v23_paper_value": 0.8521325319970283,
     "v27_vs_v4_pct": 0.0,
     "v27_vs_v23_pct": 0.0,
     "row_backfilled": false
   },
   "recent_activity": [
-    {
-      "date": "2026-10-09",
-      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
-      "portfolio_return": 0.013087,
-      "algo13_value": 1.03436,
-      "qqq_value": 1.013723,
-      "tqqq_value": 1.03436,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 1.0,
-      "weight_sgov": 0.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_dbmf": 0.0,
-      "weight_cash": 0.0,
-      "v4_state": "Bull Overdrive",
-      "bunker_pick": "NONE",
-      "v23_tqqq_target": 1.0,
-      "v27_rsi10": 59.359010742267685,
-      "v27_exit_active": false,
-      "v27_event": "",
-      "v27_days_since_trigger": null,
-      "v4_paper_value": 1.034359888012217,
-      "v23_paper_value": 1.034359888012217,
-      "v27_vs_v4_pct": 0.0,
-      "v27_vs_v23_pct": 0.0,
-      "row_backfilled": false
-    },
     {
       "date": "2026-10-12",
       "rule_name": "algo13_v27_v23_rsi_exit_shadow",
@@ -305,6 +278,33 @@
       "v27_vs_v4_pct": 0.0,
       "v27_vs_v23_pct": 0.0,
       "row_backfilled": false
+    },
+    {
+      "date": "2026-10-23",
+      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
+      "portfolio_return": -0.001604,
+      "algo13_value": 0.852133,
+      "qqq_value": 0.950479,
+      "tqqq_value": 0.843599,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_dbmf": 0.0,
+      "weight_cash": 0.0,
+      "v4_state": "Standard Production",
+      "bunker_pick": "NONE",
+      "v23_tqqq_target": 0.85,
+      "v27_rsi10": 31.034273542177857,
+      "v27_exit_active": false,
+      "v27_event": "",
+      "v27_days_since_trigger": null,
+      "v4_paper_value": 0.8521325319970283,
+      "v23_paper_value": 0.8521325319970283,
+      "v27_vs_v4_pct": 0.0,
+      "v27_vs_v23_pct": 0.0,
+      "row_backfilled": false
     }
   ],
   "live_equity_curve": [
@@ -493,6 +493,16 @@
         "weight_tqqq": 0.85,
         "weight_sgov": 0.15
       }
+    },
+    {
+      "date": "2026-10-23",
+      "algo13_value": 0.852133,
+      "qqq_value": 0.950479,
+      "tqqq_value": 0.843599,
+      "held_weights": {
+        "weight_tqqq": 0.85,
+        "weight_sgov": 0.15
+      }
     }
   ],
   "live_curve_metadata": {
@@ -527,7 +537,7 @@
     "rule": "closed if V27 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25); the same comparison against V23 is reported alongside"
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-26",
     "computed_at": "2026-10-26T09:50:19-04:00",
     "data_through": "2026-10-23",
@@ -552,6 +562,17 @@
     },
     "held_as_of": "2026-10-22",
     "expected_change": false,
-    "state": "Standard Production"
+    "state": "Standard Production",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "DBMF": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

@@ -1015,7 +1015,7 @@
   "planned": {
     "status": "planned",
     "session_date": "2026-10-26",
-    "computed_at": "2026-10-23T20:30:19-04:00",
+    "computed_at": "2026-10-26T09:50:19-04:00",
     "data_through": "2026-10-23",
     "clock": "next_session",
     "target_weights": {

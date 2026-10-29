@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-09-24",
-    "current_date": "2026-10-27",
+    "current_date": "2026-10-28",
     "deployment_value": 1.0,
-    "current_value": 0.903925,
-    "oos_return_pct": -9.61,
-    "trading_days": 24
+    "current_value": 0.918229,
+    "oos_return_pct": -8.18,
+    "trading_days": 25
   },
   "current_state": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "rule_name": "algo13_v26_rsi_exit_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -17,43 +17,20 @@
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 0.973215,
-    "tqqq_value": 0.904047,
+    "qqq_value": 0.979099,
+    "tqqq_value": 0.920845,
     "weight_cash": 0.0,
     "v4_state": "Standard Production",
     "v4_tqqq_target": 0.85,
-    "v26_rsi10": 45.28066508886189,
+    "v26_rsi10": 48.70669107821424,
     "v26_exit_active": false,
     "v26_event": "",
-    "v26_days_since_trigger": 103,
-    "v4_paper_value": 0.903925426094366,
+    "v26_days_since_trigger": 104,
+    "v4_paper_value": 0.9182288855903018,
     "v26_vs_v4_pct": 0.0,
     "row_backfilled": false
   },
   "recent_activity": [
-    {
-      "date": "2026-10-14",
-      "rule_name": "algo13_v26_rsi_exit_shadow",
-      "portfolio_return": -0.05951,
-      "algo13_value": 0.943243,
-      "qqq_value": 0.983605,
-      "tqqq_value": 0.943243,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 1.0,
-      "weight_sgov": 0.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_cash": 0.0,
-      "v4_state": "Bull Overdrive",
-      "v4_tqqq_target": 1.0,
-      "v26_rsi10": 37.52109551135167,
-      "v26_exit_active": false,
-      "v26_event": "",
-      "v26_days_since_trigger": 94,
-      "v4_paper_value": 0.9432425553575972,
-      "v26_vs_v4_pct": 0.0,
-      "row_backfilled": false
-    },
     {
       "date": "2026-10-15",
       "rule_name": "algo13_v26_rsi_exit_shadow",
@@ -258,6 +235,29 @@
       "v26_event": "",
       "v26_days_since_trigger": 103,
       "v4_paper_value": 0.903925426094366,
+      "v26_vs_v4_pct": 0.0,
+      "row_backfilled": false
+    },
+    {
+      "date": "2026-10-28",
+      "rule_name": "algo13_v26_rsi_exit_shadow",
+      "portfolio_return": 0.015824,
+      "algo13_value": 0.918229,
+      "qqq_value": 0.979099,
+      "tqqq_value": 0.920845,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v4_state": "Standard Production",
+      "v4_tqqq_target": 0.85,
+      "v26_rsi10": 48.70669107821424,
+      "v26_exit_active": false,
+      "v26_event": "",
+      "v26_days_since_trigger": 104,
+      "v4_paper_value": 0.9182288855903018,
       "v26_vs_v4_pct": 0.0,
       "row_backfilled": false
     }
@@ -478,6 +478,16 @@
         "weight_tqqq": 0.85,
         "weight_sgov": 0.15
       }
+    },
+    {
+      "date": "2026-10-28",
+      "algo13_value": 0.918229,
+      "qqq_value": 0.979099,
+      "tqqq_value": 0.920845,
+      "held_weights": {
+        "weight_tqqq": 0.85,
+        "weight_sgov": 0.15
+      }
     }
   ],
   "live_curve_metadata": {
@@ -502,7 +512,7 @@
     "rule": "closed if V26 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25)"
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-10-29",
     "computed_at": "2026-10-29T09:50:18-04:00",
     "data_through": "2026-10-28",
@@ -525,6 +535,16 @@
     },
     "held_as_of": "2026-10-27",
     "expected_change": false,
-    "state": "Standard Production"
+    "state": "Standard Production",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

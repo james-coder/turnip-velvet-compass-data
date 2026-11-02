@@ -1,22 +1,22 @@
 {
   "live_kpis": {
     "deployment_date": "2025-12-26",
-    "current_date": "2026-10-30",
+    "current_date": "2026-11-02",
     "deployment_value": 1.0,
-    "current_value": 1.04291,
-    "oos_return_pct": 4.29,
-    "trading_days": 213
+    "current_value": 1.031061,
+    "oos_return_pct": 3.11,
+    "trading_days": 214
   },
   "current_state": {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "rule_name": "algo13_v2_no_hy",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.85,
-      "SGOV": 0.15
+      "TQQQ": 0.0,
+      "SGOV": 1.0
     },
-    "qqq_value": 1.105385,
-    "tqqq_value": 1.110293,
+    "qqq_value": 1.100439,
+    "tqqq_value": 1.095654,
     "weight_cash": 0.0,
     "v3_state": null,
     "dist_brake": false,
@@ -24,7 +24,7 @@
     "credit_ok": true,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.0020431235578622,
+    "zombie_sgov_rv21": 0.0019930471862124,
     "v4_state": null,
     "bunker_pick": null,
     "hy_oas_z": null,
@@ -37,38 +37,10 @@
   },
   "recent_activity": [
     {
-      "date": "2026-10-19",
-      "rule_name": "algo13_v2_no_hy",
-      "portfolio_return": 0.030281,
-      "algo13_value": 1.178013,
-      "qqq_value": 1.155347,
-      "tqqq_value": 1.284597,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.85,
-      "weight_sgov": 0.15,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "dist_brake": false,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0021023352905333,
-      "v4_state": null,
-      "bunker_pick": null,
-      "hy_oas_z": null,
-      "vxn_upper_band": null,
-      "rv10": null,
-      "ret10": null,
-      "standard_target_vol": null,
-      "overdrive_target_vol": null,
-      "row_source": "live"
-    },
-    {
       "date": "2026-10-20",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": -0.002738,
-      "algo13_value": 1.174788,
+      "algo13_value": 1.174802,
       "qqq_value": 1.154173,
       "tqqq_value": 1.280415,
       "weight_qqq": 0.0,
@@ -96,7 +68,7 @@
       "date": "2026-10-21",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": 0.026574,
-      "algo13_value": 1.206006,
+      "algo13_value": 1.20602,
       "qqq_value": 1.166348,
       "tqqq_value": 1.320422,
       "weight_qqq": 0.0,
@@ -124,7 +96,7 @@
       "date": "2026-10-22",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": -0.072462,
-      "algo13_value": 1.118616,
+      "algo13_value": 1.118629,
       "qqq_value": 1.133007,
       "tqqq_value": 1.207856,
       "weight_qqq": 0.0,
@@ -152,7 +124,7 @@
       "date": "2026-10-23",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": -0.001604,
-      "algo13_value": 1.116822,
+      "algo13_value": 1.116835,
       "qqq_value": 1.132895,
       "tqqq_value": 1.205492,
       "weight_qqq": 0.0,
@@ -180,7 +152,7 @@
       "date": "2026-10-26",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": 0.027455,
-      "algo13_value": 1.147484,
+      "algo13_value": 1.147498,
       "qqq_value": 1.14544,
       "tqqq_value": 1.244408,
       "weight_qqq": 0.0,
@@ -208,7 +180,7 @@
       "date": "2026-10-27",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": 0.032435,
-      "algo13_value": 1.184703,
+      "algo13_value": 1.184717,
       "qqq_value": 1.159995,
       "tqqq_value": 1.291871,
       "weight_qqq": 0.0,
@@ -236,7 +208,7 @@
       "date": "2026-10-28",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": 0.015824,
-      "algo13_value": 1.203449,
+      "algo13_value": 1.203464,
       "qqq_value": 1.167007,
       "tqqq_value": 1.315876,
       "weight_qqq": 0.0,
@@ -264,7 +236,7 @@
       "date": "2026-10-29",
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": -0.0364,
-      "algo13_value": 1.159643,
+      "algo13_value": 1.159657,
       "qqq_value": 1.15049,
       "tqqq_value": 1.259502,
       "weight_qqq": 0.0,
@@ -291,10 +263,10 @@
     {
       "date": "2026-10-30",
       "rule_name": "algo13_v2_no_hy",
-      "portfolio_return": -0.100663,
-      "algo13_value": 1.04291,
-      "qqq_value": 1.105385,
-      "tqqq_value": 1.110293,
+      "portfolio_return": -0.088946,
+      "algo13_value": 1.05651,
+      "qqq_value": 1.110523,
+      "tqqq_value": 1.12766,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.85,
       "weight_sgov": 0.15,
@@ -306,6 +278,34 @@
       "zombie_apocalypse": false,
       "zombie_sgov_dd": 0.0,
       "zombie_sgov_rv21": 0.0020431235578622,
+      "v4_state": null,
+      "bunker_pick": null,
+      "hy_oas_z": null,
+      "vxn_upper_band": null,
+      "rv10": null,
+      "ret10": null,
+      "standard_target_vol": null,
+      "overdrive_target_vol": null,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-11-02",
+      "rule_name": "algo13_v2_no_hy",
+      "portfolio_return": -0.024088,
+      "algo13_value": 1.031061,
+      "qqq_value": 1.100439,
+      "tqqq_value": 1.095654,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.0,
+      "weight_sgov": 1.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.0019930471862124,
       "v4_state": null,
       "bunker_pick": null,
       "hy_oas_z": null,
@@ -377,7 +377,7 @@
     },
     {
       "date": "2026-01-06",
-      "algo13_value": 0.99564,
+      "algo13_value": 0.995641,
       "qqq_value": 0.999244,
       "tqqq_value": 0.994544,
       "held_weights": {
@@ -387,7 +387,7 @@
     },
     {
       "date": "2026-01-07",
-      "algo13_value": 0.998131,
+      "algo13_value": 0.998132,
       "qqq_value": 1.000209,
       "tqqq_value": 0.997454,
       "held_weights": {
@@ -397,7 +397,7 @@
     },
     {
       "date": "2026-01-08",
-      "algo13_value": 0.982988,
+      "algo13_value": 0.982989,
       "qqq_value": 0.994516,
       "tqqq_value": 0.979633,
       "held_weights": {
@@ -407,7 +407,7 @@
     },
     {
       "date": "2026-01-09",
-      "algo13_value": 1.007199,
+      "algo13_value": 1.007215,
       "qqq_value": 1.004423,
       "tqqq_value": 1.008001,
       "held_weights": {
@@ -417,7 +417,7 @@
     },
     {
       "date": "2026-01-12",
-      "algo13_value": 1.009238,
+      "algo13_value": 1.009254,
       "qqq_value": 1.005259,
       "tqqq_value": 1.010366,
       "held_weights": {
@@ -457,7 +457,7 @@
     },
     {
       "date": "2026-01-16",
-      "algo13_value": 0.98249,
+      "algo13_value": 0.982491,
       "qqq_value": 0.995786,
       "tqqq_value": 0.978723,
       "held_weights": {
@@ -497,7 +497,7 @@
     },
     {
       "date": "2026-01-23",
-      "algo13_value": 0.986686,
+      "algo13_value": 0.986687,
       "qqq_value": 0.998134,
       "tqqq_value": 0.983088,
       "held_weights": {
@@ -507,7 +507,7 @@
     },
     {
       "date": "2026-01-26",
-      "algo13_value": 0.997561,
+      "algo13_value": 0.997562,
       "qqq_value": 1.002525,
       "tqqq_value": 0.995817,
       "held_weights": {
@@ -517,7 +517,7 @@
     },
     {
       "date": "2026-01-27",
-      "algo13_value": 1.020013,
+      "algo13_value": 1.020014,
       "qqq_value": 1.011612,
       "tqqq_value": 1.022186,
       "held_weights": {
@@ -527,7 +527,7 @@
     },
     {
       "date": "2026-01-28",
-      "algo13_value": 1.028065,
+      "algo13_value": 1.028066,
       "qqq_value": 1.014957,
       "tqqq_value": 1.031642,
       "held_weights": {
@@ -537,7 +537,7 @@
     },
     {
       "date": "2026-01-29",
-      "algo13_value": 1.012369,
+      "algo13_value": 1.01237,
       "qqq_value": 1.008878,
       "tqqq_value": 1.013093,
       "held_weights": {
@@ -547,7 +547,7 @@
     },
     {
       "date": "2026-01-30",
-      "algo13_value": 0.981044,
+      "algo13_value": 0.981045,
       "qqq_value": 0.996767,
       "tqqq_value": 0.976177,
       "held_weights": {
@@ -557,7 +557,7 @@
     },
     {
       "date": "2026-02-02",
-      "algo13_value": 0.998147,
+      "algo13_value": 0.998148,
       "qqq_value": 1.003603,
       "tqqq_value": 0.996181,
       "held_weights": {
@@ -567,7 +567,7 @@
     },
     {
       "date": "2026-02-03",
-      "algo13_value": 0.958374,
+      "algo13_value": 0.958375,
       "qqq_value": 0.988195,
       "tqqq_value": 0.949445,
       "held_weights": {
@@ -577,7 +577,7 @@
     },
     {
       "date": "2026-02-04",
-      "algo13_value": 0.915637,
+      "algo13_value": 0.915638,
       "qqq_value": 0.970922,
       "tqqq_value": 0.899618,
       "held_weights": {
@@ -587,7 +587,7 @@
     },
     {
       "date": "2026-02-05",
-      "algo13_value": 0.882441,
+      "algo13_value": 0.882442,
       "qqq_value": 0.956945,
       "tqqq_value": 0.861247,
       "held_weights": {
@@ -597,7 +597,7 @@
     },
     {
       "date": "2026-02-06",
-      "algo13_value": 0.928886,
+      "algo13_value": 0.928888,
       "qqq_value": 0.977178,
       "tqqq_value": 0.91453,
       "held_weights": {
@@ -607,7 +607,7 @@
     },
     {
       "date": "2026-02-09",
-      "algo13_value": 0.94697,
+      "algo13_value": 0.946971,
       "qqq_value": 0.984657,
       "tqqq_value": 0.935443,
       "held_weights": {
@@ -617,7 +617,7 @@
     },
     {
       "date": "2026-02-10",
-      "algo13_value": 0.935718,
+      "algo13_value": 0.935719,
       "qqq_value": 0.980089,
       "tqqq_value": 0.92235,
       "held_weights": {
@@ -627,7 +627,7 @@
     },
     {
       "date": "2026-02-11",
-      "algo13_value": 0.941677,
+      "algo13_value": 0.941678,
       "qqq_value": 0.982727,
       "tqqq_value": 0.92926,
       "held_weights": {
@@ -637,7 +637,7 @@
     },
     {
       "date": "2026-02-12",
-      "algo13_value": 0.892834,
+      "algo13_value": 0.892836,
       "qqq_value": 0.962735,
       "tqqq_value": 0.872522,
       "held_weights": {
@@ -647,7 +647,7 @@
     },
     {
       "date": "2026-02-13",
-      "algo13_value": 0.89621,
+      "algo13_value": 0.896198,
       "qqq_value": 0.964794,
       "tqqq_value": 0.876341,
       "held_weights": {
@@ -657,7 +657,7 @@
     },
     {
       "date": "2026-02-17",
-      "algo13_value": 0.894313,
+      "algo13_value": 0.894301,
       "qqq_value": 0.963797,
       "tqqq_value": 0.874159,
       "held_weights": {
@@ -667,7 +667,7 @@
     },
     {
       "date": "2026-02-18",
-      "algo13_value": 0.910615,
+      "algo13_value": 0.910617,
       "qqq_value": 0.970986,
       "tqqq_value": 0.89289,
       "held_weights": {
@@ -677,7 +677,7 @@
     },
     {
       "date": "2026-02-19",
-      "algo13_value": 0.901801,
+      "algo13_value": 0.901803,
       "qqq_value": 0.967271,
       "tqqq_value": 0.882706,
       "held_weights": {
@@ -687,7 +687,7 @@
     },
     {
       "date": "2026-02-20",
-      "algo13_value": 0.921252,
+      "algo13_value": 0.921254,
       "qqq_value": 0.975827,
       "tqqq_value": 0.905074,
       "held_weights": {
@@ -697,7 +697,7 @@
     },
     {
       "date": "2026-02-23",
-      "algo13_value": 0.892803,
+      "algo13_value": 0.892805,
       "qqq_value": 0.963974,
       "tqqq_value": 0.872159,
       "held_weights": {
@@ -707,7 +707,7 @@
     },
     {
       "date": "2026-02-24",
-      "algo13_value": 0.917012,
+      "algo13_value": 0.917014,
       "qqq_value": 0.974331,
       "tqqq_value": 0.899982,
       "held_weights": {
@@ -717,7 +717,7 @@
     },
     {
       "date": "2026-02-25",
-      "algo13_value": 0.949786,
+      "algo13_value": 0.949788,
       "qqq_value": 0.988452,
       "tqqq_value": 0.937807,
       "held_weights": {
@@ -727,7 +727,7 @@
     },
     {
       "date": "2026-02-26",
-      "algo13_value": 0.92148,
+      "algo13_value": 0.921482,
       "qqq_value": 0.976519,
       "tqqq_value": 0.904892,
       "held_weights": {
@@ -737,7 +737,7 @@
     },
     {
       "date": "2026-02-27",
-      "algo13_value": 0.913165,
+      "algo13_value": 0.913167,
       "qqq_value": 0.973399,
       "tqqq_value": 0.895254,
       "held_weights": {
@@ -747,7 +747,7 @@
     },
     {
       "date": "2026-03-02",
-      "algo13_value": 0.916017,
+      "algo13_value": 0.916019,
       "qqq_value": 0.974685,
       "tqqq_value": 0.898527,
       "held_weights": {
@@ -757,7 +757,7 @@
     },
     {
       "date": "2026-03-03",
-      "algo13_value": 0.89099,
+      "algo13_value": 0.890992,
       "qqq_value": 0.964247,
       "tqqq_value": 0.869613,
       "held_weights": {
@@ -767,7 +767,7 @@
     },
     {
       "date": "2026-03-04",
-      "algo13_value": 0.92504,
+      "algo13_value": 0.925042,
       "qqq_value": 0.978947,
       "tqqq_value": 0.908711,
       "held_weights": {
@@ -777,7 +777,7 @@
     },
     {
       "date": "2026-03-05",
-      "algo13_value": 0.917816,
+      "algo13_value": 0.917818,
       "qqq_value": 0.975988,
       "tqqq_value": 0.900346,
       "held_weights": {
@@ -787,7 +787,7 @@
     },
     {
       "date": "2026-03-06",
-      "algo13_value": 0.882418,
+      "algo13_value": 0.88242,
       "qqq_value": 0.961304,
       "tqqq_value": 0.859429,
       "held_weights": {
@@ -797,7 +797,7 @@
     },
     {
       "date": "2026-03-09",
-      "algo13_value": 0.911634,
+      "algo13_value": 0.911636,
       "qqq_value": 0.974154,
       "tqqq_value": 0.89289,
       "held_weights": {
@@ -807,7 +807,7 @@
     },
     {
       "date": "2026-03-10",
-      "algo13_value": 0.911792,
+      "algo13_value": 0.911794,
       "qqq_value": 0.974171,
       "tqqq_value": 0.893071,
       "held_weights": {
@@ -817,7 +817,7 @@
     },
     {
       "date": "2026-03-11",
-      "algo13_value": 0.91103,
+      "algo13_value": 0.911033,
       "qqq_value": 0.974042,
       "tqqq_value": 0.892162,
       "held_weights": {
@@ -827,7 +827,7 @@
     },
     {
       "date": "2026-03-12",
-      "algo13_value": 0.871583,
+      "algo13_value": 0.871586,
       "qqq_value": 0.957315,
       "tqqq_value": 0.846699,
       "held_weights": {
@@ -837,7 +837,7 @@
     },
     {
       "date": "2026-03-13",
-      "algo13_value": 0.857303,
+      "algo13_value": 0.857305,
       "qqq_value": 0.951638,
       "tqqq_value": 0.830333,
       "held_weights": {
@@ -847,7 +847,7 @@
     },
     {
       "date": "2026-03-16",
-      "algo13_value": 0.881561,
+      "algo13_value": 0.881564,
       "qqq_value": 0.962317,
       "tqqq_value": 0.857974,
       "held_weights": {
@@ -857,7 +857,7 @@
     },
     {
       "date": "2026-03-17",
-      "algo13_value": 0.892706,
+      "algo13_value": 0.892709,
       "qqq_value": 0.967014,
       "tqqq_value": 0.870704,
       "held_weights": {
@@ -867,7 +867,7 @@
     },
     {
       "date": "2026-03-18",
-      "algo13_value": 0.892796,
+      "algo13_value": 0.892799,
       "qqq_value": 0.953536,
       "tqqq_value": 0.833424,
       "held_weights": {
@@ -876,7 +876,7 @@
     },
     {
       "date": "2026-03-19",
-      "algo13_value": 0.886007,
+      "algo13_value": 0.88601,
       "qqq_value": 0.950528,
       "tqqq_value": 0.825968,
       "held_weights": {
@@ -886,7 +886,7 @@
     },
     {
       "date": "2026-03-20",
-      "algo13_value": 0.843103,
+      "algo13_value": 0.843106,
       "qqq_value": 0.932949,
       "tqqq_value": 0.778869,
       "held_weights": {
@@ -896,7 +896,7 @@
     },
     {
       "date": "2026-03-23",
-      "algo13_value": 0.843103,
+      "algo13_value": 0.843106,
       "qqq_value": 0.943661,
       "tqqq_value": 0.805783,
       "held_weights": {
@@ -905,7 +905,7 @@
     },
     {
       "date": "2026-03-24",
-      "algo13_value": 0.84336,
+      "algo13_value": 0.843364,
       "qqq_value": 0.937212,
       "tqqq_value": 0.788507,
       "held_weights": {
@@ -914,7 +914,7 @@
     },
     {
       "date": "2026-03-25",
-      "algo13_value": 0.84336,
+      "algo13_value": 0.843364,
       "qqq_value": 0.943371,
       "tqqq_value": 0.803783,
       "held_weights": {
@@ -923,7 +923,7 @@
     },
     {
       "date": "2026-03-26",
-      "algo13_value": 0.843446,
+      "algo13_value": 0.84345,
       "qqq_value": 0.920855,
       "tqqq_value": 0.746681,
       "held_weights": {
@@ -932,7 +932,7 @@
     },
     {
       "date": "2026-03-27",
-      "algo13_value": 0.843702,
+      "algo13_value": 0.843707,
       "qqq_value": 0.902874,
       "tqqq_value": 0.70231,
       "held_weights": {
@@ -941,7 +941,7 @@
     },
     {
       "date": "2026-03-30",
-      "algo13_value": 0.843788,
+      "algo13_value": 0.843793,
       "qqq_value": 0.895974,
       "tqqq_value": 0.686125,
       "held_weights": {
@@ -950,7 +950,7 @@
     },
     {
       "date": "2026-03-31",
-      "algo13_value": 0.843788,
+      "algo13_value": 0.843793,
       "qqq_value": 0.926307,
       "tqqq_value": 0.754683,
       "held_weights": {
@@ -959,7 +959,7 @@
     },
     {
       "date": "2026-04-01",
-      "algo13_value": 0.843959,
+      "algo13_value": 0.843965,
       "qqq_value": 0.937742,
       "tqqq_value": 0.78287,
       "held_weights": {
@@ -968,7 +968,7 @@
     },
     {
       "date": "2026-04-02",
-      "algo13_value": 0.844302,
+      "algo13_value": 0.844309,
       "qqq_value": 0.93882,
       "tqqq_value": 0.784688,
       "held_weights": {
@@ -977,7 +977,7 @@
     },
     {
       "date": "2026-04-06",
-      "algo13_value": 0.844387,
+      "algo13_value": 0.844394,
       "qqq_value": 0.944465,
       "tqqq_value": 0.798509,
       "held_weights": {
@@ -986,7 +986,7 @@
     },
     {
       "date": "2026-04-07",
-      "algo13_value": 0.844473,
+      "algo13_value": 0.84448,
       "qqq_value": 0.94461,
       "tqqq_value": 0.799418,
       "held_weights": {
@@ -995,7 +995,7 @@
     },
     {
       "date": "2026-04-08",
-      "algo13_value": 0.844473,
+      "algo13_value": 0.84448,
       "qqq_value": 0.972691,
       "tqqq_value": 0.869249,
       "held_weights": {
@@ -1004,7 +1004,7 @@
     },
     {
       "date": "2026-04-09",
-      "algo13_value": 0.844558,
+      "algo13_value": 0.844566,
       "qqq_value": 0.979269,
       "tqqq_value": 0.886525,
       "held_weights": {
@@ -1013,7 +1013,7 @@
     },
     {
       "date": "2026-04-10",
-      "algo13_value": 0.844901,
+      "algo13_value": 0.84491,
       "qqq_value": 0.980684,
       "tqqq_value": 0.890344,
       "held_weights": {
@@ -1022,7 +1022,7 @@
     },
     {
       "date": "2026-04-13",
-      "algo13_value": 0.866769,
+      "algo13_value": 0.866779,
       "qqq_value": 0.990833,
       "tqqq_value": 0.91744,
       "held_weights": {
@@ -1032,7 +1032,7 @@
     },
     {
       "date": "2026-04-14",
-      "algo13_value": 0.906637,
+      "algo13_value": 0.906647,
       "qqq_value": 1.00883,
       "tqqq_value": 0.967085,
       "held_weights": {
@@ -1042,7 +1042,7 @@
     },
     {
       "date": "2026-04-15",
-      "algo13_value": 0.93898,
+      "algo13_value": 0.93899,
       "qqq_value": 1.022951,
       "tqqq_value": 1.007638,
       "held_weights": {
@@ -1052,7 +1052,7 @@
     },
     {
       "date": "2026-04-16",
-      "algo13_value": 0.950216,
+      "algo13_value": 0.950226,
       "qqq_value": 1.027872,
       "tqqq_value": 1.021822,
       "held_weights": {
@@ -1062,7 +1062,7 @@
     },
     {
       "date": "2026-04-17",
-      "algo13_value": 0.981163,
+      "algo13_value": 0.981174,
       "qqq_value": 1.041318,
       "tqqq_value": 1.06092,
       "held_weights": {
@@ -1072,7 +1072,7 @@
     },
     {
       "date": "2026-04-20",
-      "algo13_value": 0.973888,
+      "algo13_value": 0.973898,
       "qqq_value": 1.03802,
       "tqqq_value": 1.051646,
       "held_weights": {
@@ -1082,7 +1082,7 @@
     },
     {
       "date": "2026-04-21",
-      "algo13_value": 0.964326,
+      "algo13_value": 0.964337,
       "qqq_value": 1.034064,
       "tqqq_value": 1.039462,
       "held_weights": {
@@ -1092,7 +1092,7 @@
     },
     {
       "date": "2026-04-22",
-      "algo13_value": 1.004493,
+      "algo13_value": 1.00449,
       "qqq_value": 1.051369,
       "tqqq_value": 1.09038,
       "held_weights": {
@@ -1102,7 +1102,7 @@
     },
     {
       "date": "2026-04-23",
-      "algo13_value": 0.990411,
+      "algo13_value": 0.990408,
       "qqq_value": 1.045451,
       "tqqq_value": 1.072377,
       "reconstructed": true,
@@ -1113,7 +1113,7 @@
     },
     {
       "date": "2026-04-24",
-      "algo13_value": 1.037995,
+      "algo13_value": 1.037991,
       "qqq_value": 1.065442,
       "tqqq_value": 1.132933,
       "reconstructed": true,
@@ -1124,7 +1124,7 @@
     },
     {
       "date": "2026-04-27",
-      "algo13_value": 1.039128,
+      "algo13_value": 1.039124,
       "qqq_value": 1.066005,
       "tqqq_value": 1.134388,
       "held_weights": {
@@ -1134,7 +1134,7 @@
     },
     {
       "date": "2026-04-28",
-      "algo13_value": 1.012257,
+      "algo13_value": 1.012253,
       "qqq_value": 1.055278,
       "tqqq_value": 1.099836,
       "held_weights": {
@@ -1144,7 +1144,7 @@
     },
     {
       "date": "2026-04-29",
-      "algo13_value": 1.028206,
+      "algo13_value": 1.028202,
       "qqq_value": 1.061743,
       "tqqq_value": 1.120204,
       "held_weights": {
@@ -1154,7 +1154,7 @@
     },
     {
       "date": "2026-04-30",
-      "algo13_value": 1.0519,
+      "algo13_value": 1.051896,
       "qqq_value": 1.071634,
       "tqqq_value": 1.150573,
       "held_weights": {
@@ -1164,7 +1164,7 @@
     },
     {
       "date": "2026-05-01",
-      "algo13_value": 1.076678,
+      "algo13_value": 1.076691,
       "qqq_value": 1.081927,
       "tqqq_value": 1.182397,
       "held_weights": {
@@ -1174,7 +1174,7 @@
     },
     {
       "date": "2026-05-04",
-      "algo13_value": 1.071346,
+      "algo13_value": 1.071358,
       "qqq_value": 1.079885,
       "tqqq_value": 1.175486,
       "held_weights": {
@@ -1184,7 +1184,7 @@
     },
     {
       "date": "2026-05-05",
-      "algo13_value": 1.106159,
+      "algo13_value": 1.106172,
       "qqq_value": 1.093893,
       "tqqq_value": 1.220404,
       "held_weights": {
@@ -1194,7 +1194,7 @@
     },
     {
       "date": "2026-05-06",
-      "algo13_value": 1.164459,
+      "algo13_value": 1.164473,
       "qqq_value": 1.116619,
       "tqqq_value": 1.296054,
       "held_weights": {
@@ -1204,7 +1204,7 @@
     },
     {
       "date": "2026-05-07",
-      "algo13_value": 1.161282,
+      "algo13_value": 1.161296,
       "qqq_value": 1.115284,
       "tqqq_value": 1.291871,
       "held_weights": {
@@ -1214,7 +1214,7 @@
     },
     {
       "date": "2026-05-08",
-      "algo13_value": 1.229698,
+      "algo13_value": 1.229713,
       "qqq_value": 1.141435,
       "tqqq_value": 1.381342,
       "held_weights": {
@@ -1224,7 +1224,7 @@
     },
     {
       "date": "2026-05-11",
-      "algo13_value": 1.238936,
+      "algo13_value": 1.238951,
       "qqq_value": 1.144732,
       "tqqq_value": 1.393526,
       "held_weights": {
@@ -1234,7 +1234,7 @@
     },
     {
       "date": "2026-05-12",
-      "algo13_value": 1.211607,
+      "algo13_value": 1.211622,
       "qqq_value": 1.135034,
       "tqqq_value": 1.357338,
       "held_weights": {
@@ -1244,7 +1244,7 @@
     },
     {
       "date": "2026-05-13",
-      "algo13_value": 1.242946,
+      "algo13_value": 1.242962,
       "qqq_value": 1.147016,
       "tqqq_value": 1.398618,
       "held_weights": {
@@ -1254,7 +1254,7 @@
     },
     {
       "date": "2026-05-14",
-      "algo13_value": 1.266455,
+      "algo13_value": 1.266471,
       "qqq_value": 1.15517,
       "tqqq_value": 1.429714,
       "held_weights": {
@@ -1264,7 +1264,7 @@
     },
     {
       "date": "2026-05-15",
-      "algo13_value": 1.217221,
+      "algo13_value": 1.217236,
       "qqq_value": 1.137736,
       "tqqq_value": 1.364248,
       "held_weights": {
@@ -1274,7 +1274,7 @@
     },
     {
       "date": "2026-05-18",
-      "algo13_value": 1.20331,
+      "algo13_value": 1.203325,
       "qqq_value": 1.132847,
       "tqqq_value": 1.345881,
       "held_weights": {
@@ -1284,7 +1284,7 @@
     },
     {
       "date": "2026-05-19",
-      "algo13_value": 1.184118,
+      "algo13_value": 1.184133,
       "qqq_value": 1.125866,
       "tqqq_value": 1.320604,
       "held_weights": {
@@ -1294,7 +1294,7 @@
     },
     {
       "date": "2026-05-20",
-      "algo13_value": 1.233616,
+      "algo13_value": 1.233631,
       "qqq_value": 1.144507,
       "tqqq_value": 1.385525,
       "held_weights": {
@@ -1304,7 +1304,7 @@
     },
     {
       "date": "2026-05-21",
-      "algo13_value": 1.239534,
+      "algo13_value": 1.239549,
       "qqq_value": 1.146694,
       "tqqq_value": 1.393344,
       "held_weights": {
@@ -1314,7 +1314,7 @@
     },
     {
       "date": "2026-05-22",
-      "algo13_value": 1.251866,
+      "algo13_value": 1.251882,
       "qqq_value": 1.151567,
       "tqqq_value": 1.409529,
       "held_weights": {
@@ -1324,7 +1324,7 @@
     },
     {
       "date": "2026-05-26",
-      "algo13_value": 1.308034,
+      "algo13_value": 1.308051,
       "qqq_value": 1.172009,
       "tqqq_value": 1.483906,
       "held_weights": {
@@ -1334,7 +1334,7 @@
     },
     {
       "date": "2026-05-27",
-      "algo13_value": 1.304238,
+      "algo13_value": 1.304255,
       "qqq_value": 1.170674,
       "tqqq_value": 1.478814,
       "held_weights": {
@@ -1344,7 +1344,7 @@
     },
     {
       "date": "2026-05-28",
-      "algo13_value": 1.33164,
+      "algo13_value": 1.331657,
       "qqq_value": 1.180549,
       "tqqq_value": 1.515366,
       "held_weights": {
@@ -1354,7 +1354,7 @@
     },
     {
       "date": "2026-05-29",
-      "algo13_value": 1.343498,
+      "algo13_value": 1.343515,
       "qqq_value": 1.184892,
       "tqqq_value": 1.531187,
       "held_weights": {
@@ -1364,7 +1364,7 @@
     },
     {
       "date": "2026-06-01",
-      "algo13_value": 1.363631,
+      "algo13_value": 1.363649,
       "qqq_value": 1.192,
       "tqqq_value": 1.558101,
       "held_weights": {
@@ -1374,7 +1374,7 @@
     },
     {
       "date": "2026-06-02",
-      "algo13_value": 1.379459,
+      "algo13_value": 1.379477,
       "qqq_value": 1.197485,
       "tqqq_value": 1.579378,
       "held_weights": {
@@ -1384,7 +1384,7 @@
     },
     {
       "date": "2026-06-03",
-      "algo13_value": 1.37057,
+      "algo13_value": 1.370567,
       "qqq_value": 1.194364,
       "tqqq_value": 1.567376,
       "held_weights": {
@@ -1394,7 +1394,7 @@
     },
     {
       "date": "2026-06-04",
-      "algo13_value": 1.352613,
+      "algo13_value": 1.352611,
       "qqq_value": 1.188591,
       "tqqq_value": 1.54319,
       "held_weights": {
@@ -1404,7 +1404,7 @@
     },
     {
       "date": "2026-06-05",
-      "algo13_value": 1.188468,
+      "algo13_value": 1.188465,
       "qqq_value": 1.131528,
       "tqqq_value": 1.322786,
       "held_weights": {
@@ -1414,7 +1414,7 @@
     },
     {
       "date": "2026-06-08",
-      "algo13_value": 1.233065,
+      "algo13_value": 1.233063,
       "qqq_value": 1.149203,
       "tqqq_value": 1.38116,
       "held_weights": {
@@ -1424,7 +1424,7 @@
     },
     {
       "date": "2026-06-09",
-      "algo13_value": 1.198032,
+      "algo13_value": 1.19803,
       "qqq_value": 1.135983,
       "tqqq_value": 1.33497,
       "held_weights": {
@@ -1434,7 +1434,7 @@
     },
     {
       "date": "2026-06-10",
-      "algo13_value": 1.136598,
+      "algo13_value": 1.136596,
       "qqq_value": 1.113289,
       "tqqq_value": 1.25441,
       "held_weights": {
@@ -1444,7 +1444,7 @@
     },
     {
       "date": "2026-06-11",
-      "algo13_value": 1.230593,
+      "algo13_value": 1.230591,
       "qqq_value": 1.150892,
       "tqqq_value": 1.376432,
       "held_weights": {
@@ -1454,7 +1454,7 @@
     },
     {
       "date": "2026-06-12",
-      "algo13_value": 1.25136,
+      "algo13_value": 1.251358,
       "qqq_value": 1.157663,
       "tqqq_value": 1.40371,
       "held_weights": {
@@ -1464,7 +1464,7 @@
     },
     {
       "date": "2026-06-15",
-      "algo13_value": 1.348407,
+      "algo13_value": 1.348405,
       "qqq_value": 1.194027,
       "tqqq_value": 1.531733,
       "held_weights": {
@@ -1474,7 +1474,7 @@
     },
     {
       "date": "2026-06-16",
-      "algo13_value": 1.285289,
+      "algo13_value": 1.285287,
       "qqq_value": 1.171333,
       "tqqq_value": 1.447354,
       "held_weights": {
@@ -1484,7 +1484,7 @@
     },
     {
       "date": "2026-06-17",
-      "algo13_value": 1.252639,
+      "algo13_value": 1.252638,
       "qqq_value": 1.159528,
       "tqqq_value": 1.404073,
       "held_weights": {
@@ -1494,7 +1494,7 @@
     },
     {
       "date": "2026-06-18",
-      "algo13_value": 1.325941,
+      "algo13_value": 1.32594,
       "qqq_value": 1.188607,
       "tqqq_value": 1.500636,
       "held_weights": {
@@ -1504,7 +1504,7 @@
     },
     {
       "date": "2026-06-22",
-      "algo13_value": 1.322,
+      "algo13_value": 1.321999,
       "qqq_value": 1.185615,
       "tqqq_value": 1.495363,
       "held_weights": {
@@ -1514,7 +1514,7 @@
     },
     {
       "date": "2026-06-23",
-      "algo13_value": 1.211331,
+      "algo13_value": 1.21133,
       "qqq_value": 1.146582,
       "tqqq_value": 1.348063,
       "held_weights": {
@@ -1524,7 +1524,7 @@
     },
     {
       "date": "2026-06-24",
-      "algo13_value": 1.198348,
+      "algo13_value": 1.198347,
       "qqq_value": 1.141708,
       "tqqq_value": 1.330424,
       "held_weights": {
@@ -1534,7 +1534,7 @@
     },
     {
       "date": "2026-06-25",
-      "algo13_value": 1.220274,
+      "algo13_value": 1.220273,
       "qqq_value": 1.150956,
       "tqqq_value": 1.360429,
       "held_weights": {
@@ -1544,7 +1544,7 @@
     },
     {
       "date": "2026-06-26",
-      "algo13_value": 1.178117,
+      "algo13_value": 1.178116,
       "qqq_value": 1.135114,
       "tqqq_value": 1.303692,
       "held_weights": {
@@ -1564,7 +1564,7 @@
     },
     {
       "date": "2026-06-30",
-      "algo13_value": 1.299326,
+      "algo13_value": 1.299325,
       "qqq_value": 1.183122,
       "tqqq_value": 1.470085,
       "held_weights": {
@@ -1574,7 +1574,7 @@
     },
     {
       "date": "2026-07-01",
-      "algo13_value": 1.255402,
+      "algo13_value": 1.255431,
       "qqq_value": 1.165077,
       "tqqq_value": 1.405892,
       "held_weights": {
@@ -1584,7 +1584,7 @@
     },
     {
       "date": "2026-07-02",
-      "algo13_value": 1.204066,
+      "algo13_value": 1.204094,
       "qqq_value": 1.144893,
       "tqqq_value": 1.331333,
       "held_weights": {
@@ -1594,7 +1594,7 @@
     },
     {
       "date": "2026-07-06",
-      "algo13_value": 1.242014,
+      "algo13_value": 1.242043,
       "qqq_value": 1.161314,
       "tqqq_value": 1.386979,
       "held_weights": {
@@ -1604,7 +1604,7 @@
     },
     {
       "date": "2026-07-07",
-      "algo13_value": 1.191343,
+      "algo13_value": 1.191371,
       "qqq_value": 1.139794,
       "tqqq_value": 1.310966,
       "held_weights": {
@@ -1614,7 +1614,7 @@
     },
     {
       "date": "2026-07-08",
-      "algo13_value": 1.197325,
+      "algo13_value": 1.197353,
       "qqq_value": 1.143027,
       "tqqq_value": 1.319876,
       "held_weights": {
@@ -1624,7 +1624,7 @@
     },
     {
       "date": "2026-07-09",
-      "algo13_value": 1.247569,
+      "algo13_value": 1.247598,
       "qqq_value": 1.162053,
       "tqqq_value": 1.385525,
       "held_weights": {
@@ -1634,7 +1634,7 @@
     },
     {
       "date": "2026-07-10",
-      "algo13_value": 1.257127,
+      "algo13_value": 1.257157,
       "qqq_value": 1.165624,
       "tqqq_value": 1.398072,
       "held_weights": {
@@ -1644,7 +1644,7 @@
     },
     {
       "date": "2026-07-13",
-      "algo13_value": 1.196287,
+      "algo13_value": 1.196297,
       "qqq_value": 1.14351,
       "tqqq_value": 1.318422,
       "held_weights": {
@@ -1654,7 +1654,7 @@
     },
     {
       "date": "2026-07-14",
-      "algo13_value": 1.22962,
+      "algo13_value": 1.22963,
       "qqq_value": 1.15628,
       "tqqq_value": 1.361702,
       "held_weights": {
@@ -1664,7 +1664,7 @@
     },
     {
       "date": "2026-07-15",
-      "algo13_value": 1.221561,
+      "algo13_value": 1.221571,
       "qqq_value": 1.153143,
       "tqqq_value": 1.351155,
       "held_weights": {
@@ -1674,7 +1674,7 @@
     },
     {
       "date": "2026-07-16",
-      "algo13_value": 1.169873,
+      "algo13_value": 1.169882,
       "qqq_value": 1.134181,
       "tqqq_value": 1.28387,
       "held_weights": {
@@ -1684,7 +1684,7 @@
     },
     {
       "date": "2026-07-17",
-      "algo13_value": 1.124854,
+      "algo13_value": 1.124863,
       "qqq_value": 1.117149,
       "tqqq_value": 1.225677,
       "held_weights": {
@@ -1694,7 +1694,7 @@
     },
     {
       "date": "2026-07-20",
-      "algo13_value": 1.126573,
+      "algo13_value": 1.126583,
       "qqq_value": 1.118323,
       "tqqq_value": 1.22786,
       "held_weights": {
@@ -1704,7 +1704,7 @@
     },
     {
       "date": "2026-07-21",
-      "algo13_value": 1.179207,
+      "algo13_value": 1.179216,
       "qqq_value": 1.139055,
       "tqqq_value": 1.295326,
       "held_weights": {
@@ -1714,7 +1714,7 @@
     },
     {
       "date": "2026-07-22",
-      "algo13_value": 1.163868,
+      "algo13_value": 1.163878,
       "qqq_value": 1.133249,
       "tqqq_value": 1.275505,
       "held_weights": {
@@ -1724,7 +1724,7 @@
     },
     {
       "date": "2026-07-23",
-      "algo13_value": 1.107891,
+      "algo13_value": 1.1079,
       "qqq_value": 1.111729,
       "tqqq_value": 1.20331,
       "held_weights": {
@@ -1734,7 +1734,7 @@
     },
     {
       "date": "2026-07-24",
-      "algo13_value": 1.075351,
+      "algo13_value": 1.07536,
       "qqq_value": 1.099313,
       "tqqq_value": 1.161666,
       "held_weights": {
@@ -1744,7 +1744,7 @@
     },
     {
       "date": "2026-07-27",
-      "algo13_value": 1.066782,
+      "algo13_value": 1.066791,
       "qqq_value": 1.09592,
       "tqqq_value": 1.150755,
       "held_weights": {
@@ -1754,7 +1754,7 @@
     },
     {
       "date": "2026-07-28",
-      "algo13_value": 1.040431,
+      "algo13_value": 1.04044,
       "qqq_value": 1.085273,
       "tqqq_value": 1.117294,
       "held_weights": {
@@ -1764,7 +1764,7 @@
     },
     {
       "date": "2026-07-29",
-      "algo13_value": 0.985766,
+      "algo13_value": 0.985774,
       "qqq_value": 1.063158,
       "tqqq_value": 1.048191,
       "held_weights": {
@@ -1774,7 +1774,7 @@
     },
     {
       "date": "2026-07-30",
-      "algo13_value": 1.066314,
+      "algo13_value": 1.066324,
       "qqq_value": 1.09822,
       "tqqq_value": 1.148936,
       "held_weights": {
@@ -1784,7 +1784,7 @@
     },
     {
       "date": "2026-07-31",
-      "algo13_value": 1.085283,
+      "algo13_value": 1.085292,
       "qqq_value": 1.105344,
       "tqqq_value": 1.172941,
       "held_weights": {
@@ -1794,7 +1794,7 @@
     },
     {
       "date": "2026-08-03",
-      "algo13_value": 1.132925,
+      "algo13_value": 1.132952,
       "qqq_value": 1.124757,
       "tqqq_value": 1.233497,
       "held_weights": {
@@ -1804,7 +1804,7 @@
     },
     {
       "date": "2026-08-04",
-      "algo13_value": 1.230192,
+      "algo13_value": 1.230221,
       "qqq_value": 1.16297,
       "tqqq_value": 1.358065,
       "held_weights": {
@@ -1814,7 +1814,7 @@
     },
     {
       "date": "2026-08-05",
-      "algo13_value": 1.202505,
+      "algo13_value": 1.202534,
       "qqq_value": 1.152436,
       "tqqq_value": 1.322059,
       "held_weights": {
@@ -1824,7 +1824,7 @@
     },
     {
       "date": "2026-08-06",
-      "algo13_value": 1.191135,
+      "algo13_value": 1.191163,
       "qqq_value": 1.14819,
       "tqqq_value": 1.307329,
       "held_weights": {
@@ -1834,7 +1834,7 @@
     },
     {
       "date": "2026-08-07",
-      "algo13_value": 1.225535,
+      "algo13_value": 1.225564,
       "qqq_value": 1.161651,
       "tqqq_value": 1.3517,
       "held_weights": {
@@ -1844,7 +1844,7 @@
     },
     {
       "date": "2026-08-10",
-      "algo13_value": 1.216182,
+      "algo13_value": 1.216211,
       "qqq_value": 1.158177,
       "tqqq_value": 1.339516,
       "held_weights": {
@@ -1854,7 +1854,7 @@
     },
     {
       "date": "2026-08-11",
-      "algo13_value": 1.205815,
+      "algo13_value": 1.205844,
       "qqq_value": 1.154285,
       "tqqq_value": 1.326059,
       "held_weights": {
@@ -1864,7 +1864,7 @@
     },
     {
       "date": "2026-08-12",
-      "algo13_value": 1.227479,
+      "algo13_value": 1.227508,
       "qqq_value": 1.162729,
       "tqqq_value": 1.354064,
       "held_weights": {
@@ -1874,7 +1874,7 @@
     },
     {
       "date": "2026-08-13",
-      "algo13_value": 1.263088,
+      "algo13_value": 1.263119,
       "qqq_value": 1.176174,
       "tqqq_value": 1.400255,
       "held_weights": {
@@ -1884,7 +1884,7 @@
     },
     {
       "date": "2026-08-14",
-      "algo13_value": 1.258126,
+      "algo13_value": 1.258156,
       "qqq_value": 1.174566,
       "tqqq_value": 1.393708,
       "held_weights": {
@@ -1894,7 +1894,7 @@
     },
     {
       "date": "2026-08-17",
-      "algo13_value": 1.252684,
+      "algo13_value": 1.252714,
       "qqq_value": 1.172636,
       "tqqq_value": 1.386616,
       "held_weights": {
@@ -1904,7 +1904,7 @@
     },
     {
       "date": "2026-08-18",
-      "algo13_value": 1.1988,
+      "algo13_value": 1.198829,
       "qqq_value": 1.152774,
       "tqqq_value": 1.316421,
       "held_weights": {
@@ -1914,7 +1914,7 @@
     },
     {
       "date": "2026-08-19",
-      "algo13_value": 1.19222,
+      "algo13_value": 1.192249,
       "qqq_value": 1.150474,
       "tqqq_value": 1.307874,
       "held_weights": {
@@ -1924,7 +1924,7 @@
     },
     {
       "date": "2026-08-20",
-      "algo13_value": 1.169957,
+      "algo13_value": 1.169986,
       "qqq_value": 1.142207,
       "tqqq_value": 1.279142,
       "held_weights": {
@@ -1934,7 +1934,7 @@
     },
     {
       "date": "2026-08-21",
-      "algo13_value": 1.179783,
+      "algo13_value": 1.179812,
       "qqq_value": 1.146244,
       "tqqq_value": 1.291689,
       "held_weights": {
@@ -1944,7 +1944,7 @@
     },
     {
       "date": "2026-08-24",
-      "algo13_value": 1.149446,
+      "algo13_value": 1.149475,
       "qqq_value": 1.134793,
       "tqqq_value": 1.252591,
       "held_weights": {
@@ -1954,7 +1954,7 @@
     },
     {
       "date": "2026-08-25",
-      "algo13_value": 1.167177,
+      "algo13_value": 1.167206,
       "qqq_value": 1.141869,
       "tqqq_value": 1.275323,
       "held_weights": {
@@ -1964,7 +1964,7 @@
     },
     {
       "date": "2026-08-26",
-      "algo13_value": 1.170024,
+      "algo13_value": 1.170053,
       "qqq_value": 1.142915,
       "tqqq_value": 1.27896,
       "held_weights": {
@@ -1974,7 +1974,7 @@
     },
     {
       "date": "2026-08-27",
-      "algo13_value": 1.21006,
+      "algo13_value": 1.21009,
       "qqq_value": 1.158563,
       "tqqq_value": 1.330424,
       "held_weights": {
@@ -1984,7 +1984,7 @@
     },
     {
       "date": "2026-08-28",
-      "algo13_value": 1.189729,
+      "algo13_value": 1.189758,
       "qqq_value": 1.151037,
       "tqqq_value": 1.304055,
       "held_weights": {
@@ -1994,7 +1994,7 @@
     },
     {
       "date": "2026-08-31",
-      "algo13_value": 1.190716,
+      "algo13_value": 1.190745,
       "qqq_value": 1.151567,
       "tqqq_value": 1.305328,
       "held_weights": {
@@ -2004,7 +2004,7 @@
     },
     {
       "date": "2026-09-01",
-      "algo13_value": 1.151853,
+      "algo13_value": 1.151864,
       "qqq_value": 1.136916,
       "tqqq_value": 1.255137,
       "held_weights": {
@@ -2014,7 +2014,7 @@
     },
     {
       "date": "2026-09-02",
-      "algo13_value": 1.158254,
+      "algo13_value": 1.158265,
       "qqq_value": 1.139489,
       "tqqq_value": 1.263321,
       "held_weights": {
@@ -2024,7 +2024,7 @@
     },
     {
       "date": "2026-09-03",
-      "algo13_value": 1.192567,
+      "algo13_value": 1.192578,
       "qqq_value": 1.153031,
       "tqqq_value": 1.307329,
       "held_weights": {
@@ -2034,7 +2034,7 @@
     },
     {
       "date": "2026-09-04",
-      "algo13_value": 1.197433,
+      "algo13_value": 1.197444,
       "qqq_value": 1.155106,
       "tqqq_value": 1.313512,
       "held_weights": {
@@ -2044,7 +2044,7 @@
     },
     {
       "date": "2026-09-08",
-      "algo13_value": 1.194491,
+      "algo13_value": 1.194503,
       "qqq_value": 1.154141,
       "tqqq_value": 1.309693,
       "held_weights": {
@@ -2054,7 +2054,7 @@
     },
     {
       "date": "2026-09-09",
-      "algo13_value": 1.18591,
+      "algo13_value": 1.185921,
       "qqq_value": 1.150844,
       "tqqq_value": 1.2986,
       "held_weights": {
@@ -2064,7 +2064,7 @@
     },
     {
       "date": "2026-09-10",
-      "algo13_value": 1.153037,
+      "algo13_value": 1.153048,
       "qqq_value": 1.138604,
       "tqqq_value": 1.256228,
       "held_weights": {
@@ -2074,7 +2074,7 @@
     },
     {
       "date": "2026-09-11",
-      "algo13_value": 1.178042,
+      "algo13_value": 1.178053,
       "qqq_value": 1.14856,
       "tqqq_value": 1.288234,
       "held_weights": {
@@ -2084,7 +2084,7 @@
     },
     {
       "date": "2026-09-14",
-      "algo13_value": 1.15403,
+      "algo13_value": 1.154041,
       "qqq_value": 1.139392,
       "tqqq_value": 1.25732,
       "held_weights": {
@@ -2094,7 +2094,7 @@
     },
     {
       "date": "2026-09-15",
-      "algo13_value": 1.134593,
+      "algo13_value": 1.134604,
       "qqq_value": 1.131946,
       "tqqq_value": 1.232406,
       "held_weights": {
@@ -2104,7 +2104,7 @@
     },
     {
       "date": "2026-09-16",
-      "algo13_value": 1.135054,
+      "algo13_value": 1.135065,
       "qqq_value": 1.132235,
       "tqqq_value": 1.232951,
       "held_weights": {
@@ -2114,7 +2114,7 @@
     },
     {
       "date": "2026-09-17",
-      "algo13_value": 1.184022,
+      "algo13_value": 1.184034,
       "qqq_value": 1.151825,
       "tqqq_value": 1.295508,
       "held_weights": {
@@ -2124,7 +2124,7 @@
     },
     {
       "date": "2026-09-18",
-      "algo13_value": 1.201875,
+      "algo13_value": 1.201888,
       "qqq_value": 1.15911,
       "tqqq_value": 1.318422,
       "held_weights": {
@@ -2134,7 +2134,7 @@
     },
     {
       "date": "2026-09-21",
-      "algo13_value": 1.290103,
+      "algo13_value": 1.290116,
       "qqq_value": 1.192515,
       "tqqq_value": 1.43226,
       "held_weights": {
@@ -2144,7 +2144,7 @@
     },
     {
       "date": "2026-09-22",
-      "algo13_value": 1.316715,
+      "algo13_value": 1.316729,
       "qqq_value": 1.202149,
       "tqqq_value": 1.466994,
       "held_weights": {
@@ -2154,7 +2154,7 @@
     },
     {
       "date": "2026-09-23",
-      "algo13_value": 1.288848,
+      "algo13_value": 1.288862,
       "qqq_value": 1.192097,
       "tqqq_value": 1.430442,
       "held_weights": {
@@ -2164,7 +2164,7 @@
     },
     {
       "date": "2026-09-24",
-      "algo13_value": 1.287734,
+      "algo13_value": 1.287747,
       "qqq_value": 1.19192,
       "tqqq_value": 1.428987,
       "held_weights": {
@@ -2174,7 +2174,7 @@
     },
     {
       "date": "2026-09-25",
-      "algo13_value": 1.302019,
+      "algo13_value": 1.302033,
       "qqq_value": 1.197388,
       "tqqq_value": 1.447536,
       "held_weights": {
@@ -2184,7 +2184,7 @@
     },
     {
       "date": "2026-09-28",
-      "algo13_value": 1.266446,
+      "algo13_value": 1.266459,
       "qqq_value": 1.18457,
       "tqqq_value": 1.400982,
       "held_weights": {
@@ -2194,7 +2194,7 @@
     },
     {
       "date": "2026-09-29",
-      "algo13_value": 1.272333,
+      "algo13_value": 1.272347,
       "qqq_value": 1.186821,
       "tqqq_value": 1.40862,
       "held_weights": {
@@ -2204,7 +2204,7 @@
     },
     {
       "date": "2026-09-30",
-      "algo13_value": 1.280291,
+      "algo13_value": 1.280305,
       "qqq_value": 1.189781,
       "tqqq_value": 1.418985,
       "held_weights": {
@@ -2214,7 +2214,7 @@
     },
     {
       "date": "2026-10-01",
-      "algo13_value": 1.290111,
+      "algo13_value": 1.290125,
       "qqq_value": 1.193416,
       "tqqq_value": 1.431715,
       "held_weights": {
@@ -2224,7 +2224,7 @@
     },
     {
       "date": "2026-10-02",
-      "algo13_value": 1.321926,
+      "algo13_value": 1.321941,
       "qqq_value": 1.205558,
       "tqqq_value": 1.473177,
       "held_weights": {
@@ -2234,7 +2234,7 @@
     },
     {
       "date": "2026-10-05",
-      "algo13_value": 1.351213,
+      "algo13_value": 1.351227,
       "qqq_value": 1.216205,
       "tqqq_value": 1.511548,
       "held_weights": {
@@ -2244,7 +2244,7 @@
     },
     {
       "date": "2026-10-06",
-      "algo13_value": 1.366847,
+      "algo13_value": 1.366862,
       "qqq_value": 1.22177,
       "tqqq_value": 1.532097,
       "held_weights": {
@@ -2254,7 +2254,7 @@
     },
     {
       "date": "2026-10-07",
-      "algo13_value": 1.358179,
+      "algo13_value": 1.358194,
       "qqq_value": 1.218666,
       "tqqq_value": 1.52064,
       "held_weights": {
@@ -2264,7 +2264,7 @@
     },
     {
       "date": "2026-10-08",
-      "algo13_value": 1.311377,
+      "algo13_value": 1.311392,
       "qqq_value": 1.202342,
       "tqqq_value": 1.458993,
       "held_weights": {
@@ -2274,7 +2274,7 @@
     },
     {
       "date": "2026-10-09",
-      "algo13_value": 1.326044,
+      "algo13_value": 1.326059,
       "qqq_value": 1.208276,
       "tqqq_value": 1.478087,
       "held_weights": {
@@ -2284,7 +2284,7 @@
     },
     {
       "date": "2026-10-12",
-      "algo13_value": 1.302905,
+      "algo13_value": 1.30292,
       "qqq_value": 1.199865,
       "tqqq_value": 1.447718,
       "held_weights": {
@@ -2294,7 +2294,7 @@
     },
     {
       "date": "2026-10-13",
-      "algo13_value": 1.291776,
+      "algo13_value": 1.291791,
       "qqq_value": 1.195892,
       "tqqq_value": 1.43317,
       "held_weights": {
@@ -2304,7 +2304,7 @@
     },
     {
       "date": "2026-10-14",
-      "algo13_value": 1.226472,
+      "algo13_value": 1.226486,
       "qqq_value": 1.172379,
       "tqqq_value": 1.347881,
       "held_weights": {
@@ -2314,7 +2314,7 @@
     },
     {
       "date": "2026-10-15",
-      "algo13_value": 1.222271,
+      "algo13_value": 1.222285,
       "qqq_value": 1.170851,
       "tqqq_value": 1.342426,
       "held_weights": {
@@ -2324,7 +2324,7 @@
     },
     {
       "date": "2026-10-16",
-      "algo13_value": 1.143389,
+      "algo13_value": 1.143403,
       "qqq_value": 1.14158,
       "tqqq_value": 1.240407,
       "held_weights": {
@@ -2334,7 +2334,7 @@
     },
     {
       "date": "2026-10-19",
-      "algo13_value": 1.178013,
+      "algo13_value": 1.178027,
       "qqq_value": 1.155347,
       "tqqq_value": 1.284597,
       "held_weights": {
@@ -2344,7 +2344,7 @@
     },
     {
       "date": "2026-10-20",
-      "algo13_value": 1.174788,
+      "algo13_value": 1.174802,
       "qqq_value": 1.154173,
       "tqqq_value": 1.280415,
       "held_weights": {
@@ -2354,7 +2354,7 @@
     },
     {
       "date": "2026-10-21",
-      "algo13_value": 1.206006,
+      "algo13_value": 1.20602,
       "qqq_value": 1.166348,
       "tqqq_value": 1.320422,
       "held_weights": {
@@ -2364,7 +2364,7 @@
     },
     {
       "date": "2026-10-22",
-      "algo13_value": 1.118616,
+      "algo13_value": 1.118629,
       "qqq_value": 1.133007,
       "tqqq_value": 1.207856,
       "held_weights": {
@@ -2374,7 +2374,7 @@
     },
     {
       "date": "2026-10-23",
-      "algo13_value": 1.116822,
+      "algo13_value": 1.116835,
       "qqq_value": 1.132895,
       "tqqq_value": 1.205492,
       "held_weights": {
@@ -2384,7 +2384,7 @@
     },
     {
       "date": "2026-10-26",
-      "algo13_value": 1.147484,
+      "algo13_value": 1.147498,
       "qqq_value": 1.14544,
       "tqqq_value": 1.244408,
       "held_weights": {
@@ -2394,7 +2394,7 @@
     },
     {
       "date": "2026-10-27",
-      "algo13_value": 1.184703,
+      "algo13_value": 1.184717,
       "qqq_value": 1.159995,
       "tqqq_value": 1.291871,
       "held_weights": {
@@ -2404,7 +2404,7 @@
     },
     {
       "date": "2026-10-28",
-      "algo13_value": 1.203449,
+      "algo13_value": 1.203464,
       "qqq_value": 1.167007,
       "tqqq_value": 1.315876,
       "held_weights": {
@@ -2414,7 +2414,7 @@
     },
     {
       "date": "2026-10-29",
-      "algo13_value": 1.159643,
+      "algo13_value": 1.159657,
       "qqq_value": 1.15049,
       "tqqq_value": 1.259502,
       "held_weights": {
@@ -2424,9 +2424,19 @@
     },
     {
       "date": "2026-10-30",
-      "algo13_value": 1.04291,
-      "qqq_value": 1.105385,
-      "tqqq_value": 1.110293,
+      "algo13_value": 1.05651,
+      "qqq_value": 1.110523,
+      "tqqq_value": 1.12766,
+      "held_weights": {
+        "weight_tqqq": 0.85,
+        "weight_sgov": 0.15
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "algo13_value": 1.031061,
+      "qqq_value": 1.100439,
+      "tqqq_value": 1.095654,
       "provisional": true,
       "held_weights": {
         "weight_tqqq": 0.85,
@@ -2454,7 +2464,7 @@
       "2026-04-24"
     ],
     "provisional_dates": [
-      "2026-10-30"
+      "2026-11-02"
     ],
     "unpriced_dates": [],
     "held_weights": "per live_equity_curve date: the sleeve weights held over that session (the ones that earn its close-to-close return; zero sleeves omitted, any unallocated remainder shown as weight_cash, which earns 0); absent where they are not in the source (nothing held yet on the first curve date)",

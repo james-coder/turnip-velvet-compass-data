@@ -1,68 +1,41 @@
 {
   "live_kpis": {
     "deployment_date": "2026-09-24",
-    "current_date": "2026-10-30",
+    "current_date": "2026-11-02",
     "deployment_value": 1.0,
-    "current_value": 0.806105,
-    "oos_return_pct": -19.39,
-    "trading_days": 27
+    "current_value": 0.777964,
+    "oos_return_pct": -22.2,
+    "trading_days": 28
   },
   "current_state": {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "rule_name": "algo13_v27_v23_rsi_exit_shadow",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.85,
-      "SGOV": 0.15,
+      "TQQQ": 0.0,
+      "SGOV": 0.0,
       "TLT": 0.0,
       "GLD": 0.0,
-      "DBMF": 0.0
+      "DBMF": 1.0
     },
-    "qqq_value": 0.93171,
-    "tqqq_value": 0.789132,
-    "weight_dbmf": 0.0,
+    "qqq_value": 0.919026,
+    "tqqq_value": 0.756681,
+    "weight_dbmf": 1.0,
     "weight_cash": 0.0,
-    "v4_state": "Standard Production",
-    "bunker_pick": "NONE",
-    "v23_tqqq_target": 0.85,
-    "v27_rsi10": 30.67309846518313,
+    "v4_state": "Dynamic Mom60 Bunker",
+    "bunker_pick": "DBMF",
+    "v23_tqqq_target": 0.0,
+    "v27_rsi10": 27.771381367985867,
     "v27_exit_active": false,
     "v27_event": "",
     "v27_days_since_trigger": null,
-    "v4_paper_value": 0.8061048627447446,
-    "v23_paper_value": 0.8061048627447446,
+    "v4_paper_value": 0.7779643715913934,
+    "v23_paper_value": 0.7779643715913934,
     "v27_vs_v4_pct": 0.0,
     "v27_vs_v23_pct": 0.0,
     "row_backfilled": false
   },
   "recent_activity": [
-    {
-      "date": "2026-10-19",
-      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
-      "portfolio_return": 0.035625,
-      "algo13_value": 0.898956,
-      "qqq_value": 0.969316,
-      "tqqq_value": 0.898956,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.85,
-      "weight_sgov": 0.15,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_dbmf": 0.0,
-      "weight_cash": 0.0,
-      "v4_state": "Standard Production",
-      "bunker_pick": "NONE",
-      "v23_tqqq_target": 0.85,
-      "v27_rsi10": 35.308395576045186,
-      "v27_exit_active": false,
-      "v27_event": "",
-      "v27_days_since_trigger": null,
-      "v4_paper_value": 0.8989564774751844,
-      "v23_paper_value": 0.8989564774751844,
-      "v27_vs_v4_pct": 0.0,
-      "v27_vs_v23_pct": 0.0,
-      "row_backfilled": false
-    },
     {
       "date": "2026-10-20",
       "rule_name": "algo13_v27_v23_rsi_exit_shadow",
@@ -302,6 +275,33 @@
       "v27_days_since_trigger": null,
       "v4_paper_value": 0.8061048627447446,
       "v23_paper_value": 0.8061048627447446,
+      "v27_vs_v4_pct": 0.0,
+      "v27_vs_v23_pct": 0.0,
+      "row_backfilled": false
+    },
+    {
+      "date": "2026-11-02",
+      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
+      "portfolio_return": -0.034909,
+      "algo13_value": 0.777964,
+      "qqq_value": 0.919026,
+      "tqqq_value": 0.756681,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_dbmf": 1.0,
+      "weight_cash": 0.0,
+      "v4_state": "Dynamic Mom60 Bunker",
+      "bunker_pick": "DBMF",
+      "v23_tqqq_target": 0.0,
+      "v27_rsi10": 27.771381367985867,
+      "v27_exit_active": false,
+      "v27_event": "",
+      "v27_days_since_trigger": null,
+      "v4_paper_value": 0.7779643715913934,
+      "v23_paper_value": 0.7779643715913934,
       "v27_vs_v4_pct": 0.0,
       "v27_vs_v23_pct": 0.0,
       "row_backfilled": false
@@ -553,6 +553,16 @@
         "weight_tqqq": 0.85,
         "weight_sgov": 0.15
       }
+    },
+    {
+      "date": "2026-11-02",
+      "algo13_value": 0.777964,
+      "qqq_value": 0.919026,
+      "tqqq_value": 0.756681,
+      "held_weights": {
+        "weight_tqqq": 0.85,
+        "weight_sgov": 0.15
+      }
     }
   ],
   "live_curve_metadata": {
@@ -587,7 +597,7 @@
     "rule": "closed if V27 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25); the same comparison against V23 is reported alongside"
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-11-03",
     "computed_at": "2026-11-03T09:50:23-05:00",
     "data_through": "2026-11-02",
@@ -612,6 +622,17 @@
     },
     "held_as_of": "2026-10-30",
     "expected_change": true,
-    "state": "Dynamic Mom60 Bunker"
+    "state": "Dynamic Mom60 Bunker",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "DBMF": 1.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

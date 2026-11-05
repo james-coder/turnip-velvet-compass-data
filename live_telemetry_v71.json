@@ -6,8 +6,8 @@
     "reason": "shadow_log_missing",
     "detail": "V7.1 shadow live_log.csv is unavailable. The shadow runner did not emit a fresh V7.1 signal, so dashboard clients should show V7.1 as backtest-only.",
     "log_path": "models/experiments/algo13_v71_tailrisk_guard_trial42_shadow/live_log.csv",
-    "generated_at_utc": "2026-11-04T21:05:56.982577+00:00",
-    "generated_at_local": "2026-11-04T16:05:56.982577-05:00",
+    "generated_at_utc": "2026-11-05T20:55:45.644987+00:00",
+    "generated_at_local": "2026-11-05T15:55:45.644987-05:00",
     "source_commit": "34b7aa6ff497fa294802748dcbf553f949d924e4",
     "source_tree_dirty": false
   },

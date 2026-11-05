@@ -1,68 +1,41 @@
 {
   "live_kpis": {
     "deployment_date": "2026-09-24",
-    "current_date": "2026-11-03",
+    "current_date": "2026-11-04",
     "deployment_value": 1.0,
-    "current_value": 0.790098,
-    "oos_return_pct": -20.99,
-    "trading_days": 29
+    "current_value": 0.771407,
+    "oos_return_pct": -22.86,
+    "trading_days": 30
   },
   "current_state": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "rule_name": "algo13_v27_v23_rsi_exit_shadow",
     "weights": {
       "QQQ": 0.0,
-      "TQQQ": 0.0,
-      "SGOV": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
       "TLT": 0.0,
       "GLD": 0.0,
-      "DBMF": 1.0
+      "DBMF": 0.0
     },
-    "qqq_value": 0.92468,
-    "tqqq_value": 0.770552,
-    "weight_dbmf": 1.0,
+    "qqq_value": 0.93368,
+    "tqqq_value": 0.792059,
+    "weight_dbmf": 0.0,
     "weight_cash": 0.0,
-    "v4_state": "Dynamic Mom60 Bunker",
-    "bunker_pick": "DBMF",
-    "v23_tqqq_target": 0.0,
-    "v27_rsi10": 30.877107328130947,
+    "v4_state": "Standard Production",
+    "bunker_pick": "NONE",
+    "v23_tqqq_target": 0.85,
+    "v27_rsi10": 35.644257425352734,
     "v27_exit_active": false,
     "v27_event": "",
     "v27_days_since_trigger": null,
-    "v4_paper_value": 0.7900981570917547,
-    "v23_paper_value": 0.7900981570917547,
-    "v27_vs_v4_pct": 0.0,
+    "v4_paper_value": 0.789505237353676,
+    "v23_paper_value": 0.771407014407134,
+    "v27_vs_v4_pct": -2.29234995415672,
     "v27_vs_v23_pct": 0.0,
     "row_backfilled": false
   },
   "recent_activity": [
-    {
-      "date": "2026-10-21",
-      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
-      "portfolio_return": 0.026574,
-      "algo13_value": 0.92018,
-      "qqq_value": 0.978545,
-      "tqqq_value": 0.924026,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.85,
-      "weight_sgov": 0.15,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_dbmf": 0.0,
-      "weight_cash": 0.0,
-      "v4_state": "Standard Production",
-      "bunker_pick": "NONE",
-      "v23_tqqq_target": 0.85,
-      "v27_rsi10": 42.22634842045924,
-      "v27_exit_active": false,
-      "v27_event": "",
-      "v27_days_since_trigger": null,
-      "v4_paper_value": 0.9201800931197696,
-      "v23_paper_value": 0.9201800931197696,
-      "v27_vs_v4_pct": 0.0,
-      "v27_vs_v23_pct": 0.0,
-      "row_backfilled": false
-    },
     {
       "date": "2026-10-22",
       "rule_name": "algo13_v27_v23_rsi_exit_shadow",
@@ -303,6 +276,33 @@
       "v4_paper_value": 0.7900981570917547,
       "v23_paper_value": 0.7900981570917547,
       "v27_vs_v4_pct": 0.0,
+      "v27_vs_v23_pct": 0.0,
+      "row_backfilled": false
+    },
+    {
+      "date": "2026-11-04",
+      "rule_name": "algo13_v27_v23_rsi_exit_shadow",
+      "portfolio_return": -0.023657,
+      "algo13_value": 0.771407,
+      "qqq_value": 0.93368,
+      "tqqq_value": 0.792059,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.85,
+      "weight_sgov": 0.15,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_dbmf": 0.0,
+      "weight_cash": 0.0,
+      "v4_state": "Standard Production",
+      "bunker_pick": "NONE",
+      "v23_tqqq_target": 0.85,
+      "v27_rsi10": 35.644257425352734,
+      "v27_exit_active": false,
+      "v27_event": "",
+      "v27_days_since_trigger": null,
+      "v4_paper_value": 0.789505237353676,
+      "v23_paper_value": 0.771407014407134,
+      "v27_vs_v4_pct": -2.29234995415672,
       "v27_vs_v23_pct": 0.0,
       "row_backfilled": false
     }
@@ -573,6 +573,15 @@
         "weight_tqqq": 0.85,
         "weight_sgov": 0.15
       }
+    },
+    {
+      "date": "2026-11-04",
+      "algo13_value": 0.771407,
+      "qqq_value": 0.93368,
+      "tqqq_value": 0.792059,
+      "held_weights": {
+        "weight_dbmf": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -607,7 +616,7 @@
     "rule": "closed if V27 is behind V4 after the shadow's first 12 RSI exits (registered 2026-09-25); the same comparison against V23 is reported alongside"
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-11-05",
     "computed_at": "2026-11-05T09:50:21-05:00",
     "data_through": "2026-11-04",
@@ -632,6 +641,17 @@
     },
     "held_as_of": "2026-11-03",
     "expected_change": true,
-    "state": "Standard Production"
+    "state": "Standard Production",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.85,
+      "SGOV": 0.15,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "DBMF": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

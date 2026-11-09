@@ -6,8 +6,8 @@
     "reason": "shadow_not_wired",
     "detail": "V7.2 is published as a backtest artifact only. live-trader does not currently run a V7.2 shadow emitter, so dashboard clients should show V7.2 as backtest-only.",
     "log_path": "models/experiments/algo13_v72_adaptive_risk_budget_shadow/live_log.csv",
-    "generated_at_utc": "2026-11-06T21:06:11.120407+00:00",
-    "generated_at_local": "2026-11-06T16:06:11.120407-05:00",
+    "generated_at_utc": "2026-11-09T21:06:05.768505+00:00",
+    "generated_at_local": "2026-11-09T16:06:05.768505-05:00",
     "source_commit": "34b7aa6ff497fa294802748dcbf553f949d924e4",
     "source_tree_dirty": false
   },

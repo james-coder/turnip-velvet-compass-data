@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-07-02",
-    "current_date": "2026-11-06",
+    "current_date": "2026-11-09",
     "deployment_value": 1.0,
-    "current_value": 0.826126,
-    "oos_return_pct": -17.39,
-    "trading_days": 90
+    "current_value": 0.819303,
+    "oos_return_pct": -18.07,
+    "trading_days": 91
   },
   "current_state": {
-    "date": "2026-11-06",
+    "date": "2026-11-09",
     "rule_name": "algo13_v23_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -18,8 +18,8 @@
       "GLD": 0.0,
       "DBMF": 1.0
     },
-    "qqq_value": 0.92167,
-    "tqqq_value": 0.7137,
+    "qqq_value": 0.954331,
+    "tqqq_value": 0.786505,
     "weight_cash": 0.0,
     "v3_state": null,
     "v4_state": "Dynamic Mom60 Bunker",
@@ -27,62 +27,25 @@
     "vxn_brake": true,
     "credit_ok": true,
     "bunker_pick": "DBMF",
-    "hy_oas_z": 1.650228087290921,
-    "vxn_upper_band": 29.203070898058044,
-    "rv10": 0.3886357428091219,
-    "ret10": -0.0685689948892673,
-    "standard_target_vol": 0.2328577512776831,
-    "overdrive_target_vol": 0.3260008517887564,
+    "hy_oas_z": 1.4556219138085746,
+    "vxn_upper_band": 29.44968221622152,
+    "rv10": 0.4317520111507465,
+    "ret10": -0.0461246840775063,
+    "standard_target_vol": 0.2384688289806234,
+    "overdrive_target_vol": 0.3338563605728727,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.002051463013699,
+    "zombie_sgov_rv21": 0.002147998159899,
     "shock_guard_enabled": true,
     "shock_trigger": false,
     "shock_cooldown_active": true,
     "shock_action": "block_riskup",
-    "shock_strategy_return": 0.0128700128700129,
+    "shock_strategy_return": -0.0082592121982211,
     "shock_target_tqqq": 0.0,
     "weight_dbmf": 1.0,
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-10-26",
-      "rule_name": "algo13_v23_shadow",
-      "portfolio_return": 0.027455,
-      "algo13_value": 0.921276,
-      "qqq_value": 1.000478,
-      "tqqq_value": 0.934708,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.85,
-      "weight_sgov": 0.15,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_dbmf": 0.0,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "v4_state": "Standard Production",
-      "dist_brake": true,
-      "vxn_brake": true,
-      "credit_ok": true,
-      "bunker_pick": "NONE",
-      "hy_oas_z": 1.379944373605683,
-      "vxn_upper_band": 25.258848595568736,
-      "rv10": 0.2254275060292652,
-      "ret10": -0.0453594981502331,
-      "standard_target_vol": 0.2386601254624417,
-      "overdrive_target_vol": 0.3341241756474184,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0022595422464521,
-      "shock_guard_enabled": true,
-      "shock_trigger": false,
-      "shock_cooldown_active": false,
-      "shock_action": "target",
-      "shock_strategy_return": 0.0274549378536716,
-      "shock_target_tqqq": 0.85,
-      "row_source": "live"
-    },
     {
       "date": "2026-10-27",
       "rule_name": "algo13_v23_shadow",
@@ -413,6 +376,43 @@
       "shock_cooldown_active": true,
       "shock_action": "block_riskup",
       "shock_strategy_return": 0.0128700128700129,
+      "shock_target_tqqq": 0.0,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-11-09",
+      "rule_name": "algo13_v23_shadow",
+      "portfolio_return": -0.008259,
+      "algo13_value": 0.819303,
+      "qqq_value": 0.954331,
+      "tqqq_value": 0.786505,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.0,
+      "weight_sgov": 0.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_dbmf": 1.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "v4_state": "Dynamic Mom60 Bunker",
+      "dist_brake": true,
+      "vxn_brake": true,
+      "credit_ok": true,
+      "bunker_pick": "DBMF",
+      "hy_oas_z": 1.4556219138085746,
+      "vxn_upper_band": 29.44968221622152,
+      "rv10": 0.4317520111507465,
+      "ret10": -0.0461246840775063,
+      "standard_target_vol": 0.2384688289806234,
+      "overdrive_target_vol": 0.3338563605728727,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.002147998159899,
+      "shock_guard_enabled": true,
+      "shock_trigger": false,
+      "shock_cooldown_active": true,
+      "shock_action": "block_riskup",
+      "shock_strategy_return": -0.0082592121982211,
       "shock_target_tqqq": 0.0,
       "row_source": "live"
     }
@@ -1276,6 +1276,15 @@
         "weight_tqqq": 0.85,
         "weight_sgov": 0.15
       }
+    },
+    {
+      "date": "2026-11-09",
+      "algo13_value": 0.819303,
+      "qqq_value": 0.954331,
+      "tqqq_value": 0.786505,
+      "held_weights": {
+        "weight_dbmf": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -1307,34 +1316,34 @@
     "sleeves": {
       "TLT": {
         "available": true,
-        "asof": "2026-11-06",
-        "mom60": 0.003922,
+        "asof": "2026-11-09",
+        "mom60": 0.011103,
         "trend_ok": false
       },
       "GLD": {
         "available": true,
-        "asof": "2026-11-06",
-        "mom60": -0.066272,
+        "asof": "2026-11-09",
+        "mom60": -0.054673,
         "trend_ok": false
       },
       "DBMF": {
         "available": true,
-        "asof": "2026-11-06",
-        "mom60": 0.009622,
+        "asof": "2026-11-09",
+        "mom60": 0.00032,
         "trend_ok": true
       },
       "KMLM": {
         "available": true,
-        "asof": "2026-11-06",
-        "mom60": 0.014236,
-        "trend_ok": true
+        "asof": "2026-11-09",
+        "mom60": -0.010981,
+        "trend_ok": false
       }
     },
     "displacement_flag": false,
     "note": ""
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-11-10",
     "computed_at": "2026-11-10T09:50:27-05:00",
     "data_through": "2026-11-09",
@@ -1359,6 +1368,17 @@
     },
     "held_as_of": "2026-11-06",
     "expected_change": false,
-    "state": "Dynamic Mom60 Bunker"
+    "state": "Dynamic Mom60 Bunker",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.0,
+      "SGOV": 0.0,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "DBMF": 1.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

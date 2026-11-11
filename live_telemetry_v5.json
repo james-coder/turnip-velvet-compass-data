@@ -1787,10 +1787,10 @@
     }
   },
   "planned": {
-    "status": "executed",
-    "session_date": "2026-11-10",
-    "computed_at": "2026-11-10T09:50:27-05:00",
-    "data_through": "2026-11-09",
+    "status": "planned",
+    "session_date": "2026-11-11",
+    "computed_at": "2026-11-10T20:30:20-05:00",
+    "data_through": "2026-11-10",
     "clock": "next_session",
     "target_weights": {
       "CASH": 0.0,
@@ -1808,18 +1808,8 @@
       "TLT": 0.0,
       "TQQQ": 0.0
     },
-    "held_as_of": "2026-11-06",
+    "held_as_of": "2026-11-09",
     "expected_change": false,
-    "state": "Dynamic Mom60 Bunker",
-    "executed_weights": {
-      "QQQ": 0.0,
-      "TQQQ": 0.0,
-      "SGOV": 1.0,
-      "TLT": 0.0,
-      "GLD": 0.0,
-      "CASH": 0.0
-    },
-    "matches_planned": true,
-    "max_abs_diff": 0.0
+    "state": "Dynamic Mom60 Bunker"
   }
 }

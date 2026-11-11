@@ -1790,7 +1790,7 @@
   "planned": {
     "status": "planned",
     "session_date": "2026-11-11",
-    "computed_at": "2026-11-10T20:30:20-05:00",
+    "computed_at": "2026-11-11T09:50:26-05:00",
     "data_through": "2026-11-10",
     "clock": "next_session",
     "target_weights": {

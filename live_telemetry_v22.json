@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-06-29",
-    "current_date": "2026-11-12",
+    "current_date": "2026-11-13",
     "deployment_value": 1.0,
-    "current_value": 0.750837,
-    "oos_return_pct": -24.92,
-    "trading_days": 97
+    "current_value": 0.751061,
+    "oos_return_pct": -24.89,
+    "trading_days": 98
   },
   "current_state": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "rule_name": "algo13_v22_shadow",
     "weights": {
       "QQQ": 0.0,
@@ -18,8 +18,8 @@
       "IEF": 0.0,
       "SHV": 0.0
     },
-    "qqq_value": 0.951391,
-    "tqqq_value": 0.777259,
+    "qqq_value": 0.939944,
+    "tqqq_value": 0.748702,
     "weight_ief": 0.0,
     "weight_shv": 0.0,
     "v22_mode": "ml",
@@ -27,23 +27,6 @@
     "v22_alerts": ""
   },
   "recent_activity": [
-    {
-      "date": "2026-10-30",
-      "rule_name": "algo13_v22_shadow",
-      "portfolio_return": -0.090813,
-      "algo13_value": 0.833419,
-      "qqq_value": 0.954599,
-      "tqqq_value": 0.804907,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.5619,
-      "weight_sgov": 0.4381,
-      "weight_gld": 0.0,
-      "weight_ief": 0.0,
-      "weight_shv": 0.0,
-      "v22_mode": "ml",
-      "v22_exposure": 0.5619,
-      "v22_alerts": ""
-    },
     {
       "date": "2026-11-02",
       "rule_name": "algo13_v22_shadow",
@@ -187,6 +170,23 @@
       "algo13_value": 0.750837,
       "qqq_value": 0.951391,
       "tqqq_value": 0.777259,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.0,
+      "weight_sgov": 1.0,
+      "weight_gld": 0.0,
+      "weight_ief": 0.0,
+      "weight_shv": 0.0,
+      "v22_mode": "ml",
+      "v22_exposure": 0.0,
+      "v22_alerts": ""
+    },
+    {
+      "date": "2026-11-13",
+      "rule_name": "algo13_v22_shadow",
+      "portfolio_return": 0.000298,
+      "algo13_value": 0.751061,
+      "qqq_value": 0.939944,
+      "tqqq_value": 0.748702,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.0,
       "weight_sgov": 1.0,
@@ -1131,6 +1131,15 @@
       "held_weights": {
         "weight_sgov": 1.0
       }
+    },
+    {
+      "date": "2026-11-13",
+      "algo13_value": 0.751061,
+      "qqq_value": 0.939944,
+      "tqqq_value": 0.748702,
+      "held_weights": {
+        "weight_sgov": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -1159,7 +1168,7 @@
     }
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-11-16",
     "computed_at": "2026-11-16T09:50:19-05:00",
     "data_through": "2026-11-13",
@@ -1180,6 +1189,17 @@
     },
     "held_as_of": "2026-11-12",
     "expected_change": false,
-    "state": "ml"
+    "state": "ml",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.0,
+      "SGOV": 1.0,
+      "GLD": 0.0,
+      "IEF": 0.0,
+      "SHV": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

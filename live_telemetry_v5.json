@@ -1,14 +1,14 @@
 {
   "live_kpis": {
     "deployment_date": "2026-04-23",
-    "current_date": "2026-11-16",
+    "current_date": "2026-11-17",
     "deployment_value": 1.0,
-    "current_value": 1.087248,
-    "oos_return_pct": 8.72,
-    "trading_days": 144
+    "current_value": 1.087356,
+    "oos_return_pct": 8.74,
+    "trading_days": 145
   },
   "current_state": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "rule_name": "algo13_v5_master",
     "weights": {
       "QQQ": 0.0,
@@ -17,8 +17,8 @@
       "TLT": 0.0,
       "GLD": 0.0
     },
-    "qqq_value": 1.01803,
-    "tqqq_value": 0.899271,
+    "qqq_value": 1.010646,
+    "tqqq_value": 0.878582,
     "weight_cash": 0.0,
     "v3_state": null,
     "v4_state": "Dynamic Mom60 Bunker",
@@ -26,64 +26,26 @@
     "vxn_brake": true,
     "credit_ok": true,
     "bunker_pick": "SGOV",
-    "hy_oas_z": 0.8430547422249403,
-    "vxn_upper_band": 30.658491394037632,
-    "rv10": 0.4253641927888696,
-    "ret10": -0.0283956598981045,
+    "hy_oas_z": 1.1814267735286312,
+    "vxn_upper_band": 31.226360960126637,
+    "rv10": 0.4232706019694668,
+    "ret10": -0.0413407658183515,
     "standard_target_vol": 0.25,
     "overdrive_target_vol": 0.35,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.0022086117869025,
+    "zombie_sgov_rv21": 0.0020477523794195,
     "v5_state": "Dynamic Mom60 Bunker",
     "v5_ret10_hinge_scalar": 1.0,
     "v5_curve_series": "T10Y2Y",
-    "v5_curve_spread": 0.27,
-    "v5_curve_steepening": -0.26,
+    "v5_curve_spread": 0.29,
+    "v5_curve_steepening": -0.23,
     "v5_curve_cap_active": false,
     "v5_curve_cap_applied": false,
     "v5_curve_stale": false,
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-11-03",
-      "rule_name": "algo13_v5_master",
-      "portfolio_return": 0.015597,
-      "algo13_value": 1.076947,
-      "qqq_value": 1.054228,
-      "tqqq_value": 1.026793,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.0,
-      "weight_sgov": 1.0,
-      "weight_tlt": 0.0,
-      "weight_gld": 0.0,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "v4_state": "Dynamic Mom60 Bunker",
-      "dist_brake": true,
-      "vxn_brake": true,
-      "credit_ok": true,
-      "bunker_pick": "SGOV",
-      "hy_oas_z": 1.512406913889126,
-      "vxn_upper_band": 26.993014833754746,
-      "rv10": 0.2598678633960556,
-      "ret10": -0.0450789404010423,
-      "standard_target_vol": 0.25,
-      "overdrive_target_vol": 0.35,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.001992199843306,
-      "v5_state": "Dynamic Mom60 Bunker",
-      "v5_ret10_hinge_scalar": 1.0,
-      "v5_curve_series": "T10Y2Y",
-      "v5_curve_spread": 0.32,
-      "v5_curve_steepening": -0.1099999999999999,
-      "v5_curve_cap_active": false,
-      "v5_curve_cap_applied": false,
-      "v5_curve_stale": false,
-      "row_source": "live"
-    },
     {
       "date": "2026-11-04",
       "rule_name": "algo13_v5_master",
@@ -421,6 +383,44 @@
       "v5_curve_series": "T10Y2Y",
       "v5_curve_spread": 0.27,
       "v5_curve_steepening": -0.26,
+      "v5_curve_cap_active": false,
+      "v5_curve_cap_applied": false,
+      "v5_curve_stale": false,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-11-17",
+      "rule_name": "algo13_v5_master",
+      "portfolio_return": 9.9e-05,
+      "algo13_value": 1.087356,
+      "qqq_value": 1.010646,
+      "tqqq_value": 0.878582,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.0,
+      "weight_sgov": 1.0,
+      "weight_tlt": 0.0,
+      "weight_gld": 0.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "v4_state": "Dynamic Mom60 Bunker",
+      "dist_brake": true,
+      "vxn_brake": true,
+      "credit_ok": true,
+      "bunker_pick": "SGOV",
+      "hy_oas_z": 1.1814267735286312,
+      "vxn_upper_band": 31.226360960126637,
+      "rv10": 0.4232706019694668,
+      "ret10": -0.0413407658183515,
+      "standard_target_vol": 0.25,
+      "overdrive_target_vol": 0.35,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.0020477523794195,
+      "v5_state": "Dynamic Mom60 Bunker",
+      "v5_ret10_hinge_scalar": 1.0,
+      "v5_curve_series": "T10Y2Y",
+      "v5_curve_spread": 0.29,
+      "v5_curve_steepening": -0.23,
       "v5_curve_cap_active": false,
       "v5_curve_cap_applied": false,
       "v5_curve_stale": false,
@@ -1793,6 +1793,15 @@
       "held_weights": {
         "weight_sgov": 1.0
       }
+    },
+    {
+      "date": "2026-11-17",
+      "algo13_value": 1.087356,
+      "qqq_value": 1.010646,
+      "tqqq_value": 0.878582,
+      "held_weights": {
+        "weight_sgov": 1.0
+      }
     }
   ],
   "live_curve_metadata": {
@@ -1833,7 +1842,7 @@
     }
   },
   "planned": {
-    "status": "planned",
+    "status": "executed",
     "session_date": "2026-11-18",
     "computed_at": "2026-11-18T09:50:20-05:00",
     "data_through": "2026-11-17",
@@ -1856,6 +1865,16 @@
     },
     "held_as_of": "2026-11-16",
     "expected_change": false,
-    "state": "Dynamic Mom60 Bunker"
+    "state": "Dynamic Mom60 Bunker",
+    "executed_weights": {
+      "QQQ": 0.0,
+      "TQQQ": 0.0,
+      "SGOV": 1.0,
+      "TLT": 0.0,
+      "GLD": 0.0,
+      "CASH": 0.0
+    },
+    "matches_planned": true,
+    "max_abs_diff": 0.0
   }
 }

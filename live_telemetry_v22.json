@@ -1186,10 +1186,10 @@
     }
   },
   "planned": {
-    "status": "executed",
-    "session_date": "2026-11-18",
-    "computed_at": "2026-11-18T09:50:20-05:00",
-    "data_through": "2026-11-17",
+    "status": "planned",
+    "session_date": "2026-11-19",
+    "computed_at": "2026-11-18T20:30:19-05:00",
+    "data_through": "2026-11-18",
     "clock": "next_session",
     "target_weights": {
       "GLD": 0.0,
@@ -1205,19 +1205,8 @@
       "SHV": 0.0,
       "TQQQ": 0.0
     },
-    "held_as_of": "2026-11-16",
+    "held_as_of": "2026-11-17",
     "expected_change": false,
-    "state": "ml",
-    "executed_weights": {
-      "QQQ": 0.0,
-      "TQQQ": 0.0,
-      "SGOV": 1.0,
-      "GLD": 0.0,
-      "IEF": 0.0,
-      "SHV": 0.0,
-      "CASH": 0.0
-    },
-    "matches_planned": true,
-    "max_abs_diff": 0.0
+    "state": "ml"
   }
 }

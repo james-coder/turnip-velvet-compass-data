@@ -1,22 +1,22 @@
 {
   "live_kpis": {
     "deployment_date": "2025-12-26",
-    "current_date": "2026-11-24",
+    "current_date": "2026-11-25",
     "deployment_value": 1.0,
-    "current_value": 0.857622,
-    "oos_return_pct": -14.24,
-    "trading_days": 230
+    "current_value": 0.857792,
+    "oos_return_pct": -14.22,
+    "trading_days": 231
   },
   "current_state": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "rule_name": "algo13_v2_no_hy",
     "weights": {
       "QQQ": 0.0,
       "TQQQ": 0.0,
       "SGOV": 1.0
     },
-    "qqq_value": 1.021117,
-    "tqqq_value": 0.827101,
+    "qqq_value": 1.015874,
+    "tqqq_value": 0.814148,
     "weight_cash": 0.0,
     "v3_state": null,
     "dist_brake": false,
@@ -24,7 +24,7 @@
     "credit_ok": true,
     "zombie_apocalypse": false,
     "zombie_sgov_dd": 0.0,
-    "zombie_sgov_rv21": 0.0018640043763896,
+    "zombie_sgov_rv21": 0.0018639512930507,
     "v4_state": null,
     "bunker_pick": null,
     "hy_oas_z": null,
@@ -36,34 +36,6 @@
     "row_source": "live"
   },
   "recent_activity": [
-    {
-      "date": "2026-11-11",
-      "rule_name": "algo13_v2_no_hy",
-      "portfolio_return": -9.9e-05,
-      "algo13_value": 0.856429,
-      "qqq_value": 1.110346,
-      "tqqq_value": 1.099109,
-      "weight_qqq": 0.0,
-      "weight_tqqq": 0.0,
-      "weight_sgov": 1.0,
-      "weight_cash": 0.0,
-      "v3_state": null,
-      "dist_brake": false,
-      "vxn_brake": false,
-      "credit_ok": true,
-      "zombie_apocalypse": false,
-      "zombie_sgov_dd": 0.0,
-      "zombie_sgov_rv21": 0.0020410039830133,
-      "v4_state": null,
-      "bunker_pick": null,
-      "hy_oas_z": null,
-      "vxn_upper_band": null,
-      "rv10": null,
-      "ret10": null,
-      "standard_target_vol": null,
-      "overdrive_target_vol": null,
-      "row_source": "live"
-    },
     {
       "date": "2026-11-12",
       "rule_name": "algo13_v2_no_hy",
@@ -293,8 +265,8 @@
       "rule_name": "algo13_v2_no_hy",
       "portfolio_return": 0.000199,
       "algo13_value": 0.857622,
-      "qqq_value": 1.021117,
-      "tqqq_value": 0.827101,
+      "qqq_value": 1.026264,
+      "tqqq_value": 0.839971,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.0,
       "weight_sgov": 1.0,
@@ -306,6 +278,34 @@
       "zombie_apocalypse": false,
       "zombie_sgov_dd": 0.0,
       "zombie_sgov_rv21": 0.0018640043763896,
+      "v4_state": null,
+      "bunker_pick": null,
+      "hy_oas_z": null,
+      "vxn_upper_band": null,
+      "rv10": null,
+      "ret10": null,
+      "standard_target_vol": null,
+      "overdrive_target_vol": null,
+      "row_source": "live"
+    },
+    {
+      "date": "2026-11-25",
+      "rule_name": "algo13_v2_no_hy",
+      "portfolio_return": 0.000198,
+      "algo13_value": 0.857792,
+      "qqq_value": 1.015874,
+      "tqqq_value": 0.814148,
+      "weight_qqq": 0.0,
+      "weight_tqqq": 0.0,
+      "weight_sgov": 1.0,
+      "weight_cash": 0.0,
+      "v3_state": null,
+      "dist_brake": false,
+      "vxn_brake": false,
+      "credit_ok": true,
+      "zombie_apocalypse": false,
+      "zombie_sgov_dd": 0.0,
+      "zombie_sgov_rv21": 0.0018639512930507,
       "v4_state": null,
       "bunker_pick": null,
       "hy_oas_z": null,
@@ -2581,8 +2581,17 @@
     {
       "date": "2026-11-24",
       "algo13_value": 0.857622,
-      "qqq_value": 1.021117,
-      "tqqq_value": 0.827101,
+      "qqq_value": 1.026264,
+      "tqqq_value": 0.839971,
+      "held_weights": {
+        "weight_sgov": 1.0
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "algo13_value": 0.857792,
+      "qqq_value": 1.015874,
+      "tqqq_value": 0.814148,
       "provisional": true,
       "held_weights": {
         "weight_sgov": 1.0
@@ -2609,7 +2618,7 @@
       "2026-04-24"
     ],
     "provisional_dates": [
-      "2026-11-24"
+      "2026-11-25"
     ],
     "unpriced_dates": [],
     "held_weights": "per live_equity_curve date: the sleeve weights held over that session (the ones that earn its close-to-close return; zero sleeves omitted, any unallocated remainder shown as weight_cash, which earns 0); absent where they are not in the source (nothing held yet on the first curve date)",

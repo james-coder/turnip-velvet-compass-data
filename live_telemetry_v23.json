@@ -1415,26 +1415,26 @@
     "sleeves": {
       "TLT": {
         "available": true,
-        "asof": "2026-11-24",
-        "mom60": -0.000491,
+        "asof": "2026-11-25",
+        "mom60": 0.012808,
         "trend_ok": false
       },
       "GLD": {
         "available": true,
-        "asof": "2026-11-24",
-        "mom60": -0.203149,
+        "asof": "2026-11-25",
+        "mom60": -0.174669,
         "trend_ok": false
       },
       "DBMF": {
         "available": true,
-        "asof": "2026-11-24",
-        "mom60": 0.010883,
+        "asof": "2026-11-25",
+        "mom60": 0.001908,
         "trend_ok": true
       },
       "KMLM": {
         "available": true,
-        "asof": "2026-11-24",
-        "mom60": -0.032776,
+        "asof": "2026-11-25",
+        "mom60": -0.052234,
         "trend_ok": false
       }
     },

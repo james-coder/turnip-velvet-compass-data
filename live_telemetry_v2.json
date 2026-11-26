@@ -3,7 +3,7 @@
     "deployment_date": "2025-12-26",
     "current_date": "2026-11-25",
     "deployment_value": 1.0,
-    "current_value": 0.857792,
+    "current_value": 0.857793,
     "oos_return_pct": -14.22,
     "trading_days": 231
   },
@@ -15,8 +15,8 @@
       "TQQQ": 0.0,
       "SGOV": 1.0
     },
-    "qqq_value": 1.015874,
-    "tqqq_value": 0.814148,
+    "qqq_value": 1.019557,
+    "tqqq_value": 0.823422,
     "weight_cash": 0.0,
     "v3_state": null,
     "dist_brake": false,
@@ -291,10 +291,10 @@
     {
       "date": "2026-11-25",
       "rule_name": "algo13_v2_no_hy",
-      "portfolio_return": 0.000198,
-      "algo13_value": 0.857792,
-      "qqq_value": 1.015874,
-      "tqqq_value": 0.814148,
+      "portfolio_return": 0.000199,
+      "algo13_value": 0.857793,
+      "qqq_value": 1.019557,
+      "tqqq_value": 0.823422,
       "weight_qqq": 0.0,
       "weight_tqqq": 0.0,
       "weight_sgov": 1.0,
@@ -314,8 +314,7 @@
       "ret10": null,
       "standard_target_vol": null,
       "overdrive_target_vol": null,
-      "row_source": "live",
-      "provisional": true
+      "row_source": "live"
     }
   ],
   "live_equity_curve": [
@@ -2589,10 +2588,9 @@
     },
     {
       "date": "2026-11-25",
-      "algo13_value": 0.857792,
-      "qqq_value": 1.015874,
-      "tqqq_value": 0.814148,
-      "provisional": true,
+      "algo13_value": 0.857793,
+      "qqq_value": 1.019557,
+      "tqqq_value": 0.823422,
       "held_weights": {
         "weight_sgov": 1.0
       }
@@ -2617,9 +2615,7 @@
       "2026-04-23",
       "2026-04-24"
     ],
-    "provisional_dates": [
-      "2026-11-25"
-    ],
+    "provisional_dates": [],
     "unpriced_dates": [],
     "held_weights": "per live_equity_curve date: the sleeve weights held over that session (the ones that earn its close-to-close return; zero sleeves omitted, any unallocated remainder shown as weight_cash, which earns 0); absent where they are not in the source (nothing held yet on the first curve date)",
     "pre_execution_log_dates_omitted": [

@@ -1541,7 +1541,7 @@
     }
   },
   "planned": {
-    "status": "planned",
+    "status": "not_executed",
     "session_date": "2026-11-27",
     "computed_at": "2026-11-27T09:50:21-05:00",
     "data_through": "2026-11-25",
@@ -1566,6 +1566,7 @@
     },
     "held_as_of": "2026-11-24",
     "expected_change": false,
-    "state": "Dynamic Mom60 Bunker"
+    "state": "Dynamic Mom60 Bunker",
+    "reason": "The 15:45 ET run logged no decision for this session (skipped, held by a data/freshness guard, or failed)."
   }
 }

@@ -1858,28 +1858,29 @@
     }
   },
   "audit_status": {
-    "generated_at_utc": "2026-11-26T20:45:50.410177+00:00",
-    "generated_at_local": "2026-11-26T15:45:50.410177-05:00",
+    "generated_at_utc": "2026-11-27T20:45:53.629889+00:00",
+    "generated_at_local": "2026-11-27T15:45:53.629889-05:00",
     "market_timezone": "America/New_York",
     "staleness_cutoff_time_et": "17:30:00",
     "panel_latest_date": "2026-11-24",
     "expected_completed_daily_date": "2026-11-25",
+    "oldest_current_daily_date": "2026-11-25",
     "signal_date": "2026-11-24",
     "telemetry_current_date": "2026-11-24",
     "freshness_status": "stale",
-    "causality_status": "unknown",
+    "causality_status": "prior_weight_verified",
+    "causality_residual": 0.0,
     "weights_sum": 1.0,
-    "source_commit": "afc8ece4fc436c9c2cabff89894b42916d77cf74",
+    "source_commit": "8f842bb2c56d1aa8f23fb9f7f9baee143c7c6dd0",
     "source_tree_dirty": false,
     "warnings": [
-      "V16 fixed-1555 telemetry is stale for expected completed daily date 2026-11-25: panel_latest_date=2026-11-24, signal_date=2026-11-24, telemetry_current_date=2026-11-24",
-      "Latest V16 fixed-1555 portfolio-return causality could not be fully verified."
+      "V16 fixed-1555 telemetry is stale for expected completed daily date 2026-11-25: panel_latest_date=2026-11-24, signal_date=2026-11-24, telemetry_current_date=2026-11-24"
     ]
   },
   "execution_shadow": {
     "available": true,
     "promotion_status": "shadow_needs_comparable_fills",
-    "generated_at_utc": "2026-11-26T20:45:48.116579+00:00",
+    "generated_at_utc": "2026-11-27T20:45:51.233452+00:00",
     "rule_name": "algo13_v16_fixed1555_v4_shadow",
     "shadow_only": true,
     "paths": {
@@ -2507,7 +2508,7 @@
     "ledger_path": "artifacts/algo13_v16_execution_shadow_ledger.csv"
   },
   "planned": {
-    "status": "planned",
+    "status": "not_executed",
     "session_date": "2026-11-27",
     "computed_at": "2026-11-27T09:50:21-05:00",
     "data_through": "2026-11-25",
@@ -2530,6 +2531,7 @@
     },
     "held_as_of": "2026-11-24",
     "expected_change": false,
-    "state": "Dynamic Mom60 Bunker"
+    "state": "Dynamic Mom60 Bunker",
+    "reason": "The 15:45 ET run logged no decision for this session (skipped, held by a data/freshness guard, or failed)."
   }
 }
